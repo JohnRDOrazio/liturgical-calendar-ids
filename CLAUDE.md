@@ -1,105 +1,53 @@
-Default to using Bun instead of Node.js.
+# CLAUDE.md
 
-- Use `bun <file>` instead of `node <file>` or `ts-node <file>`
-- Use `bun test` instead of `jest` or `vitest`
-- Use `bun build <file.html|file.ts|file.css>` instead of `webpack` or `esbuild`
-- Use `bun install` instead of `npm install` or `yarn install` or `pnpm install`
-- Use `bun run <script>` instead of `npm run <script>` or `yarn run <script>` or `pnpm run <script>`
-- Bun automatically loads .env, so don't use dotenv.
+## Project Overview
 
-## APIs
+This project generates markdown documentation from JSON files containing liturgical event IDs and names for the Roman Catholic liturgical calendar.
 
-- `Bun.serve()` supports WebSockets, HTTPS, and routes. Don't use `express`.
-- `bun:sqlite` for SQLite. Don't use `better-sqlite3`.
-- `Bun.redis` for Redis. Don't use `ioredis`.
-- `Bun.sql` for Postgres. Don't use `pg` or `postgres.js`.
-- `WebSocket` is built-in. Don't use `ws`.
-- Prefer `Bun.file` over `node:fs`'s readFile/writeFile
-- Bun.$`ls` instead of execa.
+## Runtime
 
-## Testing
+Use Bun instead of Node.js:
 
-Use `bun test` to run tests.
+- `bun install` for dependencies
+- `bun run <script>` for npm scripts
+- `bun <file>` to run TypeScript files directly
 
-```ts#index.test.ts
-import { test, expect } from "bun:test";
+## Project Structure
 
-test("hello world", () => {
-  expect(1).toBe(1);
-});
+```text
+src/
+  *.json    # Source data: liturgical events with event_key and name
+  *.md      # Generated markdown documentation (tables)
+index.ts    # Generator script
 ```
 
-## Frontend
+## Available Scripts
 
-Use HTML imports with `Bun.serve()`. Don't use `vite`. HTML imports fully support React, CSS, Tailwind.
+```bash
+bun run generate      # Generate markdown files from JSON sources
+bun run format:md     # Format markdown with Prettier (aligns tables)
+bun run lint:md       # Lint markdown files
+bun run lint:md:fix   # Lint and auto-fix markdown issues
+```
 
-Server:
+## Workflow
 
-```ts#index.ts
-import index from "./index.html"
+1. Edit JSON files in `src/` to add or modify liturgical events
+2. Run `bun run generate` to regenerate markdown documentation
+3. Run `bun run format:md` to align tables with Prettier
+4. Run `bun run lint:md` to verify markdown quality
 
-Bun.serve({
-  routes: {
-    "/": index,
-    "/api/users/:id": {
-      GET: (req) => {
-        return new Response(JSON.stringify({ id: req.params.id }));
-      },
-    },
-  },
-  // optional websocket support
-  websocket: {
-    open: (ws) => {
-      ws.send("Hello, world!");
-    },
-    message: (ws, message) => {
-      ws.send(message);
-    },
-    close: (ws) => {
-      // handle close
-    }
-  },
-  development: {
-    hmr: true,
-    console: true,
+## JSON Data Format
+
+Each JSON file contains an array of liturgical events:
+
+```json
+[
+  {
+    "event_key": "Easter",
+    "name": "Dominica Paschæ in Resurrectione Domini"
   }
-})
+]
 ```
 
-HTML files can import .tsx, .jsx or .js files directly and Bun's bundler will transpile & bundle automatically. `<link>` tags can point to stylesheets and Bun's CSS bundler will bundle.
-
-```html#index.html
-<html>
-  <body>
-    <h1>Hello, world!</h1>
-    <script type="module" src="./frontend.tsx"></script>
-  </body>
-</html>
-```
-
-With the following `frontend.tsx`:
-
-```tsx#frontend.tsx
-import React from "react";
-
-// import .css files directly and it works
-import './index.css';
-
-import { createRoot } from "react-dom/client";
-
-const root = createRoot(document.body);
-
-export default function Frontend() {
-  return <h1>Hello, world!</h1>;
-}
-
-root.render(<Frontend />);
-```
-
-Then, run index.ts
-
-```sh
-bun --hot ./index.ts
-```
-
-For more information, read the Bun API docs in `node_modules/bun-types/docs/**.md`.
+The generator creates markdown tables with these columns and derives the document title from the filename.
