@@ -1,0 +1,170 @@
+[
+  {
+    "event_key": "EasterWeekday2Friday",
+    "name": "Feria VI Hebdomadæ Secundæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday2Monday",
+    "name": "Feria II Hebdomadæ Secundæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday2Saturday",
+    "name": "Sabbato Hebdomadæ Secundæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday2Thursday",
+    "name": "Feria V Hebdomadæ Secundæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday2Tuesday",
+    "name": "Feria III Hebdomadæ Secundæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday2Wednesday",
+    "name": "Feria IV Hebdomadæ Secundæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday3Friday",
+    "name": "Feria VI Hebdomadæ Tertiæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday3Monday",
+    "name": "Feria II Hebdomadæ Tertiæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday3Saturday",
+    "name": "Sabbato Hebdomadæ Tertiæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday3Thursday",
+    "name": "Feria V Hebdomadæ Tertiæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday3Tuesday",
+    "name": "Feria III Hebdomadæ Tertiæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday3Wednesday",
+    "name": "Feria IV Hebdomadæ Tertiæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday4Friday",
+    "name": "Feria VI Hebdomadæ Quartæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday4Monday",
+    "name": "Feria II Hebdomadæ Quartæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday4Saturday",
+    "name": "Sabbato Hebdomadæ Quartæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday4Thursday",
+    "name": "Feria V Hebdomadæ Quartæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday4Tuesday",
+    "name": "Feria III Hebdomadæ Quartæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday4Wednesday",
+    "name": "Feria IV Hebdomadæ Quartæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday5Friday",
+    "name": "Feria VI Hebdomadæ Quintæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday5Monday",
+    "name": "Feria II Hebdomadæ Quintæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday5Saturday",
+    "name": "Sabbato Hebdomadæ Quintæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday5Thursday",
+    "name": "Feria V Hebdomadæ Quintæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday5Tuesday",
+    "name": "Feria III Hebdomadæ Quintæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday5Wednesday",
+    "name": "Feria IV Hebdomadæ Quintæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday6Friday",
+    "name": "Feria VI Hebdomadæ Sextæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday6Monday",
+    "name": "Feria II Hebdomadæ Sextæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday6Saturday",
+    "name": "Sabbato Hebdomadæ Sextæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday6Thursday",
+    "name": ""
+  },
+  {
+    "event_key": "EasterWeekday6Tuesday",
+    "name": "Feria III Hebdomadæ Sextæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday6Wednesday",
+    "name": "Feria IV Hebdomadæ Sextæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday7Friday",
+    "name": "Feria VI Hebdomadæ Septimæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday7Monday",
+    "name": "Feria II Hebdomadæ Septimæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday7Saturday",
+    "name": "Sabbato Hebdomadæ Septimæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday7Thursday",
+    "name": "Feria V Hebdomadæ Septimæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday7Tuesday",
+    "name": "Feria III Hebdomadæ Septimæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday7Wednesday",
+    "name": "Feria IV Hebdomadæ Septimæ Temporis Paschali"
+  },
+  {
+    "event_key": "FriOctaveEaster",
+    "name": "Feria VI infra Octavam Paschæ"
+  },
+  {
+    "event_key": "MonOctaveEaster",
+    "name": "Feria II infra Octavam Paschæ"
+  },
+  {
+    "event_key": "SatOctaveEaster",
+    "name": "Sabbato infra Octavam Paschæ"
+  },
+  {
+    "event_key": "ThuOctaveEaster",
+    "name": "Feria V infra Octavam Paschæ"
+  },
+  {
+    "event_key": "TueOctaveEaster",
+    "name": "Feria III infra Octavam Paschæ"
+  },
+  {
+    "event_key": "WedOctaveEaster",
+    "name": "Feria IV infra Octavam Paschæ"
+  }
+]

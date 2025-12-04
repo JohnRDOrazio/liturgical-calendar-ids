@@ -1,0 +1,86 @@
+[
+  {
+    "event_key": "ChristmasWeekdayDec29",
+    "name": "Dies Quintus Octavæ Nativitatis"
+  },
+  {
+    "event_key": "ChristmasWeekdayDec30",
+    "name": "Dies Sextus Octavæ Nativitatis"
+  },
+  {
+    "event_key": "ChristmasWeekdayDec31",
+    "name": "Dies Septimus Octavæ Nativitatis"
+  },
+  {
+    "event_key": "ChristmasWeekdayJan2",
+    "name": ""
+  },
+  {
+    "event_key": "ChristmasWeekdayJan3",
+    "name": "Sabbato temporis Nativitatis"
+  },
+  {
+    "event_key": "ChristmasWeekdayJan4",
+    "name": "Feria II temporis Nativitatis"
+  },
+  {
+    "event_key": "ChristmasWeekdayJan5",
+    "name": "Feria II temporis Nativitatis"
+  },
+  {
+    "event_key": "ChristmasWeekdayJan6",
+    "name": ""
+  },
+  {
+    "event_key": "ChristmasWeekdayJan7",
+    "name": ""
+  },
+  {
+    "event_key": "DayAfterEpiphanyFriday",
+    "name": ""
+  },
+  {
+    "event_key": "DayAfterEpiphanyJan10",
+    "name": "Sabbato temporis Nativitatis"
+  },
+  {
+    "event_key": "DayAfterEpiphanyJan11",
+    "name": "Feria VI temporis Nativitatis"
+  },
+  {
+    "event_key": "DayAfterEpiphanyJan12",
+    "name": "Sabbato temporis Nativitatis"
+  },
+  {
+    "event_key": "DayAfterEpiphanyJan7",
+    "name": "Feria IV temporis Nativitatis"
+  },
+  {
+    "event_key": "DayAfterEpiphanyJan8",
+    "name": "Feria V temporis Nativitatis"
+  },
+  {
+    "event_key": "DayAfterEpiphanyJan9",
+    "name": "Feria VI temporis Nativitatis"
+  },
+  {
+    "event_key": "DayAfterEpiphanyMonday",
+    "name": ""
+  },
+  {
+    "event_key": "DayAfterEpiphanySaturday",
+    "name": ""
+  },
+  {
+    "event_key": "DayAfterEpiphanyThursday",
+    "name": ""
+  },
+  {
+    "event_key": "DayAfterEpiphanyTuesday",
+    "name": ""
+  },
+  {
+    "event_key": "DayAfterEpiphanyWednesday",
+    "name": ""
+  }
+]

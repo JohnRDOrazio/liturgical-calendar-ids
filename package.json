@@ -1,0 +1,20 @@
+{
+  "name": "generate_liturgy_ids",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "generate": "bun index.ts",
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+    "lint:md:fix": "markdownlint-cli2 --fix \"**/*.md\" \"#node_modules\"",
+    "format:md": "prettier --write \"**/*.md\" --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "markdownlint-cli2": "^0.19.1",
+    "prettier": "^3.7.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

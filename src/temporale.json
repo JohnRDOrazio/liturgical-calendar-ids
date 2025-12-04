@@ -1,0 +1,310 @@
+[
+  {
+    "event_key": "HolyThursChrism",
+    "name": "Feria V Hebdomadæ Sanctæ - Ad Missam Chrismatis"
+  },
+  {
+    "event_key": "HolyThurs",
+    "name": "Feria V Hebdomadæ Sanctæ - in Cœna Domini"
+  },
+  {
+    "event_key": "GoodFri",
+    "name": "Feria VI in Passione Domini"
+  },
+  {
+    "event_key": "EasterVigil",
+    "name": "Vigilia Paschalis"
+  },
+  {
+    "event_key": "Easter",
+    "name": "Dominica Paschæ in Resurrectione Domini"
+  },
+  {
+    "event_key": "Christmas",
+    "name": "In Nativitate Domini"
+  },
+  {
+    "event_key": "MaryMotherOfGod",
+    "name": "SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ"
+  },
+  {
+    "event_key": "Epiphany",
+    "name": "In Epiphania Domini"
+  },
+  {
+    "event_key": "Ascension",
+    "name": "In Ascensione Domini"
+  },
+  {
+    "event_key": "Pentecost",
+    "name": "Dominica Pentecostes"
+  },
+  {
+    "event_key": "Easter7",
+    "name": "Dominica VII Paschæ"
+  },
+  {
+    "event_key": "Christmas2",
+    "name": "Dominica II Post Nativitatem"
+  },
+  {
+    "event_key": "Advent1",
+    "name": "Dominica Prima Adventus"
+  },
+  {
+    "event_key": "Advent2",
+    "name": "Dominica Secunda Adventus"
+  },
+  {
+    "event_key": "Advent3",
+    "name": "Dominica Tertia Adventus (Gaudete)"
+  },
+  {
+    "event_key": "Advent4",
+    "name": "Dominica Quarta Adventus"
+  },
+  {
+    "event_key": "Lent1",
+    "name": "Dominica I in Quadragesima"
+  },
+  {
+    "event_key": "Lent2",
+    "name": "Dominica II in Quadragesima"
+  },
+  {
+    "event_key": "Lent3",
+    "name": "Dominica III in Quadragesima"
+  },
+  {
+    "event_key": "Lent4",
+    "name": "Dominica IV in Quadragesima"
+  },
+  {
+    "event_key": "Lent5",
+    "name": "Dominica V in Quadragesima"
+  },
+  {
+    "event_key": "PalmSun",
+    "name": "Dominica in Palmis"
+  },
+  {
+    "event_key": "Easter2",
+    "name": "Dominica II in Paschæ"
+  },
+  {
+    "event_key": "Easter3",
+    "name": "Dominica III in Paschæ"
+  },
+  {
+    "event_key": "Easter4",
+    "name": "Dominica IV in Paschæ"
+  },
+  {
+    "event_key": "Easter5",
+    "name": "Dominica V in Paschæ"
+  },
+  {
+    "event_key": "Easter6",
+    "name": "Dominica VI in Paschæ"
+  },
+  {
+    "event_key": "Trinity",
+    "name": "Dominica post Pentecostem Sanctissimæ Trinitatis"
+  },
+  {
+    "event_key": "CorpusChristi",
+    "name": "Ss.mi Corporis et Sanguinis Christi"
+  },
+  {
+    "event_key": "AshWednesday",
+    "name": "Feria IV Cinerum"
+  },
+  {
+    "event_key": "MonHolyWeek",
+    "name": "Feria II Hebdomadæ Sanctæ"
+  },
+  {
+    "event_key": "TueHolyWeek",
+    "name": "Feria III Hebdomadæ Sanctæ"
+  },
+  {
+    "event_key": "WedHolyWeek",
+    "name": "Feria IV Hebdomadæ Sanctæ"
+  },
+  {
+    "event_key": "MonOctaveEaster",
+    "name": "Feria II infra Octavam Paschæ"
+  },
+  {
+    "event_key": "TueOctaveEaster",
+    "name": "Feria III infra Octavam Paschæ"
+  },
+  {
+    "event_key": "WedOctaveEaster",
+    "name": "Feria IV infra Octavam Paschæ"
+  },
+  {
+    "event_key": "ThuOctaveEaster",
+    "name": "Feria V infra Octavam Paschæ"
+  },
+  {
+    "event_key": "FriOctaveEaster",
+    "name": "Feria VI infra Octavam Paschæ"
+  },
+  {
+    "event_key": "SatOctaveEaster",
+    "name": "Sabbato infra Octavam Paschæ"
+  },
+  {
+    "event_key": "SacredHeart",
+    "name": "Sacratissimi Cordis Iesu"
+  },
+  {
+    "event_key": "ChristKing",
+    "name": "Domini Nostri Iesu Christi Universorum Regis"
+  },
+  {
+    "event_key": "BaptismLord",
+    "name": "In Festo Baptismatis Domini"
+  },
+  {
+    "event_key": "HolyFamily",
+    "name": "S. Familiæ Iesu, Mariæ et Joseph"
+  },
+  {
+    "event_key": "OrdSunday2",
+    "name": "Dominica II «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday3",
+    "name": "Dominica III «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday4",
+    "name": "Dominica IV «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday5",
+    "name": "Dominica V «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday6",
+    "name": "Dominica VI «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday7",
+    "name": "Dominica VII «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday8",
+    "name": "Dominica VIII «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday9",
+    "name": "Dominica IX «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday10",
+    "name": "Dominica X «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday11",
+    "name": "Dominica XI «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday12",
+    "name": "Dominica XII «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday13",
+    "name": "Dominica XIII «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday14",
+    "name": "Dominica XIV «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday15",
+    "name": "Dominica XV «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday16",
+    "name": "Dominica XVI «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday17",
+    "name": "Dominica XVII «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday18",
+    "name": "Dominica XVIII «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday19",
+    "name": "Dominica XIX «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday20",
+    "name": "Dominica XX «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday21",
+    "name": "Dominica XXI «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday22",
+    "name": "Dominica XXII «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday23",
+    "name": "Dominica XXIII «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday24",
+    "name": "Dominica XXIV «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday25",
+    "name": "Dominica XXV «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday26",
+    "name": "Dominica XXVI «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday27",
+    "name": "Dominica XXVII «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday28",
+    "name": "Dominica XXVIII «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday29",
+    "name": "Dominica XXIX «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday30",
+    "name": "Dominica XXX «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday31",
+    "name": "Dominica XXXI «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday32",
+    "name": "Dominica XXXII «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday33",
+    "name": "Dominica XXXIII «Per Annum»"
+  },
+  {
+    "event_key": "OrdSunday34",
+    "name": "Dominica XXXIV «Per Annum»"
+  },
+  {
+    "event_key": "ImmaculateHeart",
+    "name": "Immaculati Cordis Beatæ Mariæ Virginis"
+  }
+]
