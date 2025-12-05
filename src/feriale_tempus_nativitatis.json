@@ -13,19 +13,19 @@
   },
   {
     "event_key": "ChristmasWeekdayJan2",
-    "name": ""
+    "name": "%s temporis Nativitatis"
   },
   {
     "event_key": "ChristmasWeekdayJan3",
-    "name": "Sabbato temporis Nativitatis"
+    "name": "%s temporis Nativitatis"
   },
   {
     "event_key": "ChristmasWeekdayJan4",
-    "name": "Feria II temporis Nativitatis"
+    "name": "%s temporis Nativitatis"
   },
   {
     "event_key": "ChristmasWeekdayJan5",
-    "name": "Feria II temporis Nativitatis"
+    "name": "%s temporis Nativitatis"
   },
   {
     "event_key": "ChristmasWeekdayJan6",

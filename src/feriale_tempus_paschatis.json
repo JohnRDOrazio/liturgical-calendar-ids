@@ -96,20 +96,8 @@
     "name": "Feria IV Hebdomadæ Quintæ Temporis Paschali"
   },
   {
-    "event_key": "EasterWeekday6Friday",
-    "name": "Feria VI Hebdomadæ Sextæ Temporis Paschali"
-  },
-  {
     "event_key": "EasterWeekday6Monday",
     "name": "Feria II Hebdomadæ Sextæ Temporis Paschali"
-  },
-  {
-    "event_key": "EasterWeekday6Saturday",
-    "name": "Sabbato Hebdomadæ Sextæ Temporis Paschali"
-  },
-  {
-    "event_key": "EasterWeekday6Thursday",
-    "name": ""
   },
   {
     "event_key": "EasterWeekday6Tuesday",
@@ -118,6 +106,18 @@
   {
     "event_key": "EasterWeekday6Wednesday",
     "name": "Feria IV Hebdomadæ Sextæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday6Thursday",
+    "name": "Feria V Hebdomadæ Sextæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday6Friday",
+    "name": "Feria VI Hebdomadæ Sextæ Temporis Paschali"
+  },
+  {
+    "event_key": "EasterWeekday6Saturday",
+    "name": "Sabbato Hebdomadæ Sextæ Temporis Paschali"
   },
   {
     "event_key": "EasterWeekday7Friday",
