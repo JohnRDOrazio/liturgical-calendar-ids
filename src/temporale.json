@@ -1,53 +1,5 @@
 [
   {
-    "event_key": "HolyThursChrism",
-    "name": "Feria V Hebdomadæ Sanctæ - Ad Missam Chrismatis"
-  },
-  {
-    "event_key": "HolyThurs",
-    "name": "Feria V Hebdomadæ Sanctæ - in Cœna Domini"
-  },
-  {
-    "event_key": "GoodFri",
-    "name": "Feria VI in Passione Domini"
-  },
-  {
-    "event_key": "EasterVigil",
-    "name": "Vigilia Paschalis"
-  },
-  {
-    "event_key": "Easter",
-    "name": "Dominica Paschæ in Resurrectione Domini"
-  },
-  {
-    "event_key": "Christmas",
-    "name": "In Nativitate Domini"
-  },
-  {
-    "event_key": "MaryMotherOfGod",
-    "name": "SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ"
-  },
-  {
-    "event_key": "Epiphany",
-    "name": "In Epiphania Domini"
-  },
-  {
-    "event_key": "Ascension",
-    "name": "In Ascensione Domini"
-  },
-  {
-    "event_key": "Pentecost",
-    "name": "Dominica Pentecostes"
-  },
-  {
-    "event_key": "Easter7",
-    "name": "Dominica VII Paschæ"
-  },
-  {
-    "event_key": "Christmas2",
-    "name": "Dominica II Post Nativitatem"
-  },
-  {
     "event_key": "Advent1",
     "name": "Dominica Prima Adventus"
   },
@@ -64,28 +16,36 @@
     "name": "Dominica Quarta Adventus"
   },
   {
-    "event_key": "Lent1",
-    "name": "Dominica I in Quadragesima"
+    "event_key": "Ascension",
+    "name": "In Ascensione Domini"
   },
   {
-    "event_key": "Lent2",
-    "name": "Dominica II in Quadragesima"
+    "event_key": "AshWednesday",
+    "name": "Feria IV Cinerum"
   },
   {
-    "event_key": "Lent3",
-    "name": "Dominica III in Quadragesima"
+    "event_key": "BaptismLord",
+    "name": "In Festo Baptismatis Domini"
   },
   {
-    "event_key": "Lent4",
-    "name": "Dominica IV in Quadragesima"
+    "event_key": "ChristKing",
+    "name": "Domini Nostri Iesu Christi Universorum Regis"
   },
   {
-    "event_key": "Lent5",
-    "name": "Dominica V in Quadragesima"
+    "event_key": "Christmas",
+    "name": "In Nativitate Domini"
   },
   {
-    "event_key": "PalmSun",
-    "name": "Dominica in Palmis"
+    "event_key": "Christmas2",
+    "name": "Dominica II Post Nativitatem"
+  },
+  {
+    "event_key": "CorpusChristi",
+    "name": "Ss.mi Corporis et Sanguinis Christi"
+  },
+  {
+    "event_key": "Easter",
+    "name": "Dominica Paschæ in Resurrectione Domini"
   },
   {
     "event_key": "Easter2",
@@ -108,68 +68,72 @@
     "name": "Dominica VI in Paschæ"
   },
   {
-    "event_key": "Trinity",
-    "name": "Dominica post Pentecostem Sanctissimæ Trinitatis"
+    "event_key": "Easter7",
+    "name": "Dominica VII Paschæ"
   },
   {
-    "event_key": "CorpusChristi",
-    "name": "Ss.mi Corporis et Sanguinis Christi"
+    "event_key": "EasterVigil",
+    "name": "Vigilia Paschalis"
   },
   {
-    "event_key": "AshWednesday",
-    "name": "Feria IV Cinerum"
-  },
-  {
-    "event_key": "MonHolyWeek",
-    "name": "Feria II Hebdomadæ Sanctæ"
-  },
-  {
-    "event_key": "TueHolyWeek",
-    "name": "Feria III Hebdomadæ Sanctæ"
-  },
-  {
-    "event_key": "WedHolyWeek",
-    "name": "Feria IV Hebdomadæ Sanctæ"
-  },
-  {
-    "event_key": "MonOctaveEaster",
-    "name": "Feria II infra Octavam Paschæ"
-  },
-  {
-    "event_key": "TueOctaveEaster",
-    "name": "Feria III infra Octavam Paschæ"
-  },
-  {
-    "event_key": "WedOctaveEaster",
-    "name": "Feria IV infra Octavam Paschæ"
-  },
-  {
-    "event_key": "ThuOctaveEaster",
-    "name": "Feria V infra Octavam Paschæ"
+    "event_key": "Epiphany",
+    "name": "In Epiphania Domini"
   },
   {
     "event_key": "FriOctaveEaster",
     "name": "Feria VI infra Octavam Paschæ"
   },
   {
-    "event_key": "SatOctaveEaster",
-    "name": "Sabbato infra Octavam Paschæ"
-  },
-  {
-    "event_key": "SacredHeart",
-    "name": "Sacratissimi Cordis Iesu"
-  },
-  {
-    "event_key": "ChristKing",
-    "name": "Domini Nostri Iesu Christi Universorum Regis"
-  },
-  {
-    "event_key": "BaptismLord",
-    "name": "In Festo Baptismatis Domini"
+    "event_key": "GoodFri",
+    "name": "Feria VI in Passione Domini"
   },
   {
     "event_key": "HolyFamily",
     "name": "S. Familiæ Iesu, Mariæ et Joseph"
+  },
+  {
+    "event_key": "HolyThurs",
+    "name": "Feria V Hebdomadæ Sanctæ - in Cœna Domini"
+  },
+  {
+    "event_key": "HolyThursChrism",
+    "name": "Feria V Hebdomadæ Sanctæ - Ad Missam Chrismatis"
+  },
+  {
+    "event_key": "ImmaculateHeart",
+    "name": "Immaculati Cordis Beatæ Mariæ Virginis"
+  },
+  {
+    "event_key": "Lent1",
+    "name": "Dominica I in Quadragesima"
+  },
+  {
+    "event_key": "Lent2",
+    "name": "Dominica II in Quadragesima"
+  },
+  {
+    "event_key": "Lent3",
+    "name": "Dominica III in Quadragesima"
+  },
+  {
+    "event_key": "Lent4",
+    "name": "Dominica IV in Quadragesima"
+  },
+  {
+    "event_key": "Lent5",
+    "name": "Dominica V in Quadragesima"
+  },
+  {
+    "event_key": "MaryMotherOfGod",
+    "name": "SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ"
+  },
+  {
+    "event_key": "MonHolyWeek",
+    "name": "Feria II Hebdomadæ Sanctæ"
+  },
+  {
+    "event_key": "MonOctaveEaster",
+    "name": "Feria II infra Octavam Paschæ"
   },
   {
     "event_key": "OrdSunday2",
@@ -304,7 +268,43 @@
     "name": "Dominica XXXIV «Per Annum»"
   },
   {
-    "event_key": "ImmaculateHeart",
-    "name": "Immaculati Cordis Beatæ Mariæ Virginis"
+    "event_key": "PalmSun",
+    "name": "Dominica in Palmis"
+  },
+  {
+    "event_key": "Pentecost",
+    "name": "Dominica Pentecostes"
+  },
+  {
+    "event_key": "SacredHeart",
+    "name": "Sacratissimi Cordis Iesu"
+  },
+  {
+    "event_key": "SatOctaveEaster",
+    "name": "Sabbato infra Octavam Paschæ"
+  },
+  {
+    "event_key": "ThuOctaveEaster",
+    "name": "Feria V infra Octavam Paschæ"
+  },
+  {
+    "event_key": "Trinity",
+    "name": "Dominica post Pentecostem Sanctissimæ Trinitatis"
+  },
+  {
+    "event_key": "TueHolyWeek",
+    "name": "Feria III Hebdomadæ Sanctæ"
+  },
+  {
+    "event_key": "TueOctaveEaster",
+    "name": "Feria III infra Octavam Paschæ"
+  },
+  {
+    "event_key": "WedHolyWeek",
+    "name": "Feria IV Hebdomadæ Sanctæ"
+  },
+  {
+    "event_key": "WedOctaveEaster",
+    "name": "Feria IV infra Octavam Paschæ"
   }
 ]

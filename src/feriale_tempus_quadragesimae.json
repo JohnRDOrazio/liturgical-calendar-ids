@@ -4,24 +4,20 @@
     "name": "Feria IV Cinerum"
   },
   {
+    "event_key": "SaturdayAfterAshWednesday",
+    "name": "Sabbato post Feria IV Cinerum"
+  },
+  {
     "event_key": "FridayAfterAshWednesday",
     "name": "Feria VI post Feria IV Cinerum"
   },
   {
-    "event_key": "LentWeekday1Friday",
-    "name": "Feria VI Hebdomadæ Primæ Quadragesimæ"
+    "event_key": "ThursdayAfterAshWednesday",
+    "name": "Feria V post Feria IV Cinerum"
   },
   {
     "event_key": "LentWeekday1Monday",
     "name": "Feria II Hebdomadæ Primæ Quadragesimæ"
-  },
-  {
-    "event_key": "LentWeekday1Saturday",
-    "name": "Sabbato Hebdomadæ Primæ Quadragesimæ"
-  },
-  {
-    "event_key": "LentWeekday1Thursday",
-    "name": "Feria V Hebdomadæ Primæ Quadragesimæ"
   },
   {
     "event_key": "LentWeekday1Tuesday",
@@ -32,20 +28,20 @@
     "name": "Feria IV Hebdomadæ Primæ Quadragesimæ"
   },
   {
-    "event_key": "LentWeekday2Friday",
-    "name": "Feria VI Hebdomadæ Secundæ Quadragesimæ"
+    "event_key": "LentWeekday1Thursday",
+    "name": "Feria V Hebdomadæ Primæ Quadragesimæ"
+  },
+  {
+    "event_key": "LentWeekday1Friday",
+    "name": "Feria VI Hebdomadæ Primæ Quadragesimæ"
+  },
+  {
+    "event_key": "LentWeekday1Saturday",
+    "name": "Sabbato Hebdomadæ Primæ Quadragesimæ"
   },
   {
     "event_key": "LentWeekday2Monday",
     "name": "Feria II Hebdomadæ Secundæ Quadragesimæ"
-  },
-  {
-    "event_key": "LentWeekday2Saturday",
-    "name": "Sabbato Hebdomadæ Secundæ Quadragesimæ"
-  },
-  {
-    "event_key": "LentWeekday2Thursday",
-    "name": "Feria V Hebdomadæ Secundæ Quadragesimæ"
   },
   {
     "event_key": "LentWeekday2Tuesday",
@@ -56,20 +52,20 @@
     "name": "Feria IV Hebdomadæ Secundæ Quadragesimæ"
   },
   {
-    "event_key": "LentWeekday3Friday",
-    "name": "Feria VI Hebdomadæ Tertiæ Quadragesimæ"
+    "event_key": "LentWeekday2Thursday",
+    "name": "Feria V Hebdomadæ Secundæ Quadragesimæ"
+  },
+  {
+    "event_key": "LentWeekday2Friday",
+    "name": "Feria VI Hebdomadæ Secundæ Quadragesimæ"
+  },
+  {
+    "event_key": "LentWeekday2Saturday",
+    "name": "Sabbato Hebdomadæ Secundæ Quadragesimæ"
   },
   {
     "event_key": "LentWeekday3Monday",
     "name": "Feria II Hebdomadæ Tertiæ Quadragesimæ"
-  },
-  {
-    "event_key": "LentWeekday3Saturday",
-    "name": "Sabbato Hebdomadæ Tertiæ Quadragesimæ"
-  },
-  {
-    "event_key": "LentWeekday3Thursday",
-    "name": "Feria V Hebdomadæ Tertiæ Quadragesimæ"
   },
   {
     "event_key": "LentWeekday3Tuesday",
@@ -80,20 +76,20 @@
     "name": "Feria IV Hebdomadæ Tertiæ Quadragesimæ"
   },
   {
-    "event_key": "LentWeekday4Friday",
-    "name": "Feria VI Hebdomadæ Quartæ Quadragesimæ"
+    "event_key": "LentWeekday3Thursday",
+    "name": "Feria V Hebdomadæ Tertiæ Quadragesimæ"
+  },
+  {
+    "event_key": "LentWeekday3Friday",
+    "name": "Feria VI Hebdomadæ Tertiæ Quadragesimæ"
+  },
+  {
+    "event_key": "LentWeekday3Saturday",
+    "name": "Sabbato Hebdomadæ Tertiæ Quadragesimæ"
   },
   {
     "event_key": "LentWeekday4Monday",
     "name": "Feria II Hebdomadæ Quartæ Quadragesimæ"
-  },
-  {
-    "event_key": "LentWeekday4Saturday",
-    "name": "Sabbato Hebdomadæ Quartæ Quadragesimæ"
-  },
-  {
-    "event_key": "LentWeekday4Thursday",
-    "name": "Feria V Hebdomadæ Quartæ Quadragesimæ"
   },
   {
     "event_key": "LentWeekday4Tuesday",
@@ -104,20 +100,20 @@
     "name": "Feria IV Hebdomadæ Quartæ Quadragesimæ"
   },
   {
-    "event_key": "LentWeekday5Friday",
-    "name": "Feria VI Hebdomadæ Quintæ Quadragesimæ"
+    "event_key": "LentWeekday4Thursday",
+    "name": "Feria V Hebdomadæ Quartæ Quadragesimæ"
+  },
+  {
+    "event_key": "LentWeekday4Friday",
+    "name": "Feria VI Hebdomadæ Quartæ Quadragesimæ"
+  },
+  {
+    "event_key": "LentWeekday4Saturday",
+    "name": "Sabbato Hebdomadæ Quartæ Quadragesimæ"
   },
   {
     "event_key": "LentWeekday5Monday",
     "name": "Feria II Hebdomadæ Quintæ Quadragesimæ"
-  },
-  {
-    "event_key": "LentWeekday5Saturday",
-    "name": "Sabbato Hebdomadæ Quintæ Quadragesimæ"
-  },
-  {
-    "event_key": "LentWeekday5Thursday",
-    "name": "Feria V Hebdomadæ Quintæ Quadragesimæ"
   },
   {
     "event_key": "LentWeekday5Tuesday",
@@ -128,16 +124,20 @@
     "name": "Feria IV Hebdomadæ Quintæ Quadragesimæ"
   },
   {
+    "event_key": "LentWeekday5Thursday",
+    "name": "Feria V Hebdomadæ Quintæ Quadragesimæ"
+  },
+  {
+    "event_key": "LentWeekday5Friday",
+    "name": "Feria VI Hebdomadæ Quintæ Quadragesimæ"
+  },
+  {
+    "event_key": "LentWeekday5Saturday",
+    "name": "Sabbato Hebdomadæ Quintæ Quadragesimæ"
+  },
+  {
     "event_key": "MonHolyWeek",
     "name": "Feria II Hebdomadæ Sanctæ"
-  },
-  {
-    "event_key": "SaturdayAfterAshWednesday",
-    "name": "Sabbato post Feria IV Cinerum"
-  },
-  {
-    "event_key": "ThursdayAfterAshWednesday",
-    "name": "Feria V post Feria IV Cinerum"
   },
   {
     "event_key": "TueHolyWeek",

@@ -2,49 +2,40 @@
 
 | event_key       | name                                             |
 | --------------- | ------------------------------------------------ |
-| HolyThursChrism | Feria V Hebdomadæ Sanctæ - Ad Missam Chrismatis  |
-| HolyThurs       | Feria V Hebdomadæ Sanctæ - in Cœna Domini        |
-| GoodFri         | Feria VI in Passione Domini                      |
-| EasterVigil     | Vigilia Paschalis                                |
-| Easter          | Dominica Paschæ in Resurrectione Domini          |
-| Christmas       | In Nativitate Domini                             |
-| MaryMotherOfGod | SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ          |
-| Epiphany        | In Epiphania Domini                              |
-| Ascension       | In Ascensione Domini                             |
-| Pentecost       | Dominica Pentecostes                             |
-| Easter7         | Dominica VII Paschæ                              |
-| Christmas2      | Dominica II Post Nativitatem                     |
 | Advent1         | Dominica Prima Adventus                          |
 | Advent2         | Dominica Secunda Adventus                        |
 | Advent3         | Dominica Tertia Adventus (Gaudete)               |
 | Advent4         | Dominica Quarta Adventus                         |
-| Lent1           | Dominica I in Quadragesima                       |
-| Lent2           | Dominica II in Quadragesima                      |
-| Lent3           | Dominica III in Quadragesima                     |
-| Lent4           | Dominica IV in Quadragesima                      |
-| Lent5           | Dominica V in Quadragesima                       |
-| PalmSun         | Dominica in Palmis                               |
+| Ascension       | In Ascensione Domini                             |
+| AshWednesday    | Feria IV Cinerum                                 |
+| BaptismLord     | In Festo Baptismatis Domini                      |
+| ChristKing      | Domini Nostri Iesu Christi Universorum Regis     |
+| Christmas       | In Nativitate Domini                             |
+| Christmas2      | Dominica II Post Nativitatem                     |
+| CorpusChristi   | Ss.mi Corporis et Sanguinis Christi              |
+| Easter          | Dominica Paschæ in Resurrectione Domini          |
 | Easter2         | Dominica II in Paschæ                            |
 | Easter3         | Dominica III in Paschæ                           |
 | Easter4         | Dominica IV in Paschæ                            |
 | Easter5         | Dominica V in Paschæ                             |
 | Easter6         | Dominica VI in Paschæ                            |
-| Trinity         | Dominica post Pentecostem Sanctissimæ Trinitatis |
-| CorpusChristi   | Ss.mi Corporis et Sanguinis Christi              |
-| AshWednesday    | Feria IV Cinerum                                 |
-| MonHolyWeek     | Feria II Hebdomadæ Sanctæ                        |
-| TueHolyWeek     | Feria III Hebdomadæ Sanctæ                       |
-| WedHolyWeek     | Feria IV Hebdomadæ Sanctæ                        |
-| MonOctaveEaster | Feria II infra Octavam Paschæ                    |
-| TueOctaveEaster | Feria III infra Octavam Paschæ                   |
-| WedOctaveEaster | Feria IV infra Octavam Paschæ                    |
-| ThuOctaveEaster | Feria V infra Octavam Paschæ                     |
+| Easter7         | Dominica VII Paschæ                              |
+| EasterVigil     | Vigilia Paschalis                                |
+| Epiphany        | In Epiphania Domini                              |
 | FriOctaveEaster | Feria VI infra Octavam Paschæ                    |
-| SatOctaveEaster | Sabbato infra Octavam Paschæ                     |
-| SacredHeart     | Sacratissimi Cordis Iesu                         |
-| ChristKing      | Domini Nostri Iesu Christi Universorum Regis     |
-| BaptismLord     | In Festo Baptismatis Domini                      |
+| GoodFri         | Feria VI in Passione Domini                      |
 | HolyFamily      | S. Familiæ Iesu, Mariæ et Joseph                 |
+| HolyThurs       | Feria V Hebdomadæ Sanctæ - in Cœna Domini        |
+| HolyThursChrism | Feria V Hebdomadæ Sanctæ - Ad Missam Chrismatis  |
+| ImmaculateHeart | Immaculati Cordis Beatæ Mariæ Virginis           |
+| Lent1           | Dominica I in Quadragesima                       |
+| Lent2           | Dominica II in Quadragesima                      |
+| Lent3           | Dominica III in Quadragesima                     |
+| Lent4           | Dominica IV in Quadragesima                      |
+| Lent5           | Dominica V in Quadragesima                       |
+| MaryMotherOfGod | SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ          |
+| MonHolyWeek     | Feria II Hebdomadæ Sanctæ                        |
+| MonOctaveEaster | Feria II infra Octavam Paschæ                    |
 | OrdSunday2      | Dominica II «Per Annum»                          |
 | OrdSunday3      | Dominica III «Per Annum»                         |
 | OrdSunday4      | Dominica IV «Per Annum»                          |
@@ -78,4 +69,13 @@
 | OrdSunday32     | Dominica XXXII «Per Annum»                       |
 | OrdSunday33     | Dominica XXXIII «Per Annum»                      |
 | OrdSunday34     | Dominica XXXIV «Per Annum»                       |
-| ImmaculateHeart | Immaculati Cordis Beatæ Mariæ Virginis           |
+| PalmSun         | Dominica in Palmis                               |
+| Pentecost       | Dominica Pentecostes                             |
+| SacredHeart     | Sacratissimi Cordis Iesu                         |
+| SatOctaveEaster | Sabbato infra Octavam Paschæ                     |
+| ThuOctaveEaster | Feria V infra Octavam Paschæ                     |
+| Trinity         | Dominica post Pentecostem Sanctissimæ Trinitatis |
+| TueHolyWeek     | Feria III Hebdomadæ Sanctæ                       |
+| TueOctaveEaster | Feria III infra Octavam Paschæ                   |
+| WedHolyWeek     | Feria IV Hebdomadæ Sanctæ                        |
+| WedOctaveEaster | Feria IV infra Octavam Paschæ                    |

@@ -1,19 +1,7 @@
 [
   {
-    "event_key": "AdventWeekday1Friday",
-    "name": "Feria VI Hebdomadæ Primæ Adventus"
-  },
-  {
     "event_key": "AdventWeekday1Monday",
     "name": "Feria II Hebdomadæ Primæ Adventus"
-  },
-  {
-    "event_key": "AdventWeekday1Saturday",
-    "name": "Sabbato Hebdomadæ Primæ Adventus"
-  },
-  {
-    "event_key": "AdventWeekday1Thursday",
-    "name": "Feria V Hebdomadæ Primæ Adventus"
   },
   {
     "event_key": "AdventWeekday1Tuesday",
@@ -24,20 +12,20 @@
     "name": "Feria IV Hebdomadæ Primæ Adventus"
   },
   {
-    "event_key": "AdventWeekday2Friday",
-    "name": "Feria VI Hebdomadæ Secundæ Adventus"
+    "event_key": "AdventWeekday1Thursday",
+    "name": "Feria V Hebdomadæ Primæ Adventus"
+  },
+  {
+    "event_key": "AdventWeekday1Friday",
+    "name": "Feria VI Hebdomadæ Primæ Adventus"
+  },
+  {
+    "event_key": "AdventWeekday1Saturday",
+    "name": "Sabbato Hebdomadæ Primæ Adventus"
   },
   {
     "event_key": "AdventWeekday2Monday",
     "name": "Feria II Hebdomadæ Secundæ Adventus"
-  },
-  {
-    "event_key": "AdventWeekday2Saturday",
-    "name": "Sabbato Hebdomadæ Secundæ Adventus"
-  },
-  {
-    "event_key": "AdventWeekday2Thursday",
-    "name": "Feria V Hebdomadæ Secundæ Adventus"
   },
   {
     "event_key": "AdventWeekday2Tuesday",
@@ -48,16 +36,20 @@
     "name": "Feria IV Hebdomadæ Secundæ Adventus"
   },
   {
-    "event_key": "AdventWeekday3Friday",
-    "name": "Feria VI Hebdomadæ Tertiæ Adventus"
+    "event_key": "AdventWeekday2Thursday",
+    "name": "Feria V Hebdomadæ Secundæ Adventus"
+  },
+  {
+    "event_key": "AdventWeekday2Friday",
+    "name": "Feria VI Hebdomadæ Secundæ Adventus"
+  },
+  {
+    "event_key": "AdventWeekday2Saturday",
+    "name": "Sabbato Hebdomadæ Secundæ Adventus"
   },
   {
     "event_key": "AdventWeekday3Monday",
     "name": "Feria II Hebdomadæ Tertiæ Adventus"
-  },
-  {
-    "event_key": "AdventWeekday3Thursday",
-    "name": "Feria V Hebdomadæ Tertiæ Adventus"
   },
   {
     "event_key": "AdventWeekday3Tuesday",
@@ -66,6 +58,14 @@
   {
     "event_key": "AdventWeekday3Wednesday",
     "name": "Feria IV Hebdomadæ Tertiæ Adventus"
+  },
+  {
+    "event_key": "AdventWeekday3Thursday",
+    "name": "Feria V Hebdomadæ Tertiæ Adventus"
+  },
+  {
+    "event_key": "AdventWeekday3Friday",
+    "name": "Feria VI Hebdomadæ Tertiæ Adventus"
   },
   {
     "event_key": "AdventWeekdayDec17",

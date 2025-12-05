@@ -36,30 +36,6 @@
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanyJan7",
-    "name": "%s temporis Nativitatis"
-  },
-  {
-    "event_key": "DayAfterEpiphanyJan8",
-    "name": "%s temporis Nativitatis"
-  },
-  {
-    "event_key": "DayAfterEpiphanyJan9",
-    "name": "%s temporis Nativitatis"
-  },
-  {
-    "event_key": "DayAfterEpiphanyJan10",
-    "name": "%s temporis Nativitatis"
-  },
-  {
-    "event_key": "DayAfterEpiphanyJan11",
-    "name": "%s temporis Nativitatis"
-  },
-  {
-    "event_key": "DayAfterEpiphanyJan12",
-    "name": "%s temporis Nativitatis"
-  },
-  {
     "event_key": "DayAfterEpiphanyMonday",
     "name": "%s temporis Nativitatis"
   },
@@ -81,6 +57,30 @@
   },
   {
     "event_key": "DayAfterEpiphanySaturday",
+    "name": "%s temporis Nativitatis"
+  },
+  {
+    "event_key": "DayAfterEpiphanyJan7",
+    "name": "%s temporis Nativitatis"
+  },
+  {
+    "event_key": "DayAfterEpiphanyJan8",
+    "name": "%s temporis Nativitatis"
+  },
+  {
+    "event_key": "DayAfterEpiphanyJan9",
+    "name": "%s temporis Nativitatis"
+  },
+  {
+    "event_key": "DayAfterEpiphanyJan10",
+    "name": "%s temporis Nativitatis"
+  },
+  {
+    "event_key": "DayAfterEpiphanyJan11",
+    "name": "%s temporis Nativitatis"
+  },
+  {
+    "event_key": "DayAfterEpiphanyJan12",
     "name": "%s temporis Nativitatis"
   }
 ]
