@@ -85,12 +85,12 @@
     "missal": "missale_romanum_2008"
   },
   {
-    "event_key": "LadyFatima",
+    "event_key": "OurLadyOfFatima",
     "name": "Beatæ Mariæ Virginis de Fatima",
     "missal": "missale_romanum_2002"
   },
   {
-    "event_key": "LadyLoreto",
+    "event_key": "OurLadyOfLoreto",
     "name": "Beatæ Mariæ Virginis de Loreto",
     "decree": "2019-10-07 - Prot. N. 404/19"
   },

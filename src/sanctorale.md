@@ -19,8 +19,8 @@
 | HolyNameMary              | Sanctissimi Nominis Mariæ                                                           | missale_romanum_2002                 |
 | ImmaculateConception      | In Conceptione Immaculata Beatæ Mariæ Virginis                                      | missale_romanum_1970                 |
 | JuanDiego                 | Sancti Ioannis Didaci Cuauhtlatoatzin                                               | missale_romanum_2008                 |
-| LadyFatima                | Beatæ Mariæ Virginis de Fatima                                                      | missale_romanum_2002                 |
-| LadyLoreto                | Beatæ Mariæ Virginis de Loreto                                                      | 2019-10-07 - Prot. N. 404/19         |
+| OurLadyOfFatima                | Beatæ Mariæ Virginis de Fatima                                                      | missale_romanum_2002                 |
+| OurLadyOfLoreto                | Beatæ Mariæ Virginis de Loreto                                                      | 2019-10-07 - Prot. N. 404/19         |
 | MaryMotherChurch          | Beatæ Mariæ Virginis, Ecclesiæ Matris                                               | 2018-02-11 - Prot. N. 10/18          |
 | NameJesus                 | Sanctissimi Nominis Iesu                                                            | missale_romanum_2002                 |
 | NativityJohnBaptist       | In Nativitate Sancti Ioannis Baptistæ                                               | missale_romanum_1970                 |
