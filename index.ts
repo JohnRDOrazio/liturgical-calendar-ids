@@ -5,6 +5,8 @@ const SRC_DIR = './src';
 interface LiturgicalEvent {
   event_key: string;
   name: string;
+  missal?: string;
+  decree?: string;
 }
 
 function filenameToTitle(filename: string): string {
@@ -25,12 +27,18 @@ async function generateMarkdownFiles(): Promise<void> {
     const jsonContent = await Bun.file(jsonPath).text();
     const events: LiturgicalEvent[] = JSON.parse(jsonContent);
 
-    const headers = Object.keys(events[0] || { event_key: '', name: '' });
+    const isSanctorale = basename === 'sanctorale';
+    const headers = isSanctorale
+      ? ['event_key', 'name', 'missal/decree']
+      : Object.keys(events[0] || { event_key: '', name: '' });
     const headerRow = `| ${headers.join(' | ')} |`;
     const separatorRow = `| ${headers.map(() => '---').join(' | ')} |`;
-    const dataRows = events.map(
-      (event) => `| ${headers.map((h) => event[h as keyof LiturgicalEvent]).join(' | ')} |`
-    );
+    const dataRows = events.map((event) => {
+      const values = isSanctorale
+        ? [event.event_key, event.name, event.missal || event.decree || '']
+        : headers.map((h) => event[h as keyof LiturgicalEvent] || '');
+      return `| ${values.join(' | ')} |`;
+    });
 
     const markdown = [
       `# ${title}`,
