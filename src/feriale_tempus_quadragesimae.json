@@ -4,16 +4,16 @@
     "name": "Feria IV Cinerum"
   },
   {
-    "event_key": "SaturdayAfterAshWednesday",
-    "name": "Sabbato post Feria IV Cinerum"
+    "event_key": "ThursdayAfterAshWednesday",
+    "name": "Feria V post Feria IV Cinerum"
   },
   {
     "event_key": "FridayAfterAshWednesday",
     "name": "Feria VI post Feria IV Cinerum"
   },
   {
-    "event_key": "ThursdayAfterAshWednesday",
-    "name": "Feria V post Feria IV Cinerum"
+    "event_key": "SaturdayAfterAshWednesday",
+    "name": "Sabbato post Feria IV Cinerum"
   },
   {
     "event_key": "LentWeekday1Monday",

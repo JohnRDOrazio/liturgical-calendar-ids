@@ -3,9 +3,9 @@
 | event_key                 | name                                     |
 | ------------------------- | ---------------------------------------- |
 | AshWednesday              | Feria IV Cinerum                         |
-| SaturdayAfterAshWednesday | Sabbato post Feria IV Cinerum            |
-| FridayAfterAshWednesday   | Feria VI post Feria IV Cinerum           |
 | ThursdayAfterAshWednesday | Feria V post Feria IV Cinerum            |
+| FridayAfterAshWednesday   | Feria VI post Feria IV Cinerum           |
+| SaturdayAfterAshWednesday | Sabbato post Feria IV Cinerum            |
 | LentWeekday1Monday        | Feria II Hebdomadæ Primæ Quadragesimæ    |
 | LentWeekday1Tuesday       | Feria III Hebdomadæ Primæ Quadragesimæ   |
 | LentWeekday1Wednesday     | Feria IV Hebdomadæ Primæ Quadragesimæ    |

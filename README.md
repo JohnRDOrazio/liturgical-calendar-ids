@@ -11,7 +11,7 @@ This repository provides a reference for all liturgical event identifiers, organ
 - **Temporale** - Moveable celebrations according to the liturgical seasons (Easter, Advent, Lent, etc.)
 - **Sanctorale** - Fixed celebrations (usually of saints)
 - **Feriale** - Weekday celebrations throughout the liturgical year
-- **Special Events** - Events that don't fit into either the *temporale* or *sanctorale* categories
+- **Special Events** - Events that don't fit into either the _temporale_ or _sanctorale_ categories
 
 The main purpose is to work together with liturgists and developers who have created liturgical applications,
 with the hope of contributing towards a canonicalization of liturgical celebration identifiers.
@@ -88,7 +88,7 @@ to adopt within their own liturgical calendars.
 
 ### Days after Epiphany
 
-For the ***days after Epiphany***, there is a kind of mapping between some of the identifiers when it comes to the lectionary readings;
+For the **_days after Epiphany_**, there is a kind of mapping between some of the identifiers when it comes to the lectionary readings;
 they are however given distinct IDs so that they can have distinct names, according to the usage of the language edition of the Roman Missal.
 
 | ID                        | Lectionary Mapping    | Name (Latin) <sup>[1](#footnote1)</sup> | Name (Italian) <sup>[2](#footnote2)</sup> | Name (English) <sup>[3](#footnote3)</sup> |

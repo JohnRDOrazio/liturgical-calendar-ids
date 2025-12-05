@@ -247,9 +247,9 @@
 | AdventWeekdayDec23           | Feria III Hebdomadæ Quartæ Adventus                                                 | missale_romanum_1970                 | feriale_tempus_adventus      |
 | AdventWeekdayDec24           | Feria IV Hebdomadæ Quartæ Adventus                                                  | missale_romanum_1970                 | feriale_tempus_adventus      |
 | AshWednesday                 | Feria IV Cinerum                                                                    | missale_romanum_1970                 | feriale_tempus_quadragesimae |
-| SaturdayAfterAshWednesday    | Sabbato post Feria IV Cinerum                                                       | missale_romanum_1970                 | feriale_tempus_quadragesimae |
-| FridayAfterAshWednesday      | Feria VI post Feria IV Cinerum                                                      | missale_romanum_1970                 | feriale_tempus_quadragesimae |
 | ThursdayAfterAshWednesday    | Feria V post Feria IV Cinerum                                                       | missale_romanum_1970                 | feriale_tempus_quadragesimae |
+| FridayAfterAshWednesday      | Feria VI post Feria IV Cinerum                                                      | missale_romanum_1970                 | feriale_tempus_quadragesimae |
+| SaturdayAfterAshWednesday    | Sabbato post Feria IV Cinerum                                                       | missale_romanum_1970                 | feriale_tempus_quadragesimae |
 | LentWeekday1Monday           | Feria II Hebdomadæ Primæ Quadragesimæ                                               | missale_romanum_1970                 | feriale_tempus_quadragesimae |
 | LentWeekday1Tuesday          | Feria III Hebdomadæ Primæ Quadragesimæ                                              | missale_romanum_1970                 | feriale_tempus_quadragesimae |
 | LentWeekday1Wednesday        | Feria IV Hebdomadæ Primæ Quadragesimæ                                               | missale_romanum_1970                 | feriale_tempus_quadragesimae |
