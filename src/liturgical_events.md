@@ -494,20 +494,20 @@
 | ChristmasWeekdayJan3         | Sabbato temporis Nativitatis                                                        | missale_romanum_1970                 | feriale_tempus_nativitatis   |
 | ChristmasWeekdayJan4         | Feria II temporis Nativitatis                                                       | missale_romanum_1970                 | feriale_tempus_nativitatis   |
 | ChristmasWeekdayJan5         | Feria II temporis Nativitatis                                                       | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| ChristmasWeekdayJan6         |                                                                                     | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| ChristmasWeekdayJan7         |                                                                                     | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| DayAfterEpiphanyFriday       |                                                                                     | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| DayAfterEpiphanyJan10        | Sabbato temporis Nativitatis                                                        | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| DayAfterEpiphanyJan11        | Feria VI temporis Nativitatis                                                       | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| DayAfterEpiphanyJan12        | Sabbato temporis Nativitatis                                                        | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| DayAfterEpiphanyJan7         | Feria IV temporis Nativitatis                                                       | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| DayAfterEpiphanyJan8         | Feria V temporis Nativitatis                                                        | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| DayAfterEpiphanyJan9         | Feria VI temporis Nativitatis                                                       | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| DayAfterEpiphanyMonday       |                                                                                     | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| DayAfterEpiphanySaturday     |                                                                                     | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| DayAfterEpiphanyThursday     |                                                                                     | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| DayAfterEpiphanyTuesday      |                                                                                     | missale_romanum_1970                 | feriale_tempus_nativitatis   |
-| DayAfterEpiphanyWednesday    |                                                                                     | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| ChristmasWeekdayJan6         | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| ChristmasWeekdayJan7         | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| DayAfterEpiphanyJan7         | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| DayAfterEpiphanyJan8         | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| DayAfterEpiphanyJan9         | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| DayAfterEpiphanyJan10        | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| DayAfterEpiphanyJan11        | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| DayAfterEpiphanyJan12        | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| DayAfterEpiphanyMonday       | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| DayAfterEpiphanyTuesday      | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| DayAfterEpiphanyWednesday    | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| DayAfterEpiphanyThursday     | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| DayAfterEpiphanyFriday       | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
+| DayAfterEpiphanySaturday     | %s temporis Nativitatis                                                             | missale_romanum_1970                 | feriale_tempus_nativitatis   |
 | HolyThursChrism              | Feria V Hebdomadæ Sanctæ - Ad Missam Chrismatis                                     | missale_romanum_1970                 | temporale                    |
 | HolyThurs                    | Feria V Hebdomadæ Sanctæ - in Cœna Domini                                           | missale_romanum_1970                 | temporale                    |
 | GoodFri                      | Feria VI in Passione Domini                                                         | missale_romanum_1970                 | temporale                    |

@@ -9,17 +9,17 @@
 | ChristmasWeekdayJan3      | Sabbato temporis Nativitatis     |
 | ChristmasWeekdayJan4      | Feria II temporis Nativitatis    |
 | ChristmasWeekdayJan5      | Feria II temporis Nativitatis    |
-| ChristmasWeekdayJan6      |                                  |
-| ChristmasWeekdayJan7      |                                  |
-| DayAfterEpiphanyFriday    |                                  |
-| DayAfterEpiphanyJan10     | Sabbato temporis Nativitatis     |
-| DayAfterEpiphanyJan11     | Feria VI temporis Nativitatis    |
-| DayAfterEpiphanyJan12     | Sabbato temporis Nativitatis     |
-| DayAfterEpiphanyJan7      | Feria IV temporis Nativitatis    |
-| DayAfterEpiphanyJan8      | Feria V temporis Nativitatis     |
-| DayAfterEpiphanyJan9      | Feria VI temporis Nativitatis    |
-| DayAfterEpiphanyMonday    |                                  |
-| DayAfterEpiphanySaturday  |                                  |
-| DayAfterEpiphanyThursday  |                                  |
-| DayAfterEpiphanyTuesday   |                                  |
-| DayAfterEpiphanyWednesday |                                  |
+| ChristmasWeekdayJan6      | %s temporis Nativitatis          |
+| ChristmasWeekdayJan7      | %s temporis Nativitatis          |
+| DayAfterEpiphanyJan7      | %s temporis Nativitatis          |
+| DayAfterEpiphanyJan8      | %s temporis Nativitatis          |
+| DayAfterEpiphanyJan9      | %s temporis Nativitatis          |
+| DayAfterEpiphanyJan10     | %s temporis Nativitatis          |
+| DayAfterEpiphanyJan11     | %s temporis Nativitatis          |
+| DayAfterEpiphanyJan12     | %s temporis Nativitatis          |
+| DayAfterEpiphanyMonday    | %s temporis Nativitatis          |
+| DayAfterEpiphanyTuesday   | %s temporis Nativitatis          |
+| DayAfterEpiphanyWednesday | %s temporis Nativitatis          |
+| DayAfterEpiphanyThursday  | %s temporis Nativitatis          |
+| DayAfterEpiphanyFriday    | %s temporis Nativitatis          |
+| DayAfterEpiphanySaturday  | %s temporis Nativitatis          |
