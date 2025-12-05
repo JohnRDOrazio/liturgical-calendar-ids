@@ -8,17 +8,18 @@ for Roman Catholic liturgical celebrations.
 
 This repository provides a reference for all liturgical event identifiers, organized by category:
 
-- **Temporale** - Moveable feasts and seasons (Easter, Advent, Lent, etc.)
-- **Sanctorale** - Fixed feasts of saints and celebrations
+- **Temporale** - Moveable celebrations according to the liturgical seasons (Easter, Advent, Lent, etc.)
+- **Sanctorale** - Fixed celebrations (usually of saints)
 - **Feriale** - Weekday celebrations throughout the liturgical year
-- **Special Events** - Events with unique characteristics
+- **Special Events** - Events that don't fit into either the *temporale* or *sanctorale* categories
 
 The main purpose is to work together with liturgists and developers who have created liturgical applications,
 with the hope of contributing towards a canonicalization of liturgical celebration identifiers.
 
 ## Status
 
-The JSON source files contain event keys and Latin names for liturgical celebrations, with references to the Roman Missal edition or decree that established each celebration.
+The JSON source files contain event keys and Latin names for liturgical celebrations.
+The `sanctorale.json` file also includes references to the Roman Missal edition or decree that established each celebration.
 
 ## Project Structure
 
@@ -110,8 +111,10 @@ When Epiphany is set to Sunday, the `DayAfterEpiphanyMonday` format of the `even
 When Epiphany is set to January 6, the `DayAfterEpiphanyJan7` format of the `event_key` is used.
 
 <a name="footnote1">1</a>: `%s` is substituted at runtime with the actual day of the week in the given year, in Latin.
+
 <a name="footnote2">2</a>: `%s` is substituted at runtime with the day of the month and the month, in Italian.
-<a name="footnote3">1</a>: `%s` is substituted at runtime with the actual day of the week in the given year, in English.
+
+<a name="footnote3">3</a>: `%s` is substituted at runtime with the actual day of the week in the given year, in English.
 
 ## License
 
