@@ -6,16 +6,19 @@ for Roman Catholic liturgical celebrations.
 
 ## Purpose
 
-This repository provides a canonical reference for all liturgical event identifiers, organized by category:
+This repository provides a reference for all liturgical event identifiers, organized by category:
 
 - **Temporale** - Moveable feasts and seasons (Easter, Advent, Lent, etc.)
 - **Sanctorale** - Fixed feasts of saints and celebrations
 - **Feriale** - Weekday celebrations throughout the liturgical year
 - **Special Events** - Events with unique characteristics
 
+The main purpose is to work together with liturgists and developers who have created liturgical applications,
+with the hope of contributing towards a canonicalization of liturgical celebration identifiers.
+
 ## Status
 
-Work in progress. The JSON source files contain event keys and Latin names for liturgical celebrations, with references to the Roman Missal edition or decree that established each celebration.
+The JSON source files contain event keys and Latin names for liturgical celebrations, with references to the Roman Missal edition or decree that established each celebration.
 
 ## Project Structure
 
@@ -73,6 +76,42 @@ Sanctorale entries include a `missal` or `decree` field indicating the source:
   "decree": "2014-05-29 - Prot. N. 309/14"
 }
 ```
+
+## Special cases
+
+### Jesus Christ, Eternal High Priest
+
+The `special_events.json` file contains a single entry, `JesusChristEternalHighPriest`, for the celebration
+"Domini nostri Iesu Christi Summi et Aeterni Sacerdotis", for which Pope Benedict XVI granted faculty to Bishops Conferences
+to adopt within their own liturgical calendars.
+
+### Days after Epiphany
+
+For the ***days after Epiphany***, there is a kind of mapping between some of the identifiers when it comes to the lectionary readings;
+they are however given distinct IDs so that they can have distinct names, according to the usage of the language edition of the Roman Missal.
+
+| ID                        | Lectionary Mapping    | Name (Latin) <sup>[1](#footnote1)</sup> | Name (Italian) <sup>[2](#footnote2)</sup> | Name (English) <sup>[3](#footnote3)</sup> |
+| ------------------------- | --------------------- | --------------------------------------- | ----------------------------------------- | ----------------------------------------- |
+| DayAfterEpiphanyJan7      | ---                   | %s temporis Nativitatis                 | Feria propria del %s                      | %s - Christmas Weekday                    |
+| DayAfterEpiphanyJan8      | ---                   | %s temporis Nativitatis                 | Feria propria del %s                      | %s - Christmas Weekday                    |
+| DayAfterEpiphanyJan9      | ---                   | %s temporis Nativitatis                 | Feria propria del %s                      | %s - Christmas Weekday                    |
+| DayAfterEpiphanyJan10     | ---                   | %s temporis Nativitatis                 | Feria propria del %s                      | %s - Christmas Weekday                    |
+| DayAfterEpiphanyJan11     | ---                   | %s temporis Nativitatis                 | Feria propria del %s                      | %s - Christmas Weekday                    |
+| DayAfterEpiphanyJan12     | ---                   | %s temporis Nativitatis                 | Feria propria del %s                      | %s - Christmas Weekday                    |
+| DayAfterEpiphanyMonday    | DayAfterEpiphanyJan7  | Feria II temporis Nativitatis           | Feria propria del 7 gennaio               | Monday - Christmas Weekday                |
+| DayAfterEpiphanyTuesday   | DayAfterEpiphanyJan8  | Feria III temporis Nativitatis          | Feria propria del 8 gennaio               | Tuesday - Christmas Weekday               |
+| DayAfterEpiphanyWednesday | DayAfterEpiphanyJan9  | Feria IV temporis Nativitatis           | Feria propria del 9 gennaio               | Wednesday - Christmas Weekday             |
+| DayAfterEpiphanyThursday  | DayAfterEpiphanyJan10 | Feria V temporis Nativitatis            | Feria propria del 10 gennaio              | Thursday - Christmas Weekday              |
+| DayAfterEpiphanyFriday    | DayAfterEpiphanyJan11 | Feria VI temporis Nativitatis           | Feria propria del 11 gennaio              | Friday - Christmas Weekday                |
+| DayAfterEpiphanySaturday  | DayAfterEpiphanyJan12 | Sabbato temporis Nativitatis            | Feria propria del 12 gennaio              | Saturday - Christmas Weekday              |
+
+When Epiphany is set to Sunday, the `DayAfterEpiphanyMonday` format of the `event_key` is used.
+
+When Epiphany is set to January 6, the `DayAfterEpiphanyJan7` format of the `event_key` is used.
+
+<a name="footnote1">1</a>: `%s` is substituted at runtime with the actual day of the week in the given year, in Latin.
+<a name="footnote2">2</a>: `%s` is substituted at runtime with the day of the month and the month, in Italian.
+<a name="footnote3">1</a>: `%s` is substituted at runtime with the actual day of the week in the given year, in English.
 
 ## License
 
