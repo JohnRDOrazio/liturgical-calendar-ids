@@ -2,7 +2,7 @@
  * Script to merge eprex sanctorale data into the liturgy_ids sanctorale.json
  */
 
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync, unlinkSync, existsSync } from 'fs';
 
 // Manual mapping of eprex_key to litcal_event_key for complex cases
 const MANUAL_MAPPINGS: Record<string, string> = {
@@ -110,26 +110,52 @@ interface EprexEntry {
 }
 
 // Parse the sanctorale.ts file to extract entries
-const sanctoraleTsContent = readFileSync(
-  '../liturgy_ids_eprex/sanctorale.ts',
-  'utf-8'
-);
+// The eprex/ directory contains TypeScript source files from the liturgy_ids_eprex project
+// These are parsed as text, not imported as modules
+const sanctoraleTsContent = readFileSync('./eprex/sanctorale.ts', 'utf-8');
 
-// Extract all entries using regex
-const entryRegex =
-  /\{\s*code:\s*'([^']+)',\s*id:\s*'([^']+)',\s*shortCode:\s*'([^']+)'[^}]*?nomina:\s*\{\s*la:\s*'([^']+)'[^}]*?\}[^}]*?(?:externalIds:\s*\{\s*romcal:\s*'([^']+)'\s*\})?[^}]*?\}/gs;
+// Extract all entries using regex - split into two passes for robustness
+// WARNING: This regex parsing assumes a specific TypeScript format in the source file:
+//   { code: '...', id: '...', shortCode: '...', ..., nomina: { la: '...', ... }, ... }
+// If the source file format changes, this may silently produce incomplete results.
+// First pass: extract basic info (code, id, shortCode, nomina.la)
+const basicRegex =
+  /\{\s*code:\s*'([^']+)',\s*id:\s*'([^']+)',\s*shortCode:\s*'([^']+)'[\s\S]*?nomina:\s*\{\s*la:\s*'([^']+)'/g;
+
+// Second pass: extract romcal ID for each entry by id
+function extractRomcalId(content: string, id: string): string | undefined {
+  // Find the entry block for this id and look for romcal
+  const entryPattern = new RegExp(
+    `id:\\s*'${id}'[\\s\\S]*?externalIds:\\s*\\{\\s*romcal:\\s*'([^']+)'`,
+    'g'
+  );
+  const match = entryPattern.exec(content);
+  return match ? match[1] : undefined;
+}
 
 const eprexEntries: EprexEntry[] = [];
 let match;
 
-while ((match = entryRegex.exec(sanctoraleTsContent)) !== null) {
+while ((match = basicRegex.exec(sanctoraleTsContent)) !== null) {
+  const id = match[2];
+  const romcalId = extractRomcalId(sanctoraleTsContent, id);
   eprexEntries.push({
     code: match[1],
-    id: match[2],
+    id: id,
     shortCode: match[3],
     nomina: { la: match[4], en: '' },
-    externalIds: match[5] ? { romcal: match[5] } : undefined,
+    externalIds: romcalId ? { romcal: romcalId } : undefined,
   });
+}
+
+// Validate parsed entries - regex parsing is fragile and assumes specific TypeScript format
+const invalidEntries = eprexEntries.filter(
+  (e) => !e.code || !e.id || !e.shortCode || !e.nomina.la
+);
+if (invalidEntries.length > 0) {
+  console.warn(
+    `Warning: ${invalidEntries.length} entries have missing required fields`
+  );
 }
 
 console.log(`Found ${eprexEntries.length} entries in eprex sanctorale.ts`);
@@ -274,11 +300,9 @@ if (unmatched.length > 0) {
   );
 } else {
   // Remove the unmatched file if it exists and there are no unmatched entries
-  try {
-    const { unlinkSync } = await import('fs');
-    unlinkSync('./src/unmatched_sanctorale.json');
+  const unmatchedPath = './src/unmatched_sanctorale.json';
+  if (existsSync(unmatchedPath)) {
+    unlinkSync(unmatchedPath);
     console.log('Removed src/unmatched_sanctorale.json (no unmatched entries)');
-  } catch {
-    // File doesn't exist, ignore
   }
 }
