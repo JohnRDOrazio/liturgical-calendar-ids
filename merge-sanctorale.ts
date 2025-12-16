@@ -3,6 +3,7 @@
  */
 
 import { readFileSync, writeFileSync, unlinkSync, existsSync } from 'fs';
+import * as ts from 'typescript';
 
 // Helper function to read a file with error handling
 function safeReadFileSync(filePath: string): string {
@@ -142,55 +143,106 @@ interface EprexEntry {
   externalIds?: { romcal?: string };
 }
 
-// Parse the sanctorale.ts file to extract entries
+// Parse the sanctorale.ts file to extract entries using TypeScript AST
 // The eprex/ directory contains TypeScript source files from the liturgy_ids_eprex project
-// These are parsed as text, not imported as modules
-const sanctoraleTsContent = safeReadFileSync('./eprex/sanctorale.ts');
+const sanctoraleTsPath = './eprex/sanctorale.ts';
+const sanctoraleTsContent = safeReadFileSync(sanctoraleTsPath);
 
-// Extract all entries using regex - split into two passes for robustness
-// WARNING: This regex parsing assumes a specific TypeScript format in the source file:
-//   { code: '...', id: '...', shortCode: '...', ..., nomina: { la: '...', ... }, ... }
-// If the source file format changes, this may silently produce incomplete results.
-// First pass: extract basic info (code, id, shortCode, nomina.la)
-const basicRegex =
-  /\{\s*code:\s*'([^']+)',\s*id:\s*'([^']+)',\s*shortCode:\s*'([^']+)'[\s\S]*?nomina:\s*\{\s*la:\s*'([^']+)'/g;
-
-// Second pass: extract romcal ID for each entry by id
-function extractRomcalId(content: string, id: string): string | undefined {
-  // Find the entry block for this id and look for romcal
-  // Escape special regex characters in id to prevent ReDoS
-  const escapedId = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const entryPattern = new RegExp(
-    `id:\\s*'${escapedId}'[\\s\\S]*?externalIds:\\s*\\{\\s*romcal:\\s*'([^']+)'`,
-    'g'
-  );
-  const match = entryPattern.exec(content);
-  return match ? match[1] : undefined;
+// Helper to get string literal value from AST node
+function getStringLiteralValue(node: ts.Node | undefined): string | undefined {
+  if (node && ts.isStringLiteral(node)) {
+    return node.text;
+  }
+  return undefined;
 }
+
+// Helper to find property in object literal by name
+function findProperty(
+  obj: ts.ObjectLiteralExpression,
+  name: string
+): ts.ObjectLiteralElementLike | undefined {
+  return obj.properties.find(
+    (prop) =>
+      ts.isPropertyAssignment(prop) &&
+      ts.isIdentifier(prop.name) &&
+      prop.name.text === name
+  );
+}
+
+// Helper to get property value as string
+function getPropertyString(
+  obj: ts.ObjectLiteralExpression,
+  name: string
+): string | undefined {
+  const prop = findProperty(obj, name);
+  if (prop && ts.isPropertyAssignment(prop)) {
+    return getStringLiteralValue(prop.initializer);
+  }
+  return undefined;
+}
+
+// Helper to get nested property value (e.g., nomina.la or externalIds.romcal)
+function getNestedPropertyString(
+  obj: ts.ObjectLiteralExpression,
+  parentName: string,
+  childName: string
+): string | undefined {
+  const parentProp = findProperty(obj, parentName);
+  if (
+    parentProp &&
+    ts.isPropertyAssignment(parentProp) &&
+    ts.isObjectLiteralExpression(parentProp.initializer)
+  ) {
+    return getPropertyString(parentProp.initializer, childName);
+  }
+  return undefined;
+}
+
+// Parse source file into AST
+const sourceFile = ts.createSourceFile(
+  sanctoraleTsPath,
+  sanctoraleTsContent,
+  ts.ScriptTarget.Latest,
+  true
+);
 
 const eprexEntries: EprexEntry[] = [];
-let match;
 
-while ((match = basicRegex.exec(sanctoraleTsContent)) !== null) {
-  const id = match[2];
-  const romcalId = extractRomcalId(sanctoraleTsContent, id);
-  eprexEntries.push({
-    code: match[1],
-    id: id,
-    shortCode: match[3],
-    nomina: { la: match[4], en: '' },
-    externalIds: romcalId ? { romcal: romcalId } : undefined,
-  });
+// Traverse AST to find all object literals that match the expected shape
+// Note: Objects without all required properties are silently skipped (filtered out)
+function visit(node: ts.Node): void {
+  if (ts.isObjectLiteralExpression(node)) {
+    // Extract required properties - entry is only added if ALL are present
+    const code = getPropertyString(node, 'code');
+    const id = getPropertyString(node, 'id');
+    const shortCode = getPropertyString(node, 'shortCode');
+    const nominaLa = getNestedPropertyString(node, 'nomina', 'la');
+
+    // Only add entries with all required properties (invalid entries are dropped)
+    if (code && id && shortCode && nominaLa) {
+      const romcalId = getNestedPropertyString(node, 'externalIds', 'romcal');
+      eprexEntries.push({
+        code,
+        id,
+        shortCode,
+        nomina: { la: nominaLa, en: '' },
+        externalIds: romcalId ? { romcal: romcalId } : undefined,
+      });
+    }
+  }
+
+  ts.forEachChild(node, visit);
 }
 
-// Validate parsed entries - regex parsing is fragile and assumes specific TypeScript format
-const invalidEntries = eprexEntries.filter(
-  (e) => !e.code || !e.id || !e.shortCode || !e.nomina.la
-);
-if (invalidEntries.length > 0) {
-  console.warn(
-    `Warning: ${invalidEntries.length} entries have missing required fields`
+visit(sourceFile);
+
+// Validate that we found entries
+if (eprexEntries.length === 0) {
+  console.error(
+    `Error: No valid entries found in '${sanctoraleTsPath}'. ` +
+      'The file format may have changed.'
   );
+  process.exit(1);
 }
 
 console.log(`Found ${eprexEntries.length} entries in eprex sanctorale.ts`);
