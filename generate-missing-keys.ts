@@ -1,5 +1,5 @@
 /**
- * Script to generate missing_keys.json files for entries without eprex mappings
+ * Script to generate missing_keys.json and .md files for entries without eprex mappings
  */
 
 import { existsSync } from 'fs';
@@ -25,9 +25,37 @@ interface MissingKeyEntry {
   decree?: string;
 }
 
+function filenameToTitle(filename: string): string {
+  return filename
+    .replace(/_/g, ' ')
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+}
+
+function generateMarkdown(
+  entries: MissingKeyEntry[],
+  title: string,
+  includeSource: boolean
+): string {
+  const headers = includeSource
+    ? ['litcal_event_key', 'name', 'missal/decree']
+    : ['litcal_event_key', 'name'];
+
+  const headerRow = `| ${headers.join(' | ')} |`;
+  const separatorRow = `| ${headers.map(() => '---').join(' | ')} |`;
+  const dataRows = entries.map((entry) => {
+    const values = includeSource
+      ? [entry.litcal_event_key, entry.name, entry.missal || entry.decree || '']
+      : [entry.litcal_event_key, entry.name];
+    return `| ${values.join(' | ')} |`;
+  });
+
+  return [title, '', headerRow, separatorRow, ...dataRows, ''].join('\n');
+}
+
 function generateMissingKeys(
   sourceFile: string,
-  outputFile: string,
+  outputJsonFile: string,
+  outputMdFile: string,
   category: string,
   includeSource: boolean = false
 ): void {
@@ -53,17 +81,41 @@ function generateMissingKeys(
     });
 
   if (missingKeys.length > 0) {
-    safeWriteFileSync(outputFile, JSON.stringify(missingKeys, null, 2) + '\n');
-    console.log(
-      `${category}: ${missingKeys.length} entries without eprex mappings -> ${outputFile}`
+    // Write JSON file
+    safeWriteFileSync(
+      outputJsonFile,
+      JSON.stringify(missingKeys, null, 2) + '\n'
     );
+
+    // Write Markdown file
+    const basename = outputMdFile
+      .replace('./eprex/', '')
+      .replace('.md', '');
+    const title = `# ${filenameToTitle(basename)}`;
+    const markdown = generateMarkdown(missingKeys, title, includeSource);
+    safeWriteFileSync(outputMdFile, markdown);
+
+    console.log(
+      `${category}: ${missingKeys.length} entries without eprex mappings`
+    );
+    console.log(`  -> ${outputJsonFile}`);
+    console.log(`  -> ${outputMdFile}`);
   } else {
-    if (existsSync(outputFile)) {
-      safeUnlinkSync(outputFile);
+    // Remove JSON file if exists
+    if (existsSync(outputJsonFile)) {
+      safeUnlinkSync(outputJsonFile);
       console.log(
-        `${category}: All entries have eprex mappings, removed ${outputFile}`
+        `${category}: All entries have eprex mappings, removed ${outputJsonFile}`
       );
-    } else {
+    }
+    // Remove MD file if exists
+    if (existsSync(outputMdFile)) {
+      safeUnlinkSync(outputMdFile);
+      console.log(
+        `${category}: All entries have eprex mappings, removed ${outputMdFile}`
+      );
+    }
+    if (!existsSync(outputJsonFile) && !existsSync(outputMdFile)) {
       console.log(`${category}: All entries have eprex mappings`);
     }
   }
@@ -73,6 +125,7 @@ function generateMissingKeys(
 generateMissingKeys(
   './src/temporale.json',
   './eprex/temporale_missing_keys.json',
+  './eprex/temporale_missing_keys.md',
   'Temporale'
 );
 
@@ -80,6 +133,7 @@ generateMissingKeys(
 generateMissingKeys(
   './src/sanctorale.json',
   './eprex/sanctorale_missing_keys.json',
+  './eprex/sanctorale_missing_keys.md',
   'Sanctorale',
   true
 );

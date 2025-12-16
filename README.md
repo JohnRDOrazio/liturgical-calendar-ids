@@ -29,11 +29,29 @@ src/
   *.md                    # Generated markdown documentation
   liturgical_events.md    # Combined table of all events
 eprex/
-  sanctorale.ts              # Source data from liturgy_ids_eprex project
-  temporale.ts               # Source data from liturgy_ids_eprex project
+  sanctorale.ts                 # Source data from liturgy_ids_eprex project
+  temporale.ts                  # Source data from liturgy_ids_eprex project
   sanctorale_missing_keys.json  # Sanctorale entries without eprex mappings
+  sanctorale_missing_keys.md    # Markdown table of sanctorale missing keys
   temporale_missing_keys.json   # Temporale entries without eprex mappings
+  temporale_missing_keys.md     # Markdown table of temporale missing keys
 ```
+
+## Documentation Tables
+
+| Category                     | Description                                  | Link                                                                   |
+| ---------------------------- | -------------------------------------------- | ---------------------------------------------------------------------- |
+| All Events                   | Combined table of all liturgical events      | [liturgical_events.md](src/liturgical_events.md)                       |
+| Temporale                    | Moveable celebrations (Easter, Advent, etc.) | [temporale.md](src/temporale.md)                                       |
+| Sanctorale                   | Fixed celebrations (saints)                  | [sanctorale.md](src/sanctorale.md)                                     |
+| Special Events               | Other special celebrations                   | [special_events.md](src/special_events.md)                             |
+| Feriale Per Annum            | Weekdays in Ordinary Time                    | [feriale_per_annum.md](src/feriale_per_annum.md)                       |
+| Feriale Tempus Adventus      | Weekdays in Advent                           | [feriale_tempus_adventus.md](src/feriale_tempus_adventus.md)           |
+| Feriale Tempus Nativitatis   | Weekdays in Christmas season                 | [feriale_tempus_nativitatis.md](src/feriale_tempus_nativitatis.md)     |
+| Feriale Tempus Quadragesimae | Weekdays in Lent                             | [feriale_tempus_quadragesimae.md](src/feriale_tempus_quadragesimae.md) |
+| Feriale Tempus Paschatis     | Weekdays in Easter season                    | [feriale_tempus_paschatis.md](src/feriale_tempus_paschatis.md)         |
+| Temporale Missing Keys       | Temporale entries without eprex mappings     | [temporale_missing_keys.md](eprex/temporale_missing_keys.md)           |
+| Sanctorale Missing Keys      | Sanctorale entries without eprex mappings    | [sanctorale_missing_keys.md](eprex/sanctorale_missing_keys.md)         |
 
 ## Installation
 
@@ -47,7 +65,7 @@ bun install
 | ------------------------------- | ------------------------------------------------------- |
 | `bun run generate`              | Generate individual markdown files from JSON sources    |
 | `bun run generate:combined`     | Generate unified `liturgical_events.md` with all events |
-| `bun run generate:missing-keys` | Generate missing_keys.json tracking files               |
+| `bun run generate:missing-keys` | Generate missing_keys JSON and markdown files           |
 | `bun run sort`                  | Sort JSON files by number and day of week               |
 | `bun run merge:sanctorale`      | Merge eprex sanctorale data into sanctorale.json        |
 | `bun run merge:temporale`       | Merge eprex temporale data into temporale.json          |
