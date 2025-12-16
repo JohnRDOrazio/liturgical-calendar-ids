@@ -211,7 +211,6 @@ const sourceFile = ts.createSourceFile(
 const eprexEntries: EprexEntry[] = [];
 
 // Traverse AST to find all object literals that match the expected shape
-// Note: Objects without all required properties are silently skipped (filtered out)
 function visit(node: ts.Node): void {
   if (ts.isObjectLiteralExpression(node)) {
     // Extract required properties - entry is only added if ALL are present
@@ -220,7 +219,7 @@ function visit(node: ts.Node): void {
     const shortCode = getPropertyString(node, 'shortCode');
     const nominaLa = getNestedPropertyString(node, 'nomina', 'la');
 
-    // Only add entries with all required properties (invalid entries are dropped)
+    // Only add entries with all required properties
     if (code && id && shortCode && nominaLa) {
       const romcalId = getNestedPropertyString(node, 'externalIds', 'romcal');
       eprexEntries.push({
@@ -230,6 +229,17 @@ function visit(node: ts.Node): void {
         nomina: { la: nominaLa, en: '' },
         externalIds: romcalId ? { romcal: romcalId } : undefined,
       });
+    } else if (code || id || shortCode || nominaLa) {
+      // Warn about partial entries that may indicate format changes
+      const missing = [
+        !code && 'code',
+        !id && 'id',
+        !shortCode && 'shortCode',
+        !nominaLa && 'nomina.la',
+      ].filter(Boolean);
+      console.warn(
+        `Warning: Skipping partial entry (id: ${id || 'unknown'}) - missing: ${missing.join(', ')}`
+      );
     }
   }
 
