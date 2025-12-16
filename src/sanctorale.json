@@ -140,11 +140,7 @@
   {
     "litcal_event_key": "OurLadyOfLoreto",
     "name": "Beatæ Mariæ Virginis de Loreto",
-    "decree": "2019-10-07 - Prot. N. 404/19",
-    "eprex_key": "our_lady_of_lourdes",
-    "eprex_code": "0211",
-    "eprex_short_key": "0211",
-    "romcal_key": "our_lady_of_lourdes"
+    "decree": "2019-10-07 - Prot. N. 404/19"
   },
   {
     "litcal_event_key": "MaryMotherChurch",
@@ -183,10 +179,10 @@
     "litcal_event_key": "OurLadyOfLourdes",
     "name": "Beatæ Mariæ Virginis de Lourdes",
     "missal": "missale_romanum_1970",
-    "eprex_key": "our_lady_of_sorrows",
-    "eprex_code": "0915",
-    "eprex_short_key": "0915",
-    "romcal_key": "our_lady_of_sorrows"
+    "eprex_key": "our_lady_of_lourdes",
+    "eprex_code": "0211",
+    "eprex_short_key": "0211",
+    "romcal_key": "our_lady_of_lourdes"
   },
   {
     "litcal_event_key": "OurLadyOfMountCarmel",
@@ -196,7 +192,11 @@
   {
     "litcal_event_key": "OurLadyOfSorrows",
     "name": "Beatæ Mariæ Virginis Perdolentis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "our_lady_of_sorrows",
+    "eprex_code": "0915",
+    "eprex_short_key": "0915",
+    "romcal_key": "our_lady_of_sorrows"
   },
   {
     "litcal_event_key": "OurLadyOfTheRosary",

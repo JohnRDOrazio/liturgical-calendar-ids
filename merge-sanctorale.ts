@@ -53,6 +53,7 @@ const MANUAL_MAPPINGS: Record<string, string> = {
   // February
   agatha_virgin_martyr: 'StAgatha',
   paul_miki_companions: 'StsPaulMiki',
+  our_lady_of_lourdes: 'OurLadyOfLourdes',
   scholastica_virgin: 'StScholastica',
   polycarp_bishop_martyr: 'StPolycarp',
 
@@ -84,6 +85,7 @@ const MANUAL_MAPPINGS: Record<string, string> = {
   passion_of_john_the_baptist: 'BeheadingJohnBaptist',
 
   // September
+  our_lady_of_sorrows: 'OurLadyOfSorrows',
   matthew_apostle_evangelist: 'StMatthewEvangelist',
   michael_gabriel_raphael: 'StsArchangels',
 
