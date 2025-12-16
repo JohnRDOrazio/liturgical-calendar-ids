@@ -125,8 +125,10 @@ const basicRegex =
 // Second pass: extract romcal ID for each entry by id
 function extractRomcalId(content: string, id: string): string | undefined {
   // Find the entry block for this id and look for romcal
+  // Escape special regex characters in id to prevent ReDoS
+  const escapedId = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const entryPattern = new RegExp(
-    `id:\\s*'${id}'[\\s\\S]*?externalIds:\\s*\\{\\s*romcal:\\s*'([^']+)'`,
+    `id:\\s*'${escapedId}'[\\s\\S]*?externalIds:\\s*\\{\\s*romcal:\\s*'([^']+)'`,
     'g'
   );
   const match = entryPattern.exec(content);
@@ -218,10 +220,11 @@ for (const eprex of eprexEntries) {
       const sanctoraleKeyNorm = normalizeKey(key);
 
       // Check if keys are similar
+      // Use minimum length threshold (>4) for substring matching to avoid false positives
       if (
         sanctoraleKeyNorm === eprexKeyNorm ||
-        sanctoraleKeyNorm.includes(eprexKeyNorm) ||
-        eprexKeyNorm.includes(sanctoraleKeyNorm)
+        (eprexKeyNorm.length > 4 && sanctoraleKeyNorm.includes(eprexKeyNorm)) ||
+        (sanctoraleKeyNorm.length > 4 && eprexKeyNorm.includes(sanctoraleKeyNorm))
       ) {
         matchFound = true;
         matchedKey = key;
