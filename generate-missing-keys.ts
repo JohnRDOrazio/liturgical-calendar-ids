@@ -42,6 +42,16 @@ function safeUnlinkSync(filePath: string): void {
   }
 }
 
+function safeParseJson<T>(filePath: string, content: string): T {
+  try {
+    return JSON.parse(content) as T;
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.error(`Error parsing JSON in '${filePath}': ${message}`);
+    process.exit(1);
+  }
+}
+
 interface MissingKeyEntry {
   litcal_event_key: string;
   name: string;
@@ -55,7 +65,8 @@ function generateMissingKeys(
   category: string,
   includeSource: boolean = false
 ): void {
-  const entries = JSON.parse(safeReadFileSync(sourceFile)) as LitcalEntry[];
+  const fileContent = safeReadFileSync(sourceFile);
+  const entries = safeParseJson<LitcalEntry[]>(sourceFile, fileContent);
 
   const missingKeys: MissingKeyEntry[] = entries
     .filter((entry) => !entry.eprex_key)
