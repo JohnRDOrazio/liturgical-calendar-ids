@@ -40,10 +40,6 @@
     "name": "Dominica VII Paschæ"
   },
   {
-    "litcal_event_key": "EasterVigil",
-    "name": "Vigilia Paschalis"
-  },
-  {
     "litcal_event_key": "Epiphany",
     "name": "In Epiphania Domini"
   },

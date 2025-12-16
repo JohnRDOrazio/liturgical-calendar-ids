@@ -29,9 +29,10 @@ src/
   *.md                    # Generated markdown documentation
   liturgical_events.md    # Combined table of all events
 eprex/
-  sanctorale.ts           # Source data from liturgy_ids_eprex project
-  temporale.ts            # Source data from liturgy_ids_eprex project
-  sanctorale_missing_keys.json  # Entries without eprex mappings
+  sanctorale.ts              # Source data from liturgy_ids_eprex project
+  temporale.ts               # Source data from liturgy_ids_eprex project
+  sanctorale_missing_keys.json  # Sanctorale entries without eprex mappings
+  temporale_missing_keys.json   # Temporale entries without eprex mappings
 ```
 
 ## Installation
@@ -42,15 +43,17 @@ bun install
 
 ## Scripts
 
-| Script                      | Description                                             |
-| --------------------------- | ------------------------------------------------------- |
-| `bun run generate`          | Generate individual markdown files from JSON sources    |
-| `bun run generate:combined` | Generate unified `liturgical_events.md` with all events |
-| `bun run sort`              | Sort JSON files by number and day of week               |
-| `bun run merge:sanctorale`  | Merge eprex sanctorale data into sanctorale.json        |
-| `bun run format:md`         | Format markdown tables with Prettier                    |
-| `bun run lint:md`           | Lint markdown files                                     |
-| `bun run lint:md:fix`       | Lint and auto-fix markdown issues                       |
+| Script                          | Description                                             |
+| ------------------------------- | ------------------------------------------------------- |
+| `bun run generate`              | Generate individual markdown files from JSON sources    |
+| `bun run generate:combined`     | Generate unified `liturgical_events.md` with all events |
+| `bun run generate:missing-keys` | Generate missing_keys.json tracking files               |
+| `bun run sort`                  | Sort JSON files by number and day of week               |
+| `bun run merge:sanctorale`      | Merge eprex sanctorale data into sanctorale.json        |
+| `bun run merge:temporale`       | Merge eprex temporale data into temporale.json          |
+| `bun run format:md`             | Format markdown tables with Prettier                    |
+| `bun run lint:md`               | Lint markdown files                                     |
+| `bun run lint:md:fix`           | Lint and auto-fix markdown issues                       |
 
 ## Workflow
 
@@ -104,8 +107,22 @@ Sanctorale entries may include external ID mappings from the [liturgy_ids_eprex]
 - `eprex_code` follows MMDD date format consistently (e.g., `0319` for March 19)
 - Entries with multiple feasts on the same day use suffixes (e.g., `0120a`, `0120b`)
 - `eprex_key` and `romcal_key` values are identical in all mapped entries
+- For temporale entries, `eprex_code` uses sequential numbering (0001-0030) rather than dates
 
-The `eprex/sanctorale_missing_keys.json` file tracks sanctorale entries that do not yet have external ID mappings.
+**Special mappings between eprex and litcal:**
+
+Some entries have different categorizations or names between the projects:
+
+| eprex Entry                  | litcal Entry                        | Notes                                      |
+| ---------------------------- | ----------------------------------- | ------------------------------------------ |
+| `holy_saturday` (temporale)  | `EasterVigil` (temporale)           | Same liturgical day, different terminology |
+| `mary_mother_of_the_church`  | `MaryMotherChurch` (sanctorale)     | Moveable feast classified as sanctorale    |
+| Days after Ash Wednesday (3) | `feriale_tempus_quadragesimae.json` | Classified as feriale in litcal            |
+
+The following files track entries without external ID mappings:
+
+- `eprex/sanctorale_missing_keys.json` - sanctorale entries without eprex mappings
+- `eprex/temporale_missing_keys.json` - temporale entries without eprex mappings
 
 ## Special cases
 

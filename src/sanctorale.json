@@ -145,7 +145,11 @@
   {
     "litcal_event_key": "MaryMotherChurch",
     "name": "Beatæ Mariæ Virginis, Ecclesiæ Matris",
-    "decree": "2018-02-11 - Prot. N. 10/18"
+    "decree": "2018-02-11 - Prot. N. 10/18",
+    "eprex_key": "mary_mother_of_the_church",
+    "eprex_code": "0030",
+    "eprex_short_key": "MME0",
+    "romcal_key": "mary_mother_of_the_church"
   },
   {
     "litcal_event_key": "NameJesus",

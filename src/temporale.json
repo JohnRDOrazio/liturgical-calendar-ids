@@ -104,7 +104,11 @@
   },
   {
     "litcal_event_key": "EasterVigil",
-    "name": "Vigilia Paschalis"
+    "name": "Vigilia Paschalis",
+    "eprex_key": "holy_saturday",
+    "eprex_code": "0012",
+    "eprex_short_key": "TRI3",
+    "romcal_key": "holy_saturday"
   },
   {
     "litcal_event_key": "Epiphany",

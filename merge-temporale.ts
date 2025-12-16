@@ -57,6 +57,7 @@ const MANUAL_MAPPINGS: Record<string, string> = {
   // Triduum
   holy_thursday: 'HolyThurs',
   good_friday: 'GoodFri',
+  holy_saturday: 'EasterVigil', // Different terminology in litcal
 
   // Easter
   easter_sunday: 'Easter',
@@ -81,6 +82,15 @@ const MANUAL_MAPPINGS: Record<string, string> = {
   // Marian memorials
   immaculate_heart_of_mary: 'ImmaculateHeart',
 };
+
+// Cross-category entries: eprex temporale entries mapped to other litcal categories
+// These are excluded from temporale_unmatched.json since they're mapped elsewhere
+const CROSS_CATEGORY_ENTRIES = new Set([
+  'thursday_after_ash_wednesday', // -> feriale_tempus_quadragesimae.json
+  'friday_after_ash_wednesday', // -> feriale_tempus_quadragesimae.json
+  'saturday_after_ash_wednesday', // -> feriale_tempus_quadragesimae.json
+  'mary_mother_of_the_church', // -> sanctorale.json (MaryMotherChurch)
+]);
 
 // Read the temporale.json file
 const temporaleJson = JSON.parse(
@@ -355,6 +365,9 @@ for (const eprex of eprexEntries) {
 
     console.log(`Matched: ${matchedKey} -> ${eprex.id}`);
     matchCount++;
+  } else if (CROSS_CATEGORY_ENTRIES.has(eprex.id)) {
+    // Skip cross-category entries - they're mapped in other litcal files
+    console.log(`Cross-category: ${eprex.id} (mapped elsewhere)`);
   } else {
     unmatched.push({
       eprex_key: eprex.id,

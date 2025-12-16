@@ -1,19 +1,24 @@
 [
   {
-    "litcal_event_key": "AshWednesday",
-    "name": "Feria IV Cinerum"
-  },
-  {
     "litcal_event_key": "ThursdayAfterAshWednesday",
-    "name": "Feria V post Feria IV Cinerum"
+    "name": "Feria V post Feria IV Cinerum",
+    "eprex_key": "thursday_after_ash_wednesday",
+    "eprex_code": "0003",
+    "eprex_short_key": "QUA0F5"
   },
   {
     "litcal_event_key": "FridayAfterAshWednesday",
-    "name": "Feria VI post Feria IV Cinerum"
+    "name": "Feria VI post Feria IV Cinerum",
+    "eprex_key": "friday_after_ash_wednesday",
+    "eprex_code": "0004",
+    "eprex_short_key": "QUA0F6"
   },
   {
     "litcal_event_key": "SaturdayAfterAshWednesday",
-    "name": "Sabbato post Feria IV Cinerum"
+    "name": "Sabbato post Feria IV Cinerum",
+    "eprex_key": "saturday_after_ash_wednesday",
+    "eprex_code": "0005",
+    "eprex_short_key": "QUA0S"
   },
   {
     "litcal_event_key": "LentWeekday1Monday",
