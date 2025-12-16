@@ -8,6 +8,10 @@ interface LiturgicalEvent {
   name: string;
   missal?: string;
   decree?: string;
+  eprex_key?: string;
+  eprex_code?: string;
+  eprex_short_key?: string;
+  romcal_key?: string;
 }
 
 interface CombinedEvent {
@@ -15,6 +19,10 @@ interface CombinedEvent {
   name: string;
   missal: string;
   source: string;
+  eprex_key: string;
+  eprex_code: string;
+  eprex_short_key: string;
+  romcal_key: string;
 }
 
 async function generateCombinedMarkdown(): Promise<void> {
@@ -44,15 +52,29 @@ async function generateCombinedMarkdown(): Promise<void> {
         name: event.name,
         missal,
         source: basename,
+        eprex_key: event.eprex_key || '',
+        eprex_code: event.eprex_code || '',
+        eprex_short_key: event.eprex_short_key || '',
+        romcal_key: event.romcal_key || '',
       });
     }
   }
 
-  const headers = ['litcal_event_key', 'name', 'missal', 'temporale/sanctorale'];
+  const headers = [
+    'litcal_event_key',
+    'name',
+    'missal',
+    'temporale/sanctorale',
+    'eprex_key',
+    'eprex_code',
+    'eprex_short_key',
+    'romcal_key',
+  ];
   const headerRow = `| ${headers.join(' | ')} |`;
   const separatorRow = `| ${headers.map(() => '---').join(' | ')} |`;
   const dataRows = allEvents.map(
-    (event) => `| ${event.litcal_event_key} | ${event.name} | ${event.missal} | ${event.source} |`
+    (event) =>
+      `| ${event.litcal_event_key} | ${event.name} | ${event.missal} | ${event.source} | ${event.eprex_key} | ${event.eprex_code} | ${event.eprex_short_key} | ${event.romcal_key} |`
   );
 
   const markdown = [

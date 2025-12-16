@@ -7,6 +7,10 @@ interface LiturgicalEvent {
   name: string;
   missal?: string;
   decree?: string;
+  eprex_key?: string;
+  eprex_code?: string;
+  eprex_short_key?: string;
+  romcal_key?: string;
 }
 
 function filenameToTitle(filename: string): string {
@@ -28,15 +32,58 @@ async function generateMarkdownFiles(): Promise<void> {
     const events: LiturgicalEvent[] = JSON.parse(jsonContent);
 
     const isSanctorale = basename === 'sanctorale';
-    const headers = isSanctorale
-      ? ['litcal_event_key', 'name', 'missal/decree']
-      : Object.keys(events[0] || { litcal_event_key: '', name: '' });
+    const isTemporale = basename === 'temporale';
+
+    let headers: string[];
+    if (isSanctorale) {
+      headers = [
+        'litcal_event_key',
+        'name',
+        'missal/decree',
+        'eprex_key',
+        'eprex_code',
+        'eprex_short_key',
+        'romcal_key',
+      ];
+    } else if (isTemporale) {
+      headers = [
+        'litcal_event_key',
+        'name',
+        'eprex_key',
+        'eprex_code',
+        'eprex_short_key',
+        'romcal_key',
+      ];
+    } else {
+      headers = Object.keys(events[0] || { litcal_event_key: '', name: '' });
+    }
+
     const headerRow = `| ${headers.join(' | ')} |`;
     const separatorRow = `| ${headers.map(() => '---').join(' | ')} |`;
     const dataRows = events.map((event) => {
-      const values = isSanctorale
-        ? [event.litcal_event_key, event.name, event.missal || event.decree || '']
-        : headers.map((h) => event[h as keyof LiturgicalEvent] || '');
+      let values: string[];
+      if (isSanctorale) {
+        values = [
+          event.litcal_event_key,
+          event.name,
+          event.missal || event.decree || '',
+          event.eprex_key || '',
+          event.eprex_code || '',
+          event.eprex_short_key || '',
+          event.romcal_key || '',
+        ];
+      } else if (isTemporale) {
+        values = [
+          event.litcal_event_key,
+          event.name,
+          event.eprex_key || '',
+          event.eprex_code || '',
+          event.eprex_short_key || '',
+          event.romcal_key || '',
+        ];
+      } else {
+        values = headers.map((h) => event[h as keyof LiturgicalEvent] || '');
+      }
       return `| ${values.join(' | ')} |`;
     });
 
