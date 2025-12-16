@@ -2,42 +2,74 @@
   {
     "litcal_event_key": "AllSaints",
     "name": "Omnium Sanctorum",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "all_saints",
+    "eprex_code": "1101",
+    "eprex_short_key": "1101",
+    "romcal_key": "all_saints"
   },
   {
     "litcal_event_key": "AllSouls",
     "name": "In Commemoratione Omnium Fidelium Defunctorum",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "all_souls",
+    "eprex_code": "1102",
+    "eprex_short_key": "1102",
+    "romcal_key": "all_souls"
   },
   {
     "litcal_event_key": "Annunciation",
     "name": "In Annuntiatione Domini",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "annunciation",
+    "eprex_code": "0325",
+    "eprex_short_key": "0325",
+    "romcal_key": "annunciation"
   },
   {
     "litcal_event_key": "Assumption",
     "name": "In Assumptione Beatæ Mariæ Virginis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "assumption",
+    "eprex_code": "0815",
+    "eprex_short_key": "0815",
+    "romcal_key": "assumption"
   },
   {
     "litcal_event_key": "BeheadingJohnBaptist",
     "name": "In Passione Sancti Ioannis Baptistæ",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "passion_of_john_the_baptist",
+    "eprex_code": "0829",
+    "eprex_short_key": "0829",
+    "romcal_key": "passion_of_john_the_baptist"
   },
   {
     "litcal_event_key": "ChairStPeter",
     "name": "Cathedræ S. Petri, Apostoli",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "chair_of_peter",
+    "eprex_code": "0222",
+    "eprex_short_key": "0222",
+    "romcal_key": "chair_of_peter"
   },
   {
     "litcal_event_key": "ConversionStPaul",
     "name": "In Conversione Sancti Pauli, Apostoli",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "conversion_of_paul",
+    "eprex_code": "0125",
+    "eprex_short_key": "0125",
+    "romcal_key": "conversion_of_paul"
   },
   {
     "litcal_event_key": "DedicationLateran",
     "name": "In Dedicatione Bascilicæ Lateranensis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "dedication_of_lateran",
+    "eprex_code": "1109",
+    "eprex_short_key": "1109",
+    "romcal_key": "dedication_of_lateran"
   },
   {
     "litcal_event_key": "DedicationStMaryMajor",
@@ -52,7 +84,11 @@
   {
     "litcal_event_key": "ExaltationCross",
     "name": "In Exaltatione Sanctæ Crucis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "exaltation_of_the_cross",
+    "eprex_code": "0914",
+    "eprex_short_key": "0914",
+    "romcal_key": "exaltation_of_the_cross"
   },
   {
     "litcal_event_key": "FirstMartyrsRome",
@@ -62,12 +98,20 @@
   {
     "litcal_event_key": "GuardianAngels",
     "name": "Sanctorum Angelorum Custodum",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "guardian_angels",
+    "eprex_code": "1002",
+    "eprex_short_key": "1002",
+    "romcal_key": "guardian_angels"
   },
   {
     "litcal_event_key": "HolyInnocents",
     "name": "Sanctorum Innocentium, martyrum",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "holy_innocents",
+    "eprex_code": "1228",
+    "eprex_short_key": "1228",
+    "romcal_key": "holy_innocents"
   },
   {
     "litcal_event_key": "HolyNameMary",
@@ -77,7 +121,11 @@
   {
     "litcal_event_key": "ImmaculateConception",
     "name": "In Conceptione Immaculata Beatæ Mariæ Virginis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "immaculate_conception",
+    "eprex_code": "1208",
+    "eprex_short_key": "1208",
+    "romcal_key": "immaculate_conception"
   },
   {
     "litcal_event_key": "JuanDiego",
@@ -92,7 +140,11 @@
   {
     "litcal_event_key": "OurLadyOfLoreto",
     "name": "Beatæ Mariæ Virginis de Loreto",
-    "decree": "2019-10-07 - Prot. N. 404/19"
+    "decree": "2019-10-07 - Prot. N. 404/19",
+    "eprex_key": "our_lady_of_lourdes",
+    "eprex_code": "0211",
+    "eprex_short_key": "0211",
+    "romcal_key": "our_lady_of_lourdes"
   },
   {
     "litcal_event_key": "MaryMotherChurch",
@@ -107,12 +159,20 @@
   {
     "litcal_event_key": "NativityJohnBaptist",
     "name": "In Nativitate Sancti Ioannis Baptistæ",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "nativity_of_john_the_baptist",
+    "eprex_code": "0624",
+    "eprex_short_key": "0624",
+    "romcal_key": "nativity_of_john_the_baptist"
   },
   {
     "litcal_event_key": "NativityVirginMary",
     "name": "In Nativitate Beatæ Mariæ Virginis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "nativity_of_mary",
+    "eprex_code": "0908",
+    "eprex_short_key": "0908",
+    "romcal_key": "nativity_of_mary"
   },
   {
     "litcal_event_key": "OurLadyOfGuadalupe",
@@ -122,7 +182,11 @@
   {
     "litcal_event_key": "OurLadyOfLourdes",
     "name": "Beatæ Mariæ Virginis de Lourdes",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "our_lady_of_sorrows",
+    "eprex_code": "0915",
+    "eprex_short_key": "0915",
+    "romcal_key": "our_lady_of_sorrows"
   },
   {
     "litcal_event_key": "OurLadyOfMountCarmel",
@@ -137,22 +201,38 @@
   {
     "litcal_event_key": "OurLadyOfTheRosary",
     "name": "Beatæ Mariæ Virginis a Rosario",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "our_lady_of_the_rosary",
+    "eprex_code": "1007",
+    "eprex_short_key": "1007",
+    "romcal_key": "our_lady_of_the_rosary"
   },
   {
     "litcal_event_key": "Presentation",
     "name": "In Præsentatione Domini",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "presentation_of_the_lord",
+    "eprex_code": "0202",
+    "eprex_short_key": "0202",
+    "romcal_key": "presentation_of_the_lord"
   },
   {
     "litcal_event_key": "PresentationMary",
     "name": "In Præsentatione Beatæ Mariæ Virginis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "presentation_of_mary",
+    "eprex_code": "1121",
+    "eprex_short_key": "1121",
+    "romcal_key": "presentation_of_mary"
   },
   {
     "litcal_event_key": "QueenshipMary",
     "name": "Beatæ Mariæ Virginis Reginæ",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "queenship_of_mary",
+    "eprex_code": "0822",
+    "eprex_short_key": "0822",
+    "romcal_key": "queenship_of_mary"
   },
   {
     "litcal_event_key": "SevenHolyFounders",
@@ -167,12 +247,20 @@
   {
     "litcal_event_key": "StAgatha",
     "name": "Sanctæ Agathæ, virginis et martyris",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "agatha_virgin_martyr",
+    "eprex_code": "0205",
+    "eprex_short_key": "0205",
+    "romcal_key": "agatha_virgin_martyr"
   },
   {
     "litcal_event_key": "StAgnes",
     "name": "Sanctæ Agnetis, virginis et martyris",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "agnes_virgin_martyr",
+    "eprex_code": "0121",
+    "eprex_short_key": "0121",
+    "romcal_key": "agnes_virgin_martyr"
   },
   {
     "litcal_event_key": "StAlbertGreat",
@@ -197,7 +285,11 @@
   {
     "litcal_event_key": "StAndrewAp",
     "name": "Sancti Andreæ, apostoli",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "andrew_apostle",
+    "eprex_code": "1130",
+    "eprex_short_key": "1130",
+    "romcal_key": "andrew_apostle"
   },
   {
     "litcal_event_key": "StAndrewDungLac",
@@ -212,7 +304,11 @@
   {
     "litcal_event_key": "StAngelaMerici",
     "name": "Sanctæ Angelæ Merici, virginis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "angela_merici",
+    "eprex_code": "0127",
+    "eprex_short_key": "0127",
+    "romcal_key": "angela_merici"
   },
   {
     "litcal_event_key": "StAnselm",
@@ -227,7 +323,11 @@
   {
     "litcal_event_key": "StAnthonyEgypt",
     "name": "Sancti Antonii, abbatis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "anthony_abbot",
+    "eprex_code": "0117",
+    "eprex_short_key": "0117",
+    "romcal_key": "anthony_abbot"
   },
   {
     "litcal_event_key": "StAnthonyMaryClaret",
@@ -272,12 +372,20 @@
   {
     "litcal_event_key": "StBarnabasAp",
     "name": "Sancti Barnabæ, apostoli",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "barnabas_apostle",
+    "eprex_code": "0611",
+    "eprex_short_key": "0611",
+    "romcal_key": "barnabas_apostle"
   },
   {
     "litcal_event_key": "StBartholomewAp",
     "name": "Sancti Bartholomæi, Apostoli",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "bartholomew_apostle",
+    "eprex_code": "0824",
+    "eprex_short_key": "0824",
+    "romcal_key": "bartholomew_apostle"
   },
   {
     "litcal_event_key": "StBedeVenerable",
@@ -317,7 +425,11 @@
   {
     "litcal_event_key": "StBridget",
     "name": "Sanctæ Brigittæ, religiosæ",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "bridget_of_sweden",
+    "eprex_code": "0723",
+    "eprex_short_key": "0723",
+    "romcal_key": "bridget_of_sweden"
   },
   {
     "litcal_event_key": "StBruno",
@@ -352,7 +464,11 @@
   {
     "litcal_event_key": "StCatherineSiena",
     "name": "Sanctæ Catharinæ Senensis, virginis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "catherine_of_siena",
+    "eprex_code": "0429",
+    "eprex_short_key": "0429",
+    "romcal_key": "catherine_of_siena"
   },
   {
     "litcal_event_key": "StCecilia",
@@ -437,7 +553,11 @@
   {
     "litcal_event_key": "StFabianPope",
     "name": "Sancti Fabiani, papæ et martyris",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "fabian_pope_martyr",
+    "eprex_code": "0120",
+    "eprex_short_key": "0120a",
+    "romcal_key": "fabian_pope_martyr"
   },
   {
     "litcal_event_key": "StFaustinaKowalska",
@@ -457,12 +577,20 @@
   {
     "litcal_event_key": "StFrancisAssisi",
     "name": "Sancti Francisci Assisiensis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "francis_of_assisi",
+    "eprex_code": "1004",
+    "eprex_short_key": "1004",
+    "romcal_key": "francis_of_assisi"
   },
   {
     "litcal_event_key": "StFrancisDeSales",
     "name": "Sancti Francisci de Sales, episcopi et Ecclesiæ doctoris",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "francis_de_sales",
+    "eprex_code": "0124",
+    "eprex_short_key": "0124",
+    "romcal_key": "francis_de_sales"
   },
   {
     "litcal_event_key": "StFrancisPaola",
@@ -527,7 +655,11 @@
   {
     "litcal_event_key": "StIgnatiusLoyola",
     "name": "Sancti Ignatii de Loyola, presbyteri",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "ignatius_of_loyola",
+    "eprex_code": "0731",
+    "eprex_short_key": "0731",
+    "romcal_key": "ignatius_of_loyola"
   },
   {
     "litcal_event_key": "StIrenaeus",
@@ -542,7 +674,11 @@
   {
     "litcal_event_key": "StJamesAp",
     "name": "Sancti Iacobi, Apostoli",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "james_apostle",
+    "eprex_code": "0725",
+    "eprex_short_key": "0725",
+    "romcal_key": "james_apostle"
   },
   {
     "litcal_event_key": "StJaneFrancesDeChantal",
@@ -582,7 +718,11 @@
   {
     "litcal_event_key": "StJohnBosco",
     "name": "Sancti Ioannis Bosco, presbyteri",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "john_bosco",
+    "eprex_code": "0131",
+    "eprex_short_key": "0131",
+    "romcal_key": "john_bosco"
   },
   {
     "litcal_event_key": "StJohnCapistrano",
@@ -612,7 +752,11 @@
   {
     "litcal_event_key": "StJohnEvangelist",
     "name": "Sancti Ioannis, apostoli et evangelistæ",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "john_apostle_evangelist",
+    "eprex_code": "1227",
+    "eprex_short_key": "1227",
+    "romcal_key": "john_apostle_evangelist"
   },
   {
     "litcal_event_key": "StJohnGod",
@@ -652,7 +796,11 @@
   {
     "litcal_event_key": "StJoseph",
     "name": "Sancti Ioseph Sponsi Beatæ Mariæ Virginis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "joseph_husband_of_mary",
+    "eprex_code": "0319",
+    "eprex_short_key": "0319",
+    "romcal_key": "joseph_husband_of_mary"
   },
   {
     "litcal_event_key": "StJosephCalasanz",
@@ -667,7 +815,11 @@
   {
     "litcal_event_key": "StJosephWorker",
     "name": "Sancti Ioseph opificis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "joseph_the_worker",
+    "eprex_code": "0501",
+    "eprex_short_key": "0501",
+    "romcal_key": "joseph_the_worker"
   },
   {
     "litcal_event_key": "StJustinMartyr",
@@ -682,7 +834,11 @@
   {
     "litcal_event_key": "StLawrenceDeacon",
     "name": "Sancti Laurentii, diaconi et martyris",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "lawrence_deacon_martyr",
+    "eprex_code": "0810",
+    "eprex_short_key": "0810",
+    "romcal_key": "lawrence_deacon_martyr"
   },
   {
     "litcal_event_key": "StLeoGreat",
@@ -707,7 +863,11 @@
   {
     "litcal_event_key": "StLukeEvangelist",
     "name": "Sancti Lucæ, evangelistæ",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "luke_evangelist",
+    "eprex_code": "1018",
+    "eprex_short_key": "1018",
+    "romcal_key": "luke_evangelist"
   },
   {
     "litcal_event_key": "StMargaretAlacoque",
@@ -727,12 +887,20 @@
   {
     "litcal_event_key": "StMarkEvangelist",
     "name": "Sancti Marci, evangelistæ",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "mark_evangelist",
+    "eprex_code": "0425",
+    "eprex_short_key": "0425",
+    "romcal_key": "mark_evangelist"
   },
   {
     "litcal_event_key": "StMartha",
     "name": "Sanctorum Marthæ, Mariæ et Lazari",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "martha",
+    "eprex_code": "0729",
+    "eprex_short_key": "0729",
+    "romcal_key": "martha"
   },
   {
     "litcal_event_key": "StMartinPope",
@@ -752,7 +920,11 @@
   {
     "litcal_event_key": "StMaryMagdalene",
     "name": "Sanctæ Mariæ Magdalenæ",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "mary_magdalene",
+    "eprex_code": "0722",
+    "eprex_short_key": "0722",
+    "romcal_key": "mary_magdalene"
   },
   {
     "litcal_event_key": "StMaryMagdalenePazzi",
@@ -762,12 +934,20 @@
   {
     "litcal_event_key": "StMatthewEvangelist",
     "name": "Sancti Matthæi, apostoli et evangelistæ",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "matthew_apostle_evangelist",
+    "eprex_code": "0921",
+    "eprex_short_key": "0921",
+    "romcal_key": "matthew_apostle_evangelist"
   },
   {
     "litcal_event_key": "StMatthiasAp",
     "name": "Sancti Matthiæ, Apostoli",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "matthias_apostle",
+    "eprex_code": "0514",
+    "eprex_short_key": "0514",
+    "romcal_key": "matthias_apostle"
   },
   {
     "litcal_event_key": "StMaximilianKolbe",
@@ -872,7 +1052,11 @@
   {
     "litcal_event_key": "StPolycarp",
     "name": "Sancti Polycarpi, episcopi et martyris",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "polycarp_bishop_martyr",
+    "eprex_code": "0223",
+    "eprex_short_key": "0223",
+    "romcal_key": "polycarp_bishop_martyr"
   },
   {
     "litcal_event_key": "StRayPenyafort",
@@ -902,12 +1086,20 @@
   {
     "litcal_event_key": "StsArchangels",
     "name": "Sanctorum Michælis, Gabrielis et Raphælis, archangelorum",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "michael_gabriel_raphael",
+    "eprex_code": "0929",
+    "eprex_short_key": "0929",
+    "romcal_key": "michael_gabriel_raphael"
   },
   {
     "litcal_event_key": "StsBasilGreg",
     "name": "Sancti Basilii Magni et Gregorii Nazianzeni, episcoporum et Ecclesiæ doctorum",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "basil_great_gregory_nazianzen",
+    "eprex_code": "0102",
+    "eprex_short_key": "0102",
+    "romcal_key": "basil_great_gregory_nazianzen"
   },
   {
     "litcal_event_key": "StsCharlesLwanga",
@@ -917,7 +1109,11 @@
   {
     "litcal_event_key": "StScholastica",
     "name": "Sanctæ Scholasticæ, virginis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "scholastica_virgin",
+    "eprex_code": "0210",
+    "eprex_short_key": "0210",
+    "romcal_key": "scholastica_virgin"
   },
   {
     "litcal_event_key": "StsCorneliusCyprian",
@@ -932,12 +1128,20 @@
   {
     "litcal_event_key": "StsCyrilMethodius",
     "name": "Sancti Cyrilli, monachi, et Methodii, episcopi",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "cyril_methodius",
+    "eprex_code": "0214",
+    "eprex_short_key": "0214",
+    "romcal_key": "cyril_methodius"
   },
   {
     "litcal_event_key": "StSebastian",
     "name": "Sancti Sebastiani, martyris",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "sebastian_martyr",
+    "eprex_code": "0120b",
+    "eprex_short_key": "0120b",
+    "romcal_key": "sebastian_martyr"
   },
   {
     "litcal_event_key": "StSharbelMakhluf",
@@ -947,7 +1151,11 @@
   {
     "litcal_event_key": "StSimonStJudeAp",
     "name": "Sanctorum Simonis et Iudæ, apostolorum",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "simon_jude_apostles",
+    "eprex_code": "1028",
+    "eprex_short_key": "1028",
+    "romcal_key": "simon_jude_apostles"
   },
   {
     "litcal_event_key": "StSixtusIIPope",
@@ -962,7 +1170,11 @@
   {
     "litcal_event_key": "StsJoachimAnne",
     "name": "Sanctorum Ioachim et Annæ, parentum beatæ Mariæ Virginis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "joachim_anne",
+    "eprex_code": "0726",
+    "eprex_short_key": "0726",
+    "romcal_key": "joachim_anne"
   },
   {
     "litcal_event_key": "StsJohnFisherThomasMore",
@@ -987,7 +1199,11 @@
   {
     "litcal_event_key": "StsPaulMiki",
     "name": "Sanctorum Pauli Miki et sociorum, martyrum",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "paul_miki_companions",
+    "eprex_code": "0206",
+    "eprex_short_key": "0206",
+    "romcal_key": "paul_miki_companions"
   },
   {
     "litcal_event_key": "StsPerpetuaFelicity",
@@ -997,12 +1213,20 @@
   {
     "litcal_event_key": "StsPeterPaulAp",
     "name": "Sanctorum Petri et Pauli, Apostolorum",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "peter_and_paul_apostles",
+    "eprex_code": "0629",
+    "eprex_short_key": "0629",
+    "romcal_key": "peter_and_paul_apostles"
   },
   {
     "litcal_event_key": "StsPhilipJames",
     "name": "Sanctorum Philippi et Iacobi, Apostolorum",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "philip_james_apostles",
+    "eprex_code": "0503",
+    "eprex_short_key": "0503",
+    "romcal_key": "philip_james_apostles"
   },
   {
     "litcal_event_key": "StsPontianHippolytus",
@@ -1022,22 +1246,38 @@
   {
     "litcal_event_key": "StStephenProtomartyr",
     "name": "Sancti Stephani, protomartyris",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "stephen_first_martyr",
+    "eprex_code": "1226",
+    "eprex_short_key": "1226",
+    "romcal_key": "stephen_first_martyr"
   },
   {
     "litcal_event_key": "StsTimothyTitus",
     "name": "Sanctorum Timothei et Titi, episcoporum",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "timothy_titus_bishops",
+    "eprex_code": "0126",
+    "eprex_short_key": "0126",
+    "romcal_key": "timothy_titus_bishops"
   },
   {
     "litcal_event_key": "StSylvesterIPope",
     "name": "Sancti Silvestri I, papæ",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "sylvester_pope",
+    "eprex_code": "1231",
+    "eprex_short_key": "1231",
+    "romcal_key": "sylvester_pope"
   },
   {
     "litcal_event_key": "StTeresaJesus",
     "name": "Sanctæ Teresiæ de Avila, virginis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "teresa_of_avila",
+    "eprex_code": "1015",
+    "eprex_short_key": "1015",
+    "romcal_key": "teresa_of_avila"
   },
   {
     "litcal_event_key": "StThereseChildJesus",
@@ -1047,12 +1287,20 @@
   {
     "litcal_event_key": "StThomasAp",
     "name": "Sancti Thomæ, Apostoli",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "thomas_apostle",
+    "eprex_code": "0703",
+    "eprex_short_key": "0703",
+    "romcal_key": "thomas_apostle"
   },
   {
     "litcal_event_key": "StThomasAquinas",
     "name": "Sancti Thomæ de Aquino, presbyteri et Ecclesiæ doctoris",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "thomas_aquinas",
+    "eprex_code": "0128",
+    "eprex_short_key": "0128",
+    "romcal_key": "thomas_aquinas"
   },
   {
     "litcal_event_key": "StThomasBecket",
@@ -1067,7 +1315,11 @@
   {
     "litcal_event_key": "StVincentDeacon",
     "name": "Sancti Vincentii, diaconi et martyris",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "vincent_deacon_martyr",
+    "eprex_code": "0122",
+    "eprex_short_key": "0122",
+    "romcal_key": "vincent_deacon_martyr"
   },
   {
     "litcal_event_key": "StVincentDePaul",
@@ -1087,11 +1339,19 @@
   {
     "litcal_event_key": "Transfiguration",
     "name": "In Transfiguratione Domini",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "transfiguration",
+    "eprex_code": "0806",
+    "eprex_short_key": "0806",
+    "romcal_key": "transfiguration"
   },
   {
     "litcal_event_key": "Visitation",
     "name": "In Visitatione Beatæ Mariæ Virginis",
-    "missal": "missale_romanum_1970"
+    "missal": "missale_romanum_1970",
+    "eprex_key": "visitation",
+    "eprex_code": "0531",
+    "eprex_short_key": "0531",
+    "romcal_key": "visitation"
   }
 ]
