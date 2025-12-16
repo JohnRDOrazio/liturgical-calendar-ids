@@ -28,6 +28,10 @@ src/
   *.json                  # Source data with litcal_event_key, name, and missal/decree
   *.md                    # Generated markdown documentation
   liturgical_events.md    # Combined table of all events
+eprex/
+  sanctorale.ts           # Source data from liturgy_ids_eprex project
+  temporale.ts            # Source data from liturgy_ids_eprex project
+  sanctorale_missing_keys.json  # Entries without eprex mappings
 ```
 
 ## Installation
@@ -43,6 +47,7 @@ bun install
 | `bun run generate`          | Generate individual markdown files from JSON sources    |
 | `bun run generate:combined` | Generate unified `liturgical_events.md` with all events |
 | `bun run sort`              | Sort JSON files by number and day of week               |
+| `bun run merge:sanctorale`  | Merge eprex sanctorale data into sanctorale.json        |
 | `bun run format:md`         | Format markdown tables with Prettier                    |
 | `bun run lint:md`           | Lint markdown files                                     |
 | `bun run lint:md:fix`       | Lint and auto-fix markdown issues                       |
@@ -77,6 +82,30 @@ Sanctorale entries include a `missal` or `decree` field indicating the source:
   "decree": "2014-05-29 - Prot. N. 309/14"
 }
 ```
+
+## External ID Mappings
+
+Sanctorale entries may include external ID mappings from the [liturgy_ids_eprex](https://github.com/eprex/liturgy_ids_eprex) project:
+
+```json
+{
+  "litcal_event_key": "StJoseph",
+  "name": "Sancti Ioseph Sponsi Beatæ Mariæ Virginis",
+  "missal": "missale_romanum_1970",
+  "eprex_key": "joseph_husband_of_mary",
+  "eprex_code": "0319",
+  "eprex_short_key": "0319",
+  "romcal_key": "joseph_husband_of_mary"
+}
+```
+
+**Notes on external ID fields:**
+
+- `eprex_code` follows MMDD date format consistently (e.g., `0319` for March 19)
+- Entries with multiple feasts on the same day use suffixes (e.g., `0120a`, `0120b`)
+- `eprex_key` and `romcal_key` values are identical in all mapped entries
+
+The `eprex/sanctorale_missing_keys.json` file tracks sanctorale entries that do not yet have external ID mappings.
 
 ## Special cases
 
