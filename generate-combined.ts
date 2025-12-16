@@ -4,14 +4,14 @@ const SRC_DIR = './src';
 const OUTPUT_FILE = './src/liturgical_events.md';
 
 interface LiturgicalEvent {
-  event_key: string;
+  litcal_event_key: string;
   name: string;
   missal?: string;
   decree?: string;
 }
 
 interface CombinedEvent {
-  event_key: string;
+  litcal_event_key: string;
   name: string;
   missal: string;
   source: string;
@@ -40,7 +40,7 @@ async function generateCombinedMarkdown(): Promise<void> {
       }
 
       allEvents.push({
-        event_key: event.event_key,
+        litcal_event_key: event.litcal_event_key,
         name: event.name,
         missal,
         source: basename,
@@ -48,11 +48,11 @@ async function generateCombinedMarkdown(): Promise<void> {
     }
   }
 
-  const headers = ['event_key', 'name', 'missal', 'temporale/sanctorale'];
+  const headers = ['litcal_event_key', 'name', 'missal', 'temporale/sanctorale'];
   const headerRow = `| ${headers.join(' | ')} |`;
   const separatorRow = `| ${headers.map(() => '---').join(' | ')} |`;
   const dataRows = allEvents.map(
-    (event) => `| ${event.event_key} | ${event.name} | ${event.missal} | ${event.source} |`
+    (event) => `| ${event.litcal_event_key} | ${event.name} | ${event.missal} | ${event.source} |`
   );
 
   const markdown = [

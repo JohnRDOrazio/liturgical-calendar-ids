@@ -3,7 +3,7 @@ import { Glob } from 'bun';
 const SRC_DIR = './src';
 
 interface LiturgicalEvent {
-  event_key: string;
+  litcal_event_key: string;
   name: string;
   missal?: string;
   decree?: string;
@@ -29,13 +29,13 @@ async function generateMarkdownFiles(): Promise<void> {
 
     const isSanctorale = basename === 'sanctorale';
     const headers = isSanctorale
-      ? ['event_key', 'name', 'missal/decree']
-      : Object.keys(events[0] || { event_key: '', name: '' });
+      ? ['litcal_event_key', 'name', 'missal/decree']
+      : Object.keys(events[0] || { litcal_event_key: '', name: '' });
     const headerRow = `| ${headers.join(' | ')} |`;
     const separatorRow = `| ${headers.map(() => '---').join(' | ')} |`;
     const dataRows = events.map((event) => {
       const values = isSanctorale
-        ? [event.event_key, event.name, event.missal || event.decree || '']
+        ? [event.litcal_event_key, event.name, event.missal || event.decree || '']
         : headers.map((h) => event[h as keyof LiturgicalEvent] || '');
       return `| ${values.join(' | ')} |`;
     });

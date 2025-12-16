@@ -7,6 +7,7 @@
     "generate": "bun index.ts",
     "generate:combined": "bun generate-combined.ts",
     "sort": "bun sort-json.ts",
+    "merge:sanctorale": "tsx merge-sanctorale.ts",
     "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
     "lint:md:fix": "markdownlint-cli2 --fix \"**/*.md\" \"#node_modules\"",
     "format:md": "prettier --write \"**/*.md\" --ignore-path .gitignore"
@@ -14,9 +15,8 @@
   "devDependencies": {
     "@types/bun": "latest",
     "markdownlint-cli2": "^0.19.1",
-    "prettier": "^3.7.4"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
+    "prettier": "^3.7.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   }
 }

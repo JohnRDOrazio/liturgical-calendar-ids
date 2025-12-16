@@ -1,818 +1,818 @@
 [
   {
-    "event_key": "OrdWeekday1Monday",
+    "litcal_event_key": "OrdWeekday1Monday",
     "name": "Feria II Hebdomadæ Primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday1Tuesday",
+    "litcal_event_key": "OrdWeekday1Tuesday",
     "name": "Feria III Hebdomadæ Primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday1Wednesday",
+    "litcal_event_key": "OrdWeekday1Wednesday",
     "name": "Feria IV Hebdomadæ Primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday1Thursday",
+    "litcal_event_key": "OrdWeekday1Thursday",
     "name": "Feria V Hebdomadæ Primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday1Friday",
+    "litcal_event_key": "OrdWeekday1Friday",
     "name": "Feria VI Hebdomadæ Primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday1Saturday",
+    "litcal_event_key": "OrdWeekday1Saturday",
     "name": "Sabbato Hebdomadæ Primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday2Monday",
+    "litcal_event_key": "OrdWeekday2Monday",
     "name": "Feria II Hebdomadæ Secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday2Tuesday",
+    "litcal_event_key": "OrdWeekday2Tuesday",
     "name": "Feria III Hebdomadæ Secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday2Wednesday",
+    "litcal_event_key": "OrdWeekday2Wednesday",
     "name": "Feria IV Hebdomadæ Secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday2Thursday",
+    "litcal_event_key": "OrdWeekday2Thursday",
     "name": "Feria V Hebdomadæ Secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday2Friday",
+    "litcal_event_key": "OrdWeekday2Friday",
     "name": "Feria VI Hebdomadæ Secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday2Saturday",
+    "litcal_event_key": "OrdWeekday2Saturday",
     "name": "Sabbato Hebdomadæ Secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday3Monday",
+    "litcal_event_key": "OrdWeekday3Monday",
     "name": "Feria II Hebdomadæ Tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday3Tuesday",
+    "litcal_event_key": "OrdWeekday3Tuesday",
     "name": "Feria III Hebdomadæ Tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday3Wednesday",
+    "litcal_event_key": "OrdWeekday3Wednesday",
     "name": "Feria IV Hebdomadæ Tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday3Thursday",
+    "litcal_event_key": "OrdWeekday3Thursday",
     "name": "Feria V Hebdomadæ Tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday3Friday",
+    "litcal_event_key": "OrdWeekday3Friday",
     "name": "Feria VI Hebdomadæ Tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday3Saturday",
+    "litcal_event_key": "OrdWeekday3Saturday",
     "name": "Sabbato Hebdomadæ Tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday4Monday",
+    "litcal_event_key": "OrdWeekday4Monday",
     "name": "Feria II Hebdomadæ Quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday4Tuesday",
+    "litcal_event_key": "OrdWeekday4Tuesday",
     "name": "Feria III Hebdomadæ Quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday4Wednesday",
+    "litcal_event_key": "OrdWeekday4Wednesday",
     "name": "Feria IV Hebdomadæ Quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday4Thursday",
+    "litcal_event_key": "OrdWeekday4Thursday",
     "name": "Feria V Hebdomadæ Quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday4Friday",
+    "litcal_event_key": "OrdWeekday4Friday",
     "name": "Feria VI Hebdomadæ Quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday4Saturday",
+    "litcal_event_key": "OrdWeekday4Saturday",
     "name": "Sabbato Hebdomadæ Quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday5Monday",
+    "litcal_event_key": "OrdWeekday5Monday",
     "name": "Feria II Hebdomadæ Quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday5Tuesday",
+    "litcal_event_key": "OrdWeekday5Tuesday",
     "name": "Feria III Hebdomadæ Quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday5Wednesday",
+    "litcal_event_key": "OrdWeekday5Wednesday",
     "name": "Feria IV Hebdomadæ Quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday5Thursday",
+    "litcal_event_key": "OrdWeekday5Thursday",
     "name": "Feria V Hebdomadæ Quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday5Friday",
+    "litcal_event_key": "OrdWeekday5Friday",
     "name": "Feria VI Hebdomadæ Quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday5Saturday",
+    "litcal_event_key": "OrdWeekday5Saturday",
     "name": "Sabbato Hebdomadæ Quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday6Monday",
+    "litcal_event_key": "OrdWeekday6Monday",
     "name": "Feria II Hebdomadæ Sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday6Tuesday",
+    "litcal_event_key": "OrdWeekday6Tuesday",
     "name": "Feria III Hebdomadæ Sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday6Wednesday",
+    "litcal_event_key": "OrdWeekday6Wednesday",
     "name": "Feria IV Hebdomadæ Sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday6Thursday",
+    "litcal_event_key": "OrdWeekday6Thursday",
     "name": "Feria V Hebdomadæ Sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday6Friday",
+    "litcal_event_key": "OrdWeekday6Friday",
     "name": "Feria VI Hebdomadæ Sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday6Saturday",
+    "litcal_event_key": "OrdWeekday6Saturday",
     "name": "Sabbato Hebdomadæ Sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday7Monday",
+    "litcal_event_key": "OrdWeekday7Monday",
     "name": "Feria II Hebdomadæ Septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday7Tuesday",
+    "litcal_event_key": "OrdWeekday7Tuesday",
     "name": "Feria III Hebdomadæ Septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday7Wednesday",
+    "litcal_event_key": "OrdWeekday7Wednesday",
     "name": "Feria IV Hebdomadæ Septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday7Thursday",
+    "litcal_event_key": "OrdWeekday7Thursday",
     "name": "Feria V Hebdomadæ Septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday7Friday",
+    "litcal_event_key": "OrdWeekday7Friday",
     "name": "Feria VI Hebdomadæ Septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday7Saturday",
+    "litcal_event_key": "OrdWeekday7Saturday",
     "name": "Sabbato Hebdomadæ Septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday8Monday",
+    "litcal_event_key": "OrdWeekday8Monday",
     "name": "Feria II Hebdomadæ Octavæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday8Tuesday",
+    "litcal_event_key": "OrdWeekday8Tuesday",
     "name": "Feria III Hebdomadæ Octavæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday8Wednesday",
+    "litcal_event_key": "OrdWeekday8Wednesday",
     "name": "Feria IV Hebdomadæ Octavæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday8Thursday",
+    "litcal_event_key": "OrdWeekday8Thursday",
     "name": "Feria V Hebdomadæ Octavæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday8Friday",
+    "litcal_event_key": "OrdWeekday8Friday",
     "name": "Feria VI Hebdomadæ Octavæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday8Saturday",
+    "litcal_event_key": "OrdWeekday8Saturday",
     "name": "Sabbato Hebdomadæ Octavæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday9Monday",
+    "litcal_event_key": "OrdWeekday9Monday",
     "name": "Feria II Hebdomadæ Nonæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday9Tuesday",
+    "litcal_event_key": "OrdWeekday9Tuesday",
     "name": "Feria III Hebdomadæ Nonæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday9Wednesday",
+    "litcal_event_key": "OrdWeekday9Wednesday",
     "name": "Feria IV Hebdomadæ Nonæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday9Thursday",
+    "litcal_event_key": "OrdWeekday9Thursday",
     "name": "Feria V Hebdomadæ Nonæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday9Friday",
+    "litcal_event_key": "OrdWeekday9Friday",
     "name": "Feria VI Hebdomadæ Nonæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday9Saturday",
+    "litcal_event_key": "OrdWeekday9Saturday",
     "name": "Sabbato Hebdomadæ Nonæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday10Monday",
+    "litcal_event_key": "OrdWeekday10Monday",
     "name": "Feria II Hebdomadæ Decimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday10Tuesday",
+    "litcal_event_key": "OrdWeekday10Tuesday",
     "name": "Feria III Hebdomadæ Decimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday10Wednesday",
+    "litcal_event_key": "OrdWeekday10Wednesday",
     "name": "Feria IV Hebdomadæ Decimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday10Thursday",
+    "litcal_event_key": "OrdWeekday10Thursday",
     "name": "Feria V Hebdomadæ Decimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday10Friday",
+    "litcal_event_key": "OrdWeekday10Friday",
     "name": "Feria VI Hebdomadæ Decimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday10Saturday",
+    "litcal_event_key": "OrdWeekday10Saturday",
     "name": "Sabbato Hebdomadæ Decimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday11Monday",
+    "litcal_event_key": "OrdWeekday11Monday",
     "name": "Feria II Hebdomadæ Undecimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday11Tuesday",
+    "litcal_event_key": "OrdWeekday11Tuesday",
     "name": "Feria III Hebdomadæ Undecimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday11Wednesday",
+    "litcal_event_key": "OrdWeekday11Wednesday",
     "name": "Feria IV Hebdomadæ Undecimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday11Thursday",
+    "litcal_event_key": "OrdWeekday11Thursday",
     "name": "Feria V Hebdomadæ Undecimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday11Friday",
+    "litcal_event_key": "OrdWeekday11Friday",
     "name": "Feria VI Hebdomadæ Undecimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday11Saturday",
+    "litcal_event_key": "OrdWeekday11Saturday",
     "name": "Sabbato Hebdomadæ Undecimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday12Monday",
+    "litcal_event_key": "OrdWeekday12Monday",
     "name": "Feria II Hebdomadæ Duodecimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday12Tuesday",
+    "litcal_event_key": "OrdWeekday12Tuesday",
     "name": "Feria III Hebdomadæ Duodecimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday12Wednesday",
+    "litcal_event_key": "OrdWeekday12Wednesday",
     "name": "Feria IV Hebdomadæ Duodecimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday12Thursday",
+    "litcal_event_key": "OrdWeekday12Thursday",
     "name": "Feria V Hebdomadæ Duodecimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday12Friday",
+    "litcal_event_key": "OrdWeekday12Friday",
     "name": "Feria VI Hebdomadæ Duodecimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday12Saturday",
+    "litcal_event_key": "OrdWeekday12Saturday",
     "name": "Sabbato Hebdomadæ Duodecimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday13Monday",
+    "litcal_event_key": "OrdWeekday13Monday",
     "name": "Feria II Hebdomadæ Decimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday13Tuesday",
+    "litcal_event_key": "OrdWeekday13Tuesday",
     "name": "Feria III Hebdomadæ Decimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday13Wednesday",
+    "litcal_event_key": "OrdWeekday13Wednesday",
     "name": "Feria IV Hebdomadæ Decimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday13Thursday",
+    "litcal_event_key": "OrdWeekday13Thursday",
     "name": "Feria V Hebdomadæ Decimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday13Friday",
+    "litcal_event_key": "OrdWeekday13Friday",
     "name": "Feria VI Hebdomadæ Decimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday13Saturday",
+    "litcal_event_key": "OrdWeekday13Saturday",
     "name": "Sabbato Hebdomadæ Decimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday14Monday",
+    "litcal_event_key": "OrdWeekday14Monday",
     "name": "Feria II Hebdomadæ Decimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday14Tuesday",
+    "litcal_event_key": "OrdWeekday14Tuesday",
     "name": "Feria III Hebdomadæ Decimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday14Wednesday",
+    "litcal_event_key": "OrdWeekday14Wednesday",
     "name": "Feria IV Hebdomadæ Decimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday14Thursday",
+    "litcal_event_key": "OrdWeekday14Thursday",
     "name": "Feria V Hebdomadæ Decimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday14Friday",
+    "litcal_event_key": "OrdWeekday14Friday",
     "name": "Feria VI Hebdomadæ Decimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday14Saturday",
+    "litcal_event_key": "OrdWeekday14Saturday",
     "name": "Sabbato Hebdomadæ Decimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday15Monday",
+    "litcal_event_key": "OrdWeekday15Monday",
     "name": "Feria II Hebdomadæ Decimæ quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday15Tuesday",
+    "litcal_event_key": "OrdWeekday15Tuesday",
     "name": "Feria III Hebdomadæ Decimæ quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday15Wednesday",
+    "litcal_event_key": "OrdWeekday15Wednesday",
     "name": "Feria IV Hebdomadæ Decimæ quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday15Thursday",
+    "litcal_event_key": "OrdWeekday15Thursday",
     "name": "Feria V Hebdomadæ Decimæ quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday15Friday",
+    "litcal_event_key": "OrdWeekday15Friday",
     "name": "Feria VI Hebdomadæ Decimæ quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday15Saturday",
+    "litcal_event_key": "OrdWeekday15Saturday",
     "name": "Sabbato Hebdomadæ Decimæ quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday16Monday",
+    "litcal_event_key": "OrdWeekday16Monday",
     "name": "Feria II Hebdomadæ Decimæ sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday16Tuesday",
+    "litcal_event_key": "OrdWeekday16Tuesday",
     "name": "Feria III Hebdomadæ Decimæ sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday16Wednesday",
+    "litcal_event_key": "OrdWeekday16Wednesday",
     "name": "Feria IV Hebdomadæ Decimæ sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday16Thursday",
+    "litcal_event_key": "OrdWeekday16Thursday",
     "name": "Feria V Hebdomadæ Decimæ sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday16Friday",
+    "litcal_event_key": "OrdWeekday16Friday",
     "name": "Feria VI Hebdomadæ Decimæ sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday16Saturday",
+    "litcal_event_key": "OrdWeekday16Saturday",
     "name": "Sabbato Hebdomadæ Decimæ sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday17Monday",
+    "litcal_event_key": "OrdWeekday17Monday",
     "name": "Feria II Hebdomadæ Decimæ septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday17Tuesday",
+    "litcal_event_key": "OrdWeekday17Tuesday",
     "name": "Feria III Hebdomadæ Decimæ septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday17Wednesday",
+    "litcal_event_key": "OrdWeekday17Wednesday",
     "name": "Feria IV Hebdomadæ Decimæ septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday17Thursday",
+    "litcal_event_key": "OrdWeekday17Thursday",
     "name": "Feria V Hebdomadæ Decimæ septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday17Friday",
+    "litcal_event_key": "OrdWeekday17Friday",
     "name": "Feria VI Hebdomadæ Decimæ septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday17Saturday",
+    "litcal_event_key": "OrdWeekday17Saturday",
     "name": "Sabbato Hebdomadæ Decimæ septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday18Monday",
+    "litcal_event_key": "OrdWeekday18Monday",
     "name": "Feria II Hebdomadæ Duodevicesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday18Tuesday",
+    "litcal_event_key": "OrdWeekday18Tuesday",
     "name": "Feria III Hebdomadæ Duodevicesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday18Wednesday",
+    "litcal_event_key": "OrdWeekday18Wednesday",
     "name": "Feria IV Hebdomadæ Duodevicesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday18Thursday",
+    "litcal_event_key": "OrdWeekday18Thursday",
     "name": "Feria V Hebdomadæ Duodevicesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday18Friday",
+    "litcal_event_key": "OrdWeekday18Friday",
     "name": "Feria VI Hebdomadæ Duodevicesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday18Saturday",
+    "litcal_event_key": "OrdWeekday18Saturday",
     "name": "Sabbato Hebdomadæ Duodevicesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday19Monday",
+    "litcal_event_key": "OrdWeekday19Monday",
     "name": "Feria II Hebdomadæ Undevicesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday19Tuesday",
+    "litcal_event_key": "OrdWeekday19Tuesday",
     "name": "Feria III Hebdomadæ Undevicesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday19Wednesday",
+    "litcal_event_key": "OrdWeekday19Wednesday",
     "name": "Feria IV Hebdomadæ Undevicesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday19Thursday",
+    "litcal_event_key": "OrdWeekday19Thursday",
     "name": "Feria V Hebdomadæ Undevicesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday19Friday",
+    "litcal_event_key": "OrdWeekday19Friday",
     "name": "Feria VI Hebdomadæ Undevicesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday19Saturday",
+    "litcal_event_key": "OrdWeekday19Saturday",
     "name": "Sabbato Hebdomadæ Undevicesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday20Monday",
+    "litcal_event_key": "OrdWeekday20Monday",
     "name": "Feria II Hebdomadæ Vigesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday20Tuesday",
+    "litcal_event_key": "OrdWeekday20Tuesday",
     "name": "Feria III Hebdomadæ Vigesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday20Wednesday",
+    "litcal_event_key": "OrdWeekday20Wednesday",
     "name": "Feria IV Hebdomadæ Vigesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday20Thursday",
+    "litcal_event_key": "OrdWeekday20Thursday",
     "name": "Feria V Hebdomadæ Vigesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday20Friday",
+    "litcal_event_key": "OrdWeekday20Friday",
     "name": "Feria VI Hebdomadæ Vigesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday20Saturday",
+    "litcal_event_key": "OrdWeekday20Saturday",
     "name": "Sabbato Hebdomadæ Vigesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday21Monday",
+    "litcal_event_key": "OrdWeekday21Monday",
     "name": "Feria II Hebdomadæ Vigesimæ primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday21Tuesday",
+    "litcal_event_key": "OrdWeekday21Tuesday",
     "name": "Feria III Hebdomadæ Vigesimæ primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday21Wednesday",
+    "litcal_event_key": "OrdWeekday21Wednesday",
     "name": "Feria IV Hebdomadæ Vigesimæ primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday21Thursday",
+    "litcal_event_key": "OrdWeekday21Thursday",
     "name": "Feria V Hebdomadæ Vigesimæ primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday21Friday",
+    "litcal_event_key": "OrdWeekday21Friday",
     "name": "Feria VI Hebdomadæ Vigesimæ primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday21Saturday",
+    "litcal_event_key": "OrdWeekday21Saturday",
     "name": "Sabbato Hebdomadæ Vigesimæ primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday22Monday",
+    "litcal_event_key": "OrdWeekday22Monday",
     "name": "Feria II Hebdomadæ Vigesimæ secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday22Tuesday",
+    "litcal_event_key": "OrdWeekday22Tuesday",
     "name": "Feria III Hebdomadæ Vigesimæ secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday22Wednesday",
+    "litcal_event_key": "OrdWeekday22Wednesday",
     "name": "Feria IV Hebdomadæ Vigesimæ secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday22Thursday",
+    "litcal_event_key": "OrdWeekday22Thursday",
     "name": "Feria V Hebdomadæ Vigesimæ secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday22Friday",
+    "litcal_event_key": "OrdWeekday22Friday",
     "name": "Feria VI Hebdomadæ Vigesimæ secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday22Saturday",
+    "litcal_event_key": "OrdWeekday22Saturday",
     "name": "Sabbato Hebdomadæ Vigesimæ secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday23Monday",
+    "litcal_event_key": "OrdWeekday23Monday",
     "name": "Feria II Hebdomadæ Vigesimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday23Tuesday",
+    "litcal_event_key": "OrdWeekday23Tuesday",
     "name": "Feria III Hebdomadæ Vigesimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday23Wednesday",
+    "litcal_event_key": "OrdWeekday23Wednesday",
     "name": "Feria IV Hebdomadæ Vigesimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday23Thursday",
+    "litcal_event_key": "OrdWeekday23Thursday",
     "name": "Feria V Hebdomadæ Vigesimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday23Friday",
+    "litcal_event_key": "OrdWeekday23Friday",
     "name": "Feria VI Hebdomadæ Vigesimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday23Saturday",
+    "litcal_event_key": "OrdWeekday23Saturday",
     "name": "Sabbato Hebdomadæ Vigesimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday24Monday",
+    "litcal_event_key": "OrdWeekday24Monday",
     "name": "Feria II Hebdomadæ Vigesimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday24Tuesday",
+    "litcal_event_key": "OrdWeekday24Tuesday",
     "name": "Feria III Hebdomadæ Vigesimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday24Wednesday",
+    "litcal_event_key": "OrdWeekday24Wednesday",
     "name": "Feria IV Hebdomadæ Vigesimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday24Thursday",
+    "litcal_event_key": "OrdWeekday24Thursday",
     "name": "Feria V Hebdomadæ Vigesimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday24Friday",
+    "litcal_event_key": "OrdWeekday24Friday",
     "name": "Feria VI Hebdomadæ Vigesimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday24Saturday",
+    "litcal_event_key": "OrdWeekday24Saturday",
     "name": "Sabbato Hebdomadæ Vigesimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday25Monday",
+    "litcal_event_key": "OrdWeekday25Monday",
     "name": "Feria II Hebdomadæ Vigesimæ quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday25Tuesday",
+    "litcal_event_key": "OrdWeekday25Tuesday",
     "name": "Feria III Hebdomadæ Vigesimæ quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday25Wednesday",
+    "litcal_event_key": "OrdWeekday25Wednesday",
     "name": "Feria IV Hebdomadæ Vigesimæ quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday25Thursday",
+    "litcal_event_key": "OrdWeekday25Thursday",
     "name": "Feria V Hebdomadæ Vigesimæ quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday25Friday",
+    "litcal_event_key": "OrdWeekday25Friday",
     "name": "Feria VI Hebdomadæ Vigesimæ quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday25Saturday",
+    "litcal_event_key": "OrdWeekday25Saturday",
     "name": "Sabbato Hebdomadæ Vigesimæ quintæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday26Monday",
+    "litcal_event_key": "OrdWeekday26Monday",
     "name": "Feria II Hebdomadæ Vigesimæ sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday26Tuesday",
+    "litcal_event_key": "OrdWeekday26Tuesday",
     "name": "Feria III Hebdomadæ Vigesimæ sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday26Wednesday",
+    "litcal_event_key": "OrdWeekday26Wednesday",
     "name": "Feria IV Hebdomadæ Vigesimæ sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday26Thursday",
+    "litcal_event_key": "OrdWeekday26Thursday",
     "name": "Feria V Hebdomadæ Vigesimæ sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday26Friday",
+    "litcal_event_key": "OrdWeekday26Friday",
     "name": "Feria VI Hebdomadæ Vigesimæ sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday26Saturday",
+    "litcal_event_key": "OrdWeekday26Saturday",
     "name": "Sabbato Hebdomadæ Vigesimæ sextæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday27Monday",
+    "litcal_event_key": "OrdWeekday27Monday",
     "name": "Feria II Hebdomadæ Vigesimæ septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday27Tuesday",
+    "litcal_event_key": "OrdWeekday27Tuesday",
     "name": "Feria III Hebdomadæ Vigesimæ septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday27Wednesday",
+    "litcal_event_key": "OrdWeekday27Wednesday",
     "name": "Feria IV Hebdomadæ Vigesimæ septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday27Thursday",
+    "litcal_event_key": "OrdWeekday27Thursday",
     "name": "Feria V Hebdomadæ Vigesimæ septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday27Friday",
+    "litcal_event_key": "OrdWeekday27Friday",
     "name": "Feria VI Hebdomadæ Vigesimæ septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday27Saturday",
+    "litcal_event_key": "OrdWeekday27Saturday",
     "name": "Sabbato Hebdomadæ Vigesimæ septimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday28Monday",
+    "litcal_event_key": "OrdWeekday28Monday",
     "name": "Feria II Hebdomadæ Vigesimæ octavæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday28Tuesday",
+    "litcal_event_key": "OrdWeekday28Tuesday",
     "name": "Feria III Hebdomadæ Vigesimæ octavæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday28Wednesday",
+    "litcal_event_key": "OrdWeekday28Wednesday",
     "name": "Feria IV Hebdomadæ Vigesimæ octavæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday28Thursday",
+    "litcal_event_key": "OrdWeekday28Thursday",
     "name": "Feria V Hebdomadæ Vigesimæ octavæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday28Friday",
+    "litcal_event_key": "OrdWeekday28Friday",
     "name": "Feria VI Hebdomadæ Vigesimæ octavæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday28Saturday",
+    "litcal_event_key": "OrdWeekday28Saturday",
     "name": "Sabbato Hebdomadæ Vigesimæ octavæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday29Monday",
+    "litcal_event_key": "OrdWeekday29Monday",
     "name": "Feria II Hebdomadæ Vigesimæ nonæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday29Tuesday",
+    "litcal_event_key": "OrdWeekday29Tuesday",
     "name": "Feria III Hebdomadæ Vigesimæ nonæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday29Wednesday",
+    "litcal_event_key": "OrdWeekday29Wednesday",
     "name": "Feria IV Hebdomadæ Vigesimæ nonæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday29Thursday",
+    "litcal_event_key": "OrdWeekday29Thursday",
     "name": "Feria V Hebdomadæ Vigesimæ nonæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday29Friday",
+    "litcal_event_key": "OrdWeekday29Friday",
     "name": "Feria VI Hebdomadæ Vigesimæ nonæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday29Saturday",
+    "litcal_event_key": "OrdWeekday29Saturday",
     "name": "Sabbato Hebdomadæ Vigesimæ nonæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday30Monday",
+    "litcal_event_key": "OrdWeekday30Monday",
     "name": "Feria II Hebdomadæ Trigesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday30Tuesday",
+    "litcal_event_key": "OrdWeekday30Tuesday",
     "name": "Feria III Hebdomadæ Trigesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday30Wednesday",
+    "litcal_event_key": "OrdWeekday30Wednesday",
     "name": "Feria IV Hebdomadæ Trigesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday30Thursday",
+    "litcal_event_key": "OrdWeekday30Thursday",
     "name": "Feria V Hebdomadæ Trigesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday30Friday",
+    "litcal_event_key": "OrdWeekday30Friday",
     "name": "Feria VI Hebdomadæ Trigesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday30Saturday",
+    "litcal_event_key": "OrdWeekday30Saturday",
     "name": "Sabbato Hebdomadæ Trigesimæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday31Monday",
+    "litcal_event_key": "OrdWeekday31Monday",
     "name": "Feria II Hebdomadæ Trigesimæ primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday31Tuesday",
+    "litcal_event_key": "OrdWeekday31Tuesday",
     "name": "Feria III Hebdomadæ Trigesimæ primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday31Wednesday",
+    "litcal_event_key": "OrdWeekday31Wednesday",
     "name": "Feria IV Hebdomadæ Trigesimæ primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday31Thursday",
+    "litcal_event_key": "OrdWeekday31Thursday",
     "name": "Feria V Hebdomadæ Trigesimæ primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday31Friday",
+    "litcal_event_key": "OrdWeekday31Friday",
     "name": "Feria VI Hebdomadæ Trigesimæ primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday31Saturday",
+    "litcal_event_key": "OrdWeekday31Saturday",
     "name": "Sabbato Hebdomadæ Trigesimæ primæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday32Monday",
+    "litcal_event_key": "OrdWeekday32Monday",
     "name": "Feria II Hebdomadæ Trigesimæ secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday32Tuesday",
+    "litcal_event_key": "OrdWeekday32Tuesday",
     "name": "Feria III Hebdomadæ Trigesimæ secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday32Wednesday",
+    "litcal_event_key": "OrdWeekday32Wednesday",
     "name": "Feria IV Hebdomadæ Trigesimæ secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday32Thursday",
+    "litcal_event_key": "OrdWeekday32Thursday",
     "name": "Feria V Hebdomadæ Trigesimæ secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday32Friday",
+    "litcal_event_key": "OrdWeekday32Friday",
     "name": "Feria VI Hebdomadæ Trigesimæ secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday32Saturday",
+    "litcal_event_key": "OrdWeekday32Saturday",
     "name": "Sabbato Hebdomadæ Trigesimæ secundæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday33Monday",
+    "litcal_event_key": "OrdWeekday33Monday",
     "name": "Feria II Hebdomadæ Trigesimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday33Tuesday",
+    "litcal_event_key": "OrdWeekday33Tuesday",
     "name": "Feria III Hebdomadæ Trigesimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday33Wednesday",
+    "litcal_event_key": "OrdWeekday33Wednesday",
     "name": "Feria IV Hebdomadæ Trigesimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday33Thursday",
+    "litcal_event_key": "OrdWeekday33Thursday",
     "name": "Feria V Hebdomadæ Trigesimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday33Friday",
+    "litcal_event_key": "OrdWeekday33Friday",
     "name": "Feria VI Hebdomadæ Trigesimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday33Saturday",
+    "litcal_event_key": "OrdWeekday33Saturday",
     "name": "Sabbato Hebdomadæ Trigesimæ tertiæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday34Monday",
+    "litcal_event_key": "OrdWeekday34Monday",
     "name": "Feria II Hebdomadæ Trigesimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday34Tuesday",
+    "litcal_event_key": "OrdWeekday34Tuesday",
     "name": "Feria III Hebdomadæ Trigesimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday34Wednesday",
+    "litcal_event_key": "OrdWeekday34Wednesday",
     "name": "Feria IV Hebdomadæ Trigesimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday34Thursday",
+    "litcal_event_key": "OrdWeekday34Thursday",
     "name": "Feria V Hebdomadæ Trigesimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday34Friday",
+    "litcal_event_key": "OrdWeekday34Friday",
     "name": "Feria VI Hebdomadæ Trigesimæ quartæ Temporis Ordinarii"
   },
   {
-    "event_key": "OrdWeekday34Saturday",
+    "litcal_event_key": "OrdWeekday34Saturday",
     "name": "Sabbato Hebdomadæ Trigesimæ quartæ Temporis Ordinarii"
   }
 ]
