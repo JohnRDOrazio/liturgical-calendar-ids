@@ -2,41 +2,18 @@
  * Script to merge eprex sanctorale data into the liturgy_ids sanctorale.json
  */
 
-import { readFileSync, writeFileSync, unlinkSync, existsSync } from 'fs';
+import { existsSync } from 'fs';
 import * as ts from 'typescript';
-
-// Helper function to read a file with error handling
-function safeReadFileSync(filePath: string): string {
-  try {
-    return readFileSync(filePath, 'utf-8');
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error(`Error reading file '${filePath}': ${message}`);
-    process.exit(1);
-  }
-}
-
-// Helper function to write a file with error handling
-function safeWriteFileSync(filePath: string, content: string): void {
-  try {
-    writeFileSync(filePath, content);
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error(`Error writing file '${filePath}': ${message}`);
-    process.exit(1);
-  }
-}
-
-// Helper function to delete a file with error handling
-function safeUnlinkSync(filePath: string): void {
-  try {
-    unlinkSync(filePath);
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error(`Error deleting file '${filePath}': ${message}`);
-    process.exit(1);
-  }
-}
+import {
+  safeReadFileSync,
+  safeWriteFileSync,
+  safeUnlinkSync,
+} from './utils/file-helpers';
+import {
+  getPropertyString,
+  getNestedPropertyString,
+  levenshteinDistance,
+} from './utils/ast-helpers';
 
 // Manual mapping of eprex_key to litcal_event_key for complex cases
 const MANUAL_MAPPINGS: Record<string, string> = {
@@ -150,56 +127,6 @@ interface EprexEntry {
 const sanctoraleTsPath = './eprex/sanctorale.ts';
 const sanctoraleTsContent = safeReadFileSync(sanctoraleTsPath);
 
-// Helper to get string literal value from AST node
-function getStringLiteralValue(node: ts.Node | undefined): string | undefined {
-  if (node && ts.isStringLiteral(node)) {
-    return node.text;
-  }
-  return undefined;
-}
-
-// Helper to find property in object literal by name
-function findProperty(
-  obj: ts.ObjectLiteralExpression,
-  name: string
-): ts.ObjectLiteralElementLike | undefined {
-  return obj.properties.find(
-    (prop) =>
-      ts.isPropertyAssignment(prop) &&
-      ts.isIdentifier(prop.name) &&
-      prop.name.text === name
-  );
-}
-
-// Helper to get property value as string
-function getPropertyString(
-  obj: ts.ObjectLiteralExpression,
-  name: string
-): string | undefined {
-  const prop = findProperty(obj, name);
-  if (prop && ts.isPropertyAssignment(prop)) {
-    return getStringLiteralValue(prop.initializer);
-  }
-  return undefined;
-}
-
-// Helper to get nested property value (e.g., nomina.la or externalIds.romcal)
-function getNestedPropertyString(
-  obj: ts.ObjectLiteralExpression,
-  parentName: string,
-  childName: string
-): string | undefined {
-  const parentProp = findProperty(obj, parentName);
-  if (
-    parentProp &&
-    ts.isPropertyAssignment(parentProp) &&
-    ts.isObjectLiteralExpression(parentProp.initializer)
-  ) {
-    return getPropertyString(parentProp.initializer, childName);
-  }
-  return undefined;
-}
-
 // Parse source file into AST
 const sourceFile = ts.createSourceFile(
   sanctoraleTsPath,
@@ -276,29 +203,6 @@ function normalizeKey(key: string): string {
   return key.toLowerCase().replace(/_/g, '');
 }
 
-// Levenshtein distance for fuzzy key matching
-function levenshteinDistance(a: string, b: string): number {
-  const matrix: number[][] = Array(b.length + 1)
-    .fill(null)
-    .map(() => Array(a.length + 1).fill(0));
-
-  for (let i = 0; i <= a.length; i++) matrix[0][i] = i;
-  for (let j = 0; j <= b.length; j++) matrix[j][0] = j;
-
-  for (let j = 1; j <= b.length; j++) {
-    for (let i = 1; i <= a.length; i++) {
-      const substitutionCost = a[i - 1] === b[j - 1] ? 0 : 1;
-      matrix[j][i] = Math.min(
-        matrix[j - 1][i] + 1, // deletion
-        matrix[j][i - 1] + 1, // insertion
-        matrix[j - 1][i - 1] + substitutionCost // substitution
-      );
-    }
-  }
-
-  return matrix[b.length][a.length];
-}
-
 // Attempt to match entries
 const unmatched: Array<{
   eprex_key: string;
@@ -350,7 +254,8 @@ for (const eprex of eprexEntries) {
       if (
         sanctoraleKeyNorm === eprexKeyNorm ||
         (eprexKeyNorm.length > 4 && sanctoraleKeyNorm.includes(eprexKeyNorm)) ||
-        (sanctoraleKeyNorm.length > 4 && eprexKeyNorm.includes(sanctoraleKeyNorm)) ||
+        (sanctoraleKeyNorm.length > 4 &&
+          eprexKeyNorm.includes(sanctoraleKeyNorm)) ||
         distance <= maxDistance
       ) {
         matchFound = true;
@@ -374,8 +279,10 @@ for (const eprex of eprexEntries) {
       // 2. Substring match (with length threshold >4 to avoid false positives)
       if (
         sanctoraleNameNorm === eprexNameNorm ||
-        (eprexNameNorm.length > 4 && sanctoraleNameNorm.includes(eprexNameNorm)) ||
-        (sanctoraleNameNorm.length > 4 && eprexNameNorm.includes(sanctoraleNameNorm))
+        (eprexNameNorm.length > 4 &&
+          sanctoraleNameNorm.includes(eprexNameNorm)) ||
+        (sanctoraleNameNorm.length > 4 &&
+          eprexNameNorm.includes(sanctoraleNameNorm))
       ) {
         matchFound = true;
         matchedKey = key;
@@ -421,20 +328,19 @@ safeWriteFileSync(
 );
 console.log('\nUpdated src/sanctorale.json');
 
-// Write unmatched entries
+// Write unmatched entries (to eprex/ directory for consistency with temporale)
+const unmatchedPath = './eprex/sanctorale_unmatched.json';
 if (unmatched.length > 0) {
-  safeWriteFileSync(
-    './src/unmatched_sanctorale.json',
-    JSON.stringify(unmatched, null, 2) + '\n'
-  );
+  safeWriteFileSync(unmatchedPath, JSON.stringify(unmatched, null, 2) + '\n');
   console.log(
-    `Wrote ${unmatched.length} unmatched entries to src/unmatched_sanctorale.json`
+    `Wrote ${unmatched.length} unmatched entries to eprex/sanctorale_unmatched.json`
   );
 } else {
   // Remove the unmatched file if it exists and there are no unmatched entries
-  const unmatchedPath = './src/unmatched_sanctorale.json';
   if (existsSync(unmatchedPath)) {
     safeUnlinkSync(unmatchedPath);
-    console.log('Removed src/unmatched_sanctorale.json (no unmatched entries)');
+    console.log(
+      'Removed eprex/sanctorale_unmatched.json (no unmatched entries)'
+    );
   }
 }

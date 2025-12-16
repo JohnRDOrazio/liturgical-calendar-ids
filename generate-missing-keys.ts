@@ -2,7 +2,13 @@
  * Script to generate missing_keys.json files for entries without eprex mappings
  */
 
-import { readFileSync, writeFileSync, existsSync, unlinkSync } from 'fs';
+import { existsSync } from 'fs';
+import {
+  safeReadFileSync,
+  safeWriteFileSync,
+  safeUnlinkSync,
+  safeParseJson,
+} from './utils/file-helpers';
 
 interface LitcalEntry {
   litcal_event_key: string;
@@ -10,46 +16,6 @@ interface LitcalEntry {
   eprex_key?: string;
   missal?: string;
   decree?: string;
-}
-
-function safeReadFileSync(filePath: string): string {
-  try {
-    return readFileSync(filePath, 'utf-8');
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error(`Error reading file '${filePath}': ${message}`);
-    process.exit(1);
-  }
-}
-
-function safeWriteFileSync(filePath: string, content: string): void {
-  try {
-    writeFileSync(filePath, content);
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error(`Error writing file '${filePath}': ${message}`);
-    process.exit(1);
-  }
-}
-
-function safeUnlinkSync(filePath: string): void {
-  try {
-    unlinkSync(filePath);
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error(`Error deleting file '${filePath}': ${message}`);
-    process.exit(1);
-  }
-}
-
-function safeParseJson<T>(filePath: string, content: string): T {
-  try {
-    return JSON.parse(content) as T;
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error(`Error parsing JSON in '${filePath}': ${message}`);
-    process.exit(1);
-  }
 }
 
 interface MissingKeyEntry {
@@ -94,7 +60,9 @@ function generateMissingKeys(
   } else {
     if (existsSync(outputFile)) {
       safeUnlinkSync(outputFile);
-      console.log(`${category}: All entries have eprex mappings, removed ${outputFile}`);
+      console.log(
+        `${category}: All entries have eprex mappings, removed ${outputFile}`
+      );
     } else {
       console.log(`${category}: All entries have eprex mappings`);
     }
