@@ -16,10 +16,6 @@
     "name": "Dominica Quarta Adventus"
   },
   {
-    "litcal_event_key": "Christmas",
-    "name": "In Nativitate Domini"
-  },
-  {
     "litcal_event_key": "Easter3",
     "name": "Dominica III in Paschæ"
   },
@@ -38,10 +34,6 @@
   {
     "litcal_event_key": "Easter7",
     "name": "Dominica VII Paschæ"
-  },
-  {
-    "litcal_event_key": "Epiphany",
-    "name": "In Epiphania Domini"
   },
   {
     "litcal_event_key": "HolyThursChrism",
@@ -66,10 +58,6 @@
   {
     "litcal_event_key": "Lent5",
     "name": "Dominica V in Quadragesima"
-  },
-  {
-    "litcal_event_key": "MaryMotherOfGod",
-    "name": "SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ"
   },
   {
     "litcal_event_key": "OrdSunday2",

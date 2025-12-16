@@ -6,20 +6,17 @@
 | Advent2          | Dominica Secunda Adventus                       |
 | Advent3          | Dominica Tertia Adventus (Gaudete)              |
 | Advent4          | Dominica Quarta Adventus                        |
-| Christmas        | In Nativitate Domini                            |
 | Easter3          | Dominica III in Paschæ                          |
 | Easter4          | Dominica IV in Paschæ                           |
 | Easter5          | Dominica V in Paschæ                            |
 | Easter6          | Dominica VI in Paschæ                           |
 | Easter7          | Dominica VII Paschæ                             |
-| Epiphany         | In Epiphania Domini                             |
 | HolyThursChrism  | Feria V Hebdomadæ Sanctæ - Ad Missam Chrismatis |
 | Lent1            | Dominica I in Quadragesima                      |
 | Lent2            | Dominica II in Quadragesima                     |
 | Lent3            | Dominica III in Quadragesima                    |
 | Lent4            | Dominica IV in Quadragesima                     |
 | Lent5            | Dominica V in Quadragesima                      |
-| MaryMotherOfGod  | SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ         |
 | OrdSunday2       | Dominica II «Per Annum»                         |
 | OrdSunday3       | Dominica III «Per Annum»                        |
 | OrdSunday4       | Dominica IV «Per Annum»                         |
