@@ -1,0 +1,206 @@
+[
+  {
+    "litcal_event_key": "Advent1",
+    "name": "Dominica Prima Adventus"
+  },
+  {
+    "litcal_event_key": "Advent2",
+    "name": "Dominica Secunda Adventus"
+  },
+  {
+    "litcal_event_key": "Advent3",
+    "name": "Dominica Tertia Adventus (Gaudete)"
+  },
+  {
+    "litcal_event_key": "Advent4",
+    "name": "Dominica Quarta Adventus"
+  },
+  {
+    "litcal_event_key": "Christmas",
+    "name": "In Nativitate Domini"
+  },
+  {
+    "litcal_event_key": "Easter3",
+    "name": "Dominica III in Paschæ"
+  },
+  {
+    "litcal_event_key": "Easter4",
+    "name": "Dominica IV in Paschæ"
+  },
+  {
+    "litcal_event_key": "Easter5",
+    "name": "Dominica V in Paschæ"
+  },
+  {
+    "litcal_event_key": "Easter6",
+    "name": "Dominica VI in Paschæ"
+  },
+  {
+    "litcal_event_key": "Easter7",
+    "name": "Dominica VII Paschæ"
+  },
+  {
+    "litcal_event_key": "Epiphany",
+    "name": "In Epiphania Domini"
+  },
+  {
+    "litcal_event_key": "HolyThursChrism",
+    "name": "Feria V Hebdomadæ Sanctæ - Ad Missam Chrismatis"
+  },
+  {
+    "litcal_event_key": "Lent1",
+    "name": "Dominica I in Quadragesima"
+  },
+  {
+    "litcal_event_key": "Lent2",
+    "name": "Dominica II in Quadragesima"
+  },
+  {
+    "litcal_event_key": "Lent3",
+    "name": "Dominica III in Quadragesima"
+  },
+  {
+    "litcal_event_key": "Lent4",
+    "name": "Dominica IV in Quadragesima"
+  },
+  {
+    "litcal_event_key": "Lent5",
+    "name": "Dominica V in Quadragesima"
+  },
+  {
+    "litcal_event_key": "MaryMotherOfGod",
+    "name": "SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ"
+  },
+  {
+    "litcal_event_key": "OrdSunday2",
+    "name": "Dominica II «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday3",
+    "name": "Dominica III «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday4",
+    "name": "Dominica IV «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday5",
+    "name": "Dominica V «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday6",
+    "name": "Dominica VI «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday7",
+    "name": "Dominica VII «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday8",
+    "name": "Dominica VIII «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday9",
+    "name": "Dominica IX «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday10",
+    "name": "Dominica X «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday11",
+    "name": "Dominica XI «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday12",
+    "name": "Dominica XII «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday13",
+    "name": "Dominica XIII «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday14",
+    "name": "Dominica XIV «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday15",
+    "name": "Dominica XV «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday16",
+    "name": "Dominica XVI «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday17",
+    "name": "Dominica XVII «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday18",
+    "name": "Dominica XVIII «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday19",
+    "name": "Dominica XIX «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday20",
+    "name": "Dominica XX «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday21",
+    "name": "Dominica XXI «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday22",
+    "name": "Dominica XXII «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday23",
+    "name": "Dominica XXIII «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday24",
+    "name": "Dominica XXIV «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday25",
+    "name": "Dominica XXV «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday26",
+    "name": "Dominica XXVI «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday27",
+    "name": "Dominica XXVII «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday28",
+    "name": "Dominica XXVIII «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday29",
+    "name": "Dominica XXIX «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday30",
+    "name": "Dominica XXX «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday31",
+    "name": "Dominica XXXI «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday32",
+    "name": "Dominica XXXII «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday33",
+    "name": "Dominica XXXIII «Per Annum»"
+  },
+  {
+    "litcal_event_key": "OrdSunday34",
+    "name": "Dominica XXXIV «Per Annum»"
+  }
+]

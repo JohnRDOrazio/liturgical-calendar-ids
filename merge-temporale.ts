@@ -1,5 +1,5 @@
 /**
- * Script to merge eprex sanctorale data into the liturgy_ids sanctorale.json
+ * Script to merge eprex temporale data into the liturgy_ids temporale.json
  */
 
 import { existsSync } from 'fs';
@@ -17,85 +17,64 @@ import {
 
 // Manual mapping of eprex_key to litcal_event_key for complex cases
 const MANUAL_MAPPINGS: Record<string, string> = {
-  // January
-  basil_great_gregory_nazianzen: 'StsBasilGreg',
-  anthony_abbot: 'StAnthonyEgypt',
-  fabian_pope_martyr: 'StFabianPope',
-  sebastian_martyr: 'StSebastian',
-  agnes_virgin_martyr: 'StAgnes',
-  vincent_deacon_martyr: 'StVincentDeacon',
-  conversion_of_paul: 'ConversionStPaul',
-  timothy_titus_bishops: 'StsTimothyTitus',
+  // Baptism and Christmas cycle
+  baptism_of_the_lord: 'BaptismLord',
+  holy_family: 'HolyFamily',
+  second_sunday_after_christmas: 'Christmas2',
 
-  // February
-  agatha_virgin_martyr: 'StAgatha',
-  paul_miki_companions: 'StsPaulMiki',
-  our_lady_of_lourdes: 'OurLadyOfLourdes',
-  scholastica_virgin: 'StScholastica',
-  polycarp_bishop_martyr: 'StPolycarp',
+  // Lent
+  ash_wednesday: 'AshWednesday',
 
-  // March
-  joseph_husband_of_mary: 'StJoseph',
+  // Holy Week
+  palm_sunday: 'PalmSun',
+  monday_of_holy_week: 'MonHolyWeek',
+  tuesday_of_holy_week: 'TueHolyWeek',
+  wednesday_of_holy_week: 'WedHolyWeek',
 
-  // April
-  catherine_of_siena: 'StCatherineSiena',
+  // Triduum
+  holy_thursday: 'HolyThurs',
+  good_friday: 'GoodFri',
+  holy_saturday: 'EasterVigil', // Different terminology in litcal
 
-  // May
-  joseph_the_worker: 'StJosephWorker',
-  philip_james_apostles: 'StsPhilipJames',
-  matthias_apostle: 'StMatthiasAp',
+  // Easter
+  easter_sunday: 'Easter',
 
-  // June
-  barnabas_apostle: 'StBarnabasAp',
-  nativity_of_john_the_baptist: 'NativityJohnBaptist',
-  peter_and_paul_apostles: 'StsPeterPaulAp',
+  // Easter Octave
+  monday_of_easter_octave: 'MonOctaveEaster',
+  tuesday_of_easter_octave: 'TueOctaveEaster',
+  wednesday_of_easter_octave: 'WedOctaveEaster',
+  thursday_of_easter_octave: 'ThuOctaveEaster',
+  friday_of_easter_octave: 'FriOctaveEaster',
+  saturday_of_easter_octave: 'SatOctaveEaster',
+  divine_mercy_sunday: 'Easter2',
 
-  // July
-  thomas_apostle: 'StThomasAp',
-  bridget_of_sweden: 'StBridget',
-  james_apostle: 'StJamesAp',
-  ignatius_of_loyola: 'StIgnatiusLoyola',
+  // Post-Easter solemnities
+  ascension_of_the_lord: 'Ascension',
+  pentecost_sunday: 'Pentecost',
+  most_holy_trinity: 'Trinity',
+  most_holy_body_and_blood_of_christ: 'CorpusChristi',
+  most_sacred_heart_of_jesus: 'SacredHeart',
+  christ_the_king: 'ChristKing',
 
-  // August
-  lawrence_deacon_martyr: 'StLawrenceDeacon',
-  bartholomew_apostle: 'StBartholomewAp',
-  passion_of_john_the_baptist: 'BeheadingJohnBaptist',
-
-  // September
-  our_lady_of_sorrows: 'OurLadyOfSorrows',
-  matthew_apostle_evangelist: 'StMatthewEvangelist',
-  michael_gabriel_raphael: 'StsArchangels',
-
-  // October
-  francis_of_assisi: 'StFrancisAssisi',
-  teresa_of_avila: 'StTeresaJesus',
-  simon_jude_apostles: 'StSimonStJudeAp',
-
-  // November
-  dedication_of_lateran: 'DedicationLateran',
-  andrew_apostle: 'StAndrewAp',
-
-  // December
-  stephen_first_martyr: 'StStephenProtomartyr',
-  john_apostle_evangelist: 'StJohnEvangelist',
-  sylvester_pope: 'StSylvesterIPope',
+  // Marian memorials
+  immaculate_heart_of_mary: 'ImmaculateHeart',
 };
 
-// These are temporale events that appear in the eprex sanctorale but are not in our sanctorale.json
-const TEMPORALE_EVENTS = [
-  'mary_mother_of_god',
-  'epiphany',
-  'nativity_of_the_lord',
-];
+// Cross-category entries: eprex temporale entries mapped to other litcal categories
+// These are excluded from temporale_unmatched.json since they're mapped elsewhere
+const CROSS_CATEGORY_ENTRIES = new Set([
+  'thursday_after_ash_wednesday', // -> feriale_tempus_quadragesimae.json
+  'friday_after_ash_wednesday', // -> feriale_tempus_quadragesimae.json
+  'saturday_after_ash_wednesday', // -> feriale_tempus_quadragesimae.json
+  'mary_mother_of_the_church', // -> sanctorale.json (MaryMotherChurch)
+]);
 
-// Read the sanctorale.json file
-const sanctoraleJson = JSON.parse(
-  safeReadFileSync('./src/sanctorale.json')
+// Read the temporale.json file
+const temporaleJson = JSON.parse(
+  safeReadFileSync('./src/temporale.json')
 ) as Array<{
   litcal_event_key: string;
   name: string;
-  missal?: string;
-  decree?: string;
   eprex_key?: string;
   eprex_code?: string;
   eprex_short_key?: string;
@@ -103,13 +82,13 @@ const sanctoraleJson = JSON.parse(
 }>;
 
 // Build lookup by litcal_event_key
-const sanctoraleByKey = new Map<
+const temporaleByKey = new Map<
   string,
-  (typeof sanctoraleJson)[number] & { index: number }
+  (typeof temporaleJson)[number] & { index: number }
 >();
-sanctoraleJson.forEach((entry, index) => {
+temporaleJson.forEach((entry, index) => {
   if (entry.litcal_event_key) {
-    sanctoraleByKey.set(entry.litcal_event_key, { ...entry, index });
+    temporaleByKey.set(entry.litcal_event_key, { ...entry, index });
   }
 });
 
@@ -119,18 +98,17 @@ interface EprexEntry {
   id: string;
   shortCode: string;
   nomina: { la: string; en: string };
-  externalIds?: { romcal?: string };
+  externalIds?: { romcal?: string; eprex?: string };
 }
 
-// Parse the sanctorale.ts file to extract entries using TypeScript AST
-// The eprex/ directory contains TypeScript source files from the liturgy_ids_eprex project
-const sanctoraleTsPath = './eprex/sanctorale.ts';
-const sanctoraleTsContent = safeReadFileSync(sanctoraleTsPath);
+// Parse the temporale.ts file to extract entries using TypeScript AST
+const temporaleTsPath = './eprex/temporale.ts';
+const temporaleTsContent = safeReadFileSync(temporaleTsPath);
 
 // Parse source file into AST
 const sourceFile = ts.createSourceFile(
-  sanctoraleTsPath,
-  sanctoraleTsContent,
+  temporaleTsPath,
+  temporaleTsContent,
   ts.ScriptTarget.Latest,
   true
 );
@@ -149,12 +127,16 @@ function visit(node: ts.Node): void {
     // Only add entries with all required properties
     if (code && id && shortCode && nominaLa) {
       const romcalId = getNestedPropertyString(node, 'externalIds', 'romcal');
+      const eprexId = getNestedPropertyString(node, 'externalIds', 'eprex');
       eprexEntries.push({
         code,
         id,
         shortCode,
         nomina: { la: nominaLa, en: '' },
-        externalIds: romcalId ? { romcal: romcalId } : undefined,
+        externalIds:
+          romcalId || eprexId
+            ? { romcal: romcalId, eprex: eprexId }
+            : undefined,
       });
     } else if (code || id || shortCode || nominaLa) {
       // Warn about partial entries that may indicate format changes
@@ -178,13 +160,13 @@ visit(sourceFile);
 // Validate that we found entries
 if (eprexEntries.length === 0) {
   console.error(
-    `Error: No valid entries found in '${sanctoraleTsPath}'. ` +
+    `Error: No valid entries found in '${temporaleTsPath}'. ` +
       'The file format may have changed.'
   );
   process.exit(1);
 }
 
-console.log(`Found ${eprexEntries.length} entries in eprex sanctorale.ts`);
+console.log(`Found ${eprexEntries.length} entries in eprex temporale.ts`);
 
 // Normalize Latin text for comparison
 function normalizeLatinName(name: string): string {
@@ -192,7 +174,7 @@ function normalizeLatinName(name: string): string {
     .toLowerCase()
     .replace(/æ/g, 'ae')
     .replace(/œ/g, 'oe')
-    .replace(/[.,;:]/g, '')
+    .replace(/[.,;:«»]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -212,23 +194,17 @@ const unmatched: Array<{
   nomina_la: string;
 }> = [];
 
-const usedSanctoraleKeys = new Set<string>();
+const usedTemporaleKeys = new Set<string>();
 let matchCount = 0;
 
 for (const eprex of eprexEntries) {
   let matchFound = false;
   let matchedKey: string | null = null;
 
-  // Skip temporale events
-  if (TEMPORALE_EVENTS.includes(eprex.id)) {
-    console.log(`Skipping temporale event: ${eprex.id}`);
-    continue;
-  }
-
   // First check manual mappings
   if (MANUAL_MAPPINGS[eprex.id]) {
     const manualKey = MANUAL_MAPPINGS[eprex.id];
-    if (sanctoraleByKey.has(manualKey) && !usedSanctoraleKeys.has(manualKey)) {
+    if (temporaleByKey.has(manualKey) && !usedTemporaleKeys.has(manualKey)) {
       matchFound = true;
       matchedKey = manualKey;
     }
@@ -238,24 +214,24 @@ for (const eprex of eprexEntries) {
   if (!matchFound) {
     const eprexKeyNorm = normalizeKey(eprex.id);
 
-    for (const [key] of sanctoraleByKey) {
-      if (usedSanctoraleKeys.has(key)) continue;
+    for (const [key] of temporaleByKey) {
+      if (usedTemporaleKeys.has(key)) continue;
 
-      const sanctoraleKeyNorm = normalizeKey(key);
+      const temporaleKeyNorm = normalizeKey(key);
 
       // Check if keys are similar using multiple strategies:
       // 1. Exact match
       // 2. Substring match (with length threshold >4 to avoid false positives)
       // 3. Levenshtein distance (within 30% of max key length)
-      const maxLen = Math.max(eprexKeyNorm.length, sanctoraleKeyNorm.length);
+      const maxLen = Math.max(eprexKeyNorm.length, temporaleKeyNorm.length);
       const maxDistance = Math.floor(maxLen * 0.3);
-      const distance = levenshteinDistance(eprexKeyNorm, sanctoraleKeyNorm);
+      const distance = levenshteinDistance(eprexKeyNorm, temporaleKeyNorm);
 
       if (
-        sanctoraleKeyNorm === eprexKeyNorm ||
-        (eprexKeyNorm.length > 4 && sanctoraleKeyNorm.includes(eprexKeyNorm)) ||
-        (sanctoraleKeyNorm.length > 4 &&
-          eprexKeyNorm.includes(sanctoraleKeyNorm)) ||
+        temporaleKeyNorm === eprexKeyNorm ||
+        (eprexKeyNorm.length > 4 && temporaleKeyNorm.includes(eprexKeyNorm)) ||
+        (temporaleKeyNorm.length > 4 &&
+          eprexKeyNorm.includes(temporaleKeyNorm)) ||
         distance <= maxDistance
       ) {
         matchFound = true;
@@ -269,20 +245,20 @@ for (const eprex of eprexEntries) {
   if (!matchFound) {
     const eprexNameNorm = normalizeLatinName(eprex.nomina.la);
 
-    for (const [key, entry] of sanctoraleByKey) {
-      if (usedSanctoraleKeys.has(key)) continue;
+    for (const [key, entry] of temporaleByKey) {
+      if (usedTemporaleKeys.has(key)) continue;
 
-      const sanctoraleNameNorm = normalizeLatinName(entry.name);
+      const temporaleNameNorm = normalizeLatinName(entry.name);
 
       // Check if names are similar using multiple strategies:
       // 1. Exact match
       // 2. Substring match (with length threshold >4 to avoid false positives)
       if (
-        sanctoraleNameNorm === eprexNameNorm ||
+        temporaleNameNorm === eprexNameNorm ||
         (eprexNameNorm.length > 4 &&
-          sanctoraleNameNorm.includes(eprexNameNorm)) ||
-        (sanctoraleNameNorm.length > 4 &&
-          eprexNameNorm.includes(sanctoraleNameNorm))
+          temporaleNameNorm.includes(eprexNameNorm)) ||
+        (temporaleNameNorm.length > 4 &&
+          eprexNameNorm.includes(temporaleNameNorm))
       ) {
         matchFound = true;
         matchedKey = key;
@@ -292,12 +268,12 @@ for (const eprex of eprexEntries) {
   }
 
   if (matchFound && matchedKey) {
-    usedSanctoraleKeys.add(matchedKey);
-    const entryData = sanctoraleByKey.get(matchedKey)!;
+    usedTemporaleKeys.add(matchedKey);
+    const entryData = temporaleByKey.get(matchedKey)!;
     const idx = entryData.index;
 
-    sanctoraleJson[idx] = {
-      ...sanctoraleJson[idx],
+    temporaleJson[idx] = {
+      ...temporaleJson[idx],
       eprex_key: eprex.id,
       eprex_code: eprex.code,
       eprex_short_key: eprex.shortCode,
@@ -306,6 +282,9 @@ for (const eprex of eprexEntries) {
 
     console.log(`Matched: ${matchedKey} -> ${eprex.id}`);
     matchCount++;
+  } else if (CROSS_CATEGORY_ENTRIES.has(eprex.id)) {
+    // Skip cross-category entries - they're mapped in other litcal files
+    console.log(`Cross-category: ${eprex.id} (mapped elsewhere)`);
   } else {
     unmatched.push({
       eprex_key: eprex.id,
@@ -321,26 +300,24 @@ for (const eprex of eprexEntries) {
 console.log(`\nTotal matched: ${matchCount}`);
 console.log(`Total unmatched: ${unmatched.length}`);
 
-// Write updated sanctorale.json
+// Write updated temporale.json
 safeWriteFileSync(
-  './src/sanctorale.json',
-  JSON.stringify(sanctoraleJson, null, 2) + '\n'
+  './src/temporale.json',
+  JSON.stringify(temporaleJson, null, 2) + '\n'
 );
-console.log('\nUpdated src/sanctorale.json');
+console.log('\nUpdated src/temporale.json');
 
-// Write unmatched entries (to eprex/ directory for consistency with temporale)
-const unmatchedPath = './eprex/sanctorale_unmatched.json';
+// Write unmatched entries
+const unmatchedPath = './eprex/temporale_unmatched.json';
 if (unmatched.length > 0) {
   safeWriteFileSync(unmatchedPath, JSON.stringify(unmatched, null, 2) + '\n');
   console.log(
-    `Wrote ${unmatched.length} unmatched entries to eprex/sanctorale_unmatched.json`
+    `Wrote ${unmatched.length} unmatched entries to eprex/temporale_unmatched.json`
   );
 } else {
   // Remove the unmatched file if it exists and there are no unmatched entries
   if (existsSync(unmatchedPath)) {
     safeUnlinkSync(unmatchedPath);
-    console.log(
-      'Removed eprex/sanctorale_unmatched.json (no unmatched entries)'
-    );
+    console.log('Removed eprex/temporale_unmatched.json (no unmatched entries)');
   }
 }

@@ -17,19 +17,35 @@
   },
   {
     "litcal_event_key": "Ascension",
-    "name": "In Ascensione Domini"
+    "name": "In Ascensione Domini",
+    "eprex_key": "ascension_of_the_lord",
+    "eprex_code": "0021",
+    "eprex_short_key": "ASC0",
+    "romcal_key": "ascension_of_the_lord"
   },
   {
     "litcal_event_key": "AshWednesday",
-    "name": "Feria IV Cinerum"
+    "name": "Feria IV Cinerum",
+    "eprex_key": "ash_wednesday",
+    "eprex_code": "0002",
+    "eprex_short_key": "QUA0",
+    "romcal_key": "ash_wednesday"
   },
   {
     "litcal_event_key": "BaptismLord",
-    "name": "In Festo Baptismatis Domini"
+    "name": "In Festo Baptismatis Domini",
+    "eprex_key": "baptism_of_the_lord",
+    "eprex_code": "0001",
+    "eprex_short_key": "BAP0",
+    "romcal_key": "baptism_of_the_lord"
   },
   {
     "litcal_event_key": "ChristKing",
-    "name": "Domini Nostri Iesu Christi Universorum Regis"
+    "name": "Domini Nostri Iesu Christi Universorum Regis",
+    "eprex_key": "christ_the_king",
+    "eprex_code": "0026",
+    "eprex_short_key": "ORD34",
+    "romcal_key": "christ_the_king"
   },
   {
     "litcal_event_key": "Christmas",
@@ -37,19 +53,34 @@
   },
   {
     "litcal_event_key": "Christmas2",
-    "name": "Dominica II Post Nativitatem"
+    "name": "Dominica II Post Nativitatem",
+    "eprex_key": "second_sunday_after_christmas",
+    "eprex_code": "0028",
+    "eprex_short_key": "NAT2D"
   },
   {
     "litcal_event_key": "CorpusChristi",
-    "name": "Ss.mi Corporis et Sanguinis Christi"
+    "name": "Ss.mi Corporis et Sanguinis Christi",
+    "eprex_key": "most_holy_body_and_blood_of_christ",
+    "eprex_code": "0024",
+    "eprex_short_key": "COR0",
+    "romcal_key": "most_holy_body_and_blood_of_christ"
   },
   {
     "litcal_event_key": "Easter",
-    "name": "Dominica Paschæ in Resurrectione Domini"
+    "name": "Dominica Paschæ in Resurrectione Domini",
+    "eprex_key": "easter_sunday",
+    "eprex_code": "0013",
+    "eprex_short_key": "PAS0",
+    "romcal_key": "easter_sunday"
   },
   {
     "litcal_event_key": "Easter2",
-    "name": "Dominica II in Paschæ"
+    "name": "Dominica II in Paschæ",
+    "eprex_key": "divine_mercy_sunday",
+    "eprex_code": "0020",
+    "eprex_short_key": "PAS2",
+    "romcal_key": "divine_mercy_sunday"
   },
   {
     "litcal_event_key": "Easter3",
@@ -73,7 +104,11 @@
   },
   {
     "litcal_event_key": "EasterVigil",
-    "name": "Vigilia Paschalis"
+    "name": "Vigilia Paschalis",
+    "eprex_key": "holy_saturday",
+    "eprex_code": "0012",
+    "eprex_short_key": "TRI3",
+    "romcal_key": "holy_saturday"
   },
   {
     "litcal_event_key": "Epiphany",
@@ -81,19 +116,34 @@
   },
   {
     "litcal_event_key": "FriOctaveEaster",
-    "name": "Feria VI infra Octavam Paschæ"
+    "name": "Feria VI infra Octavam Paschæ",
+    "eprex_key": "friday_of_easter_octave",
+    "eprex_code": "0018",
+    "eprex_short_key": "PAS1F6"
   },
   {
     "litcal_event_key": "GoodFri",
-    "name": "Feria VI in Passione Domini"
+    "name": "Feria VI in Passione Domini",
+    "eprex_key": "good_friday",
+    "eprex_code": "0011",
+    "eprex_short_key": "TRI2",
+    "romcal_key": "good_friday"
   },
   {
     "litcal_event_key": "HolyFamily",
-    "name": "S. Familiæ Iesu, Mariæ et Joseph"
+    "name": "S. Familiæ Iesu, Mariæ et Joseph",
+    "eprex_key": "holy_family",
+    "eprex_code": "0027",
+    "eprex_short_key": "NAT1F",
+    "romcal_key": "holy_family_of_jesus_mary_and_joseph"
   },
   {
     "litcal_event_key": "HolyThurs",
-    "name": "Feria V Hebdomadæ Sanctæ - in Cœna Domini"
+    "name": "Feria V Hebdomadæ Sanctæ - in Cœna Domini",
+    "eprex_key": "holy_thursday",
+    "eprex_code": "0010",
+    "eprex_short_key": "TRI1",
+    "romcal_key": "holy_thursday"
   },
   {
     "litcal_event_key": "HolyThursChrism",
@@ -101,7 +151,11 @@
   },
   {
     "litcal_event_key": "ImmaculateHeart",
-    "name": "Immaculati Cordis Beatæ Mariæ Virginis"
+    "name": "Immaculati Cordis Beatæ Mariæ Virginis",
+    "eprex_key": "immaculate_heart_of_mary",
+    "eprex_code": "0029",
+    "eprex_short_key": "CIM0",
+    "romcal_key": "immaculate_heart_of_mary"
   },
   {
     "litcal_event_key": "Lent1",
@@ -129,11 +183,19 @@
   },
   {
     "litcal_event_key": "MonHolyWeek",
-    "name": "Feria II Hebdomadæ Sanctæ"
+    "name": "Feria II Hebdomadæ Sanctæ",
+    "eprex_key": "monday_of_holy_week",
+    "eprex_code": "0007",
+    "eprex_short_key": "QUA6F2",
+    "romcal_key": "monday_of_holy_week"
   },
   {
     "litcal_event_key": "MonOctaveEaster",
-    "name": "Feria II infra Octavam Paschæ"
+    "name": "Feria II infra Octavam Paschæ",
+    "eprex_key": "monday_of_easter_octave",
+    "eprex_code": "0014",
+    "eprex_short_key": "PAS1F2",
+    "romcal_key": "monday_within_the_octave_of_easter"
   },
   {
     "litcal_event_key": "OrdSunday2",
@@ -269,42 +331,78 @@
   },
   {
     "litcal_event_key": "PalmSun",
-    "name": "Dominica in Palmis"
+    "name": "Dominica in Palmis",
+    "eprex_key": "palm_sunday",
+    "eprex_code": "0006",
+    "eprex_short_key": "QUA6",
+    "romcal_key": "palm_sunday_of_the_passion_of_the_lord"
   },
   {
     "litcal_event_key": "Pentecost",
-    "name": "Dominica Pentecostes"
+    "name": "Dominica Pentecostes",
+    "eprex_key": "pentecost_sunday",
+    "eprex_code": "0022",
+    "eprex_short_key": "PEN0",
+    "romcal_key": "pentecost_sunday"
   },
   {
     "litcal_event_key": "SacredHeart",
-    "name": "Sacratissimi Cordis Iesu"
+    "name": "Sacratissimi Cordis Iesu",
+    "eprex_key": "most_sacred_heart_of_jesus",
+    "eprex_code": "0025",
+    "eprex_short_key": "SCJ0",
+    "romcal_key": "most_sacred_heart_of_jesus"
   },
   {
     "litcal_event_key": "SatOctaveEaster",
-    "name": "Sabbato infra Octavam Paschæ"
+    "name": "Sabbato infra Octavam Paschæ",
+    "eprex_key": "saturday_of_easter_octave",
+    "eprex_code": "0019",
+    "eprex_short_key": "PAS1S"
   },
   {
     "litcal_event_key": "ThuOctaveEaster",
-    "name": "Feria V infra Octavam Paschæ"
+    "name": "Feria V infra Octavam Paschæ",
+    "eprex_key": "thursday_of_easter_octave",
+    "eprex_code": "0017",
+    "eprex_short_key": "PAS1F5"
   },
   {
     "litcal_event_key": "Trinity",
-    "name": "Dominica post Pentecostem Sanctissimæ Trinitatis"
+    "name": "Dominica post Pentecostem Sanctissimæ Trinitatis",
+    "eprex_key": "most_holy_trinity",
+    "eprex_code": "0023",
+    "eprex_short_key": "TRI0",
+    "romcal_key": "most_holy_trinity"
   },
   {
     "litcal_event_key": "TueHolyWeek",
-    "name": "Feria III Hebdomadæ Sanctæ"
+    "name": "Feria III Hebdomadæ Sanctæ",
+    "eprex_key": "tuesday_of_holy_week",
+    "eprex_code": "0008",
+    "eprex_short_key": "QUA6F3",
+    "romcal_key": "tuesday_of_holy_week"
   },
   {
     "litcal_event_key": "TueOctaveEaster",
-    "name": "Feria III infra Octavam Paschæ"
+    "name": "Feria III infra Octavam Paschæ",
+    "eprex_key": "tuesday_of_easter_octave",
+    "eprex_code": "0015",
+    "eprex_short_key": "PAS1F3"
   },
   {
     "litcal_event_key": "WedHolyWeek",
-    "name": "Feria IV Hebdomadæ Sanctæ"
+    "name": "Feria IV Hebdomadæ Sanctæ",
+    "eprex_key": "wednesday_of_holy_week",
+    "eprex_code": "0009",
+    "eprex_short_key": "QUA6F4",
+    "romcal_key": "wednesday_of_holy_week"
   },
   {
     "litcal_event_key": "WedOctaveEaster",
-    "name": "Feria IV infra Octavam Paschæ"
+    "name": "Feria IV infra Octavam Paschæ",
+    "eprex_key": "wednesday_of_easter_octave",
+    "eprex_code": "0016",
+    "eprex_short_key": "PAS1F4"
   }
 ]

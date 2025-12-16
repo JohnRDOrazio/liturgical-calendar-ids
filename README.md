@@ -26,9 +26,32 @@ The `sanctorale.json` file also includes references to the Roman Missal edition 
 ```text
 src/
   *.json                  # Source data with litcal_event_key, name, and missal/decree
-  *.md                    # Generated markdown documentation
+  *.md                    # Generated Markdown documentation
   liturgical_events.md    # Combined table of all events
+eprex/
+  sanctorale.ts                 # Source data from liturgy_ids_eprex project
+  temporale.ts                  # Source data from liturgy_ids_eprex project
+  sanctorale_missing_keys.json  # Sanctorale entries without eprex mappings
+  sanctorale_missing_keys.md    # Markdown table of sanctorale missing keys
+  temporale_missing_keys.json   # Temporale entries without eprex mappings
+  temporale_missing_keys.md     # Markdown table of temporale missing keys
 ```
+
+## Documentation Tables
+
+| Category                     | Description                                  | Link                                                                   |
+| ---------------------------- | -------------------------------------------- | ---------------------------------------------------------------------- |
+| All Events                   | Combined table of all liturgical events      | [liturgical_events.md](src/liturgical_events.md)                       |
+| Temporale                    | Moveable celebrations (Easter, Advent, etc.) | [temporale.md](src/temporale.md)                                       |
+| Sanctorale                   | Fixed celebrations (saints)                  | [sanctorale.md](src/sanctorale.md)                                     |
+| Special Events               | Other special celebrations                   | [special_events.md](src/special_events.md)                             |
+| Feriale Per Annum            | Weekdays in Ordinary Time                    | [feriale_per_annum.md](src/feriale_per_annum.md)                       |
+| Feriale Tempus Adventus      | Weekdays in Advent                           | [feriale_tempus_adventus.md](src/feriale_tempus_adventus.md)           |
+| Feriale Tempus Nativitatis   | Weekdays in Christmas season                 | [feriale_tempus_nativitatis.md](src/feriale_tempus_nativitatis.md)     |
+| Feriale Tempus Quadragesimae | Weekdays in Lent                             | [feriale_tempus_quadragesimae.md](src/feriale_tempus_quadragesimae.md) |
+| Feriale Tempus Paschatis     | Weekdays in Easter season                    | [feriale_tempus_paschatis.md](src/feriale_tempus_paschatis.md)         |
+| Temporale Missing Keys       | Temporale entries without eprex mappings     | [temporale_missing_keys.md](eprex/temporale_missing_keys.md)           |
+| Sanctorale Missing Keys      | Sanctorale entries without eprex mappings    | [sanctorale_missing_keys.md](eprex/sanctorale_missing_keys.md)         |
 
 ## Installation
 
@@ -38,14 +61,17 @@ bun install
 
 ## Scripts
 
-| Script                      | Description                                             |
-| --------------------------- | ------------------------------------------------------- |
-| `bun run generate`          | Generate individual markdown files from JSON sources    |
-| `bun run generate:combined` | Generate unified `liturgical_events.md` with all events |
-| `bun run sort`              | Sort JSON files by number and day of week               |
-| `bun run format:md`         | Format markdown tables with Prettier                    |
-| `bun run lint:md`           | Lint markdown files                                     |
-| `bun run lint:md:fix`       | Lint and auto-fix markdown issues                       |
+| Script                          | Description                                             |
+| ------------------------------- | ------------------------------------------------------- |
+| `bun run generate`              | Generate individual Markdown files from JSON sources    |
+| `bun run generate:combined`     | Generate unified `liturgical_events.md` with all events |
+| `bun run generate:missing-keys` | Generate missing_keys JSON and Markdown files           |
+| `bun run sort`                  | Sort JSON files by number and day of week               |
+| `bun run merge:sanctorale`      | Merge eprex sanctorale data into sanctorale.json        |
+| `bun run merge:temporale`       | Merge eprex temporale data into temporale.json          |
+| `bun run format:md`             | Format Markdown tables with Prettier                    |
+| `bun run lint:md`               | Lint Markdown files                                     |
+| `bun run lint:md:fix`           | Lint and auto-fix Markdown issues                       |
 
 ## Workflow
 
@@ -53,7 +79,7 @@ bun install
 2. Run `bun run sort` to ensure proper ordering within each JSON source
 3. Run `bun run generate && bun run generate:combined` to regenerate documentation
 4. Run `bun run format:md` to align tables
-5. Run `bun run lint:md` to verify markdown quality
+5. Run `bun run lint:md` to verify Markdown quality
 
 ## JSON Data Format
 
@@ -77,6 +103,44 @@ Sanctorale entries include a `missal` or `decree` field indicating the source:
   "decree": "2014-05-29 - Prot. N. 309/14"
 }
 ```
+
+## External ID Mappings
+
+Sanctorale entries may include external ID mappings from the [liturgy_ids_eprex](https://github.com/eprex/liturgy_ids_eprex) project:
+
+```json
+{
+  "litcal_event_key": "StJoseph",
+  "name": "Sancti Ioseph Sponsi Beatæ Mariæ Virginis",
+  "missal": "missale_romanum_1970",
+  "eprex_key": "joseph_husband_of_mary",
+  "eprex_code": "0319",
+  "eprex_short_key": "0319",
+  "romcal_key": "joseph_husband_of_mary"
+}
+```
+
+**Notes on external ID fields:**
+
+- `eprex_code` follows MMDD date format consistently (e.g., `0319` for March 19)
+- Entries with multiple feasts on the same day use suffixes (e.g., `0120a`, `0120b`)
+- `eprex_key` and `romcal_key` values are identical in all mapped entries
+- For temporale entries, `eprex_code` uses sequential numbering (0001-0030) rather than dates
+
+**Special mappings between eprex and litcal:**
+
+Some entries have different categorizations or names between the projects:
+
+| eprex Entry                  | litcal Entry                        | Notes                                      |
+| ---------------------------- | ----------------------------------- | ------------------------------------------ |
+| `holy_saturday` (temporale)  | `EasterVigil` (temporale)           | Same liturgical day, different terminology |
+| `mary_mother_of_the_church`  | `MaryMotherChurch` (sanctorale)     | Moveable feast classified as sanctorale    |
+| Days after Ash Wednesday (3) | `feriale_tempus_quadragesimae.json` | Classified as feriale in litcal            |
+
+The following files track entries without external ID mappings:
+
+- `eprex/sanctorale_missing_keys.json` - sanctorale entries without eprex mappings
+- `eprex/temporale_missing_keys.json` - temporale entries without eprex mappings
 
 ## Special cases
 
