@@ -42,19 +42,38 @@ function safeUnlinkSync(filePath: string): void {
   }
 }
 
+interface MissingKeyEntry {
+  litcal_event_key: string;
+  name: string;
+  missal?: string;
+  decree?: string;
+}
+
 function generateMissingKeys(
   sourceFile: string,
   outputFile: string,
-  category: string
+  category: string,
+  includeSource: boolean = false
 ): void {
   const entries = JSON.parse(safeReadFileSync(sourceFile)) as LitcalEntry[];
 
-  const missingKeys = entries
+  const missingKeys: MissingKeyEntry[] = entries
     .filter((entry) => !entry.eprex_key)
-    .map((entry) => ({
-      litcal_event_key: entry.litcal_event_key,
-      name: entry.name,
-    }));
+    .map((entry) => {
+      const result: MissingKeyEntry = {
+        litcal_event_key: entry.litcal_event_key,
+        name: entry.name,
+      };
+      if (includeSource) {
+        if (entry.missal) {
+          result.missal = entry.missal;
+        }
+        if (entry.decree) {
+          result.decree = entry.decree;
+        }
+      }
+      return result;
+    });
 
   if (missingKeys.length > 0) {
     safeWriteFileSync(outputFile, JSON.stringify(missingKeys, null, 2) + '\n');
@@ -78,9 +97,10 @@ generateMissingKeys(
   'Temporale'
 );
 
-// Generate missing keys for sanctorale
+// Generate missing keys for sanctorale (include missal/decree properties)
 generateMissingKeys(
   './src/sanctorale.json',
   './eprex/sanctorale_missing_keys.json',
-  'Sanctorale'
+  'Sanctorale',
+  true
 );
