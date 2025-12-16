@@ -26,7 +26,7 @@ The `sanctorale.json` file also includes references to the Roman Missal edition 
 ```text
 src/
   *.json                  # Source data with litcal_event_key, name, and missal/decree
-  *.md                    # Generated markdown documentation
+  *.md                    # Generated Markdown documentation
   liturgical_events.md    # Combined table of all events
 eprex/
   sanctorale.ts                 # Source data from liturgy_ids_eprex project
@@ -63,15 +63,15 @@ bun install
 
 | Script                          | Description                                             |
 | ------------------------------- | ------------------------------------------------------- |
-| `bun run generate`              | Generate individual markdown files from JSON sources    |
+| `bun run generate`              | Generate individual Markdown files from JSON sources    |
 | `bun run generate:combined`     | Generate unified `liturgical_events.md` with all events |
-| `bun run generate:missing-keys` | Generate missing_keys JSON and markdown files           |
+| `bun run generate:missing-keys` | Generate missing_keys JSON and Markdown files           |
 | `bun run sort`                  | Sort JSON files by number and day of week               |
 | `bun run merge:sanctorale`      | Merge eprex sanctorale data into sanctorale.json        |
 | `bun run merge:temporale`       | Merge eprex temporale data into temporale.json          |
-| `bun run format:md`             | Format markdown tables with Prettier                    |
-| `bun run lint:md`               | Lint markdown files                                     |
-| `bun run lint:md:fix`           | Lint and auto-fix markdown issues                       |
+| `bun run format:md`             | Format Markdown tables with Prettier                    |
+| `bun run lint:md`               | Lint Markdown files                                     |
+| `bun run lint:md:fix`           | Lint and auto-fix Markdown issues                       |
 
 ## Workflow
 
@@ -79,7 +79,7 @@ bun install
 2. Run `bun run sort` to ensure proper ordering within each JSON source
 3. Run `bun run generate && bun run generate:combined` to regenerate documentation
 4. Run `bun run format:md` to align tables
-5. Run `bun run lint:md` to verify markdown quality
+5. Run `bun run lint:md` to verify Markdown quality
 
 ## JSON Data Format
 
