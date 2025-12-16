@@ -136,6 +136,16 @@ Some entries have different categorizations or names between the projects:
 | `holy_saturday` (temporale)  | `EasterVigil` (temporale)           | Same liturgical day, different terminology |
 | `mary_mother_of_the_church`  | `MaryMotherChurch` (sanctorale)     | Moveable feast classified as sanctorale    |
 | Days after Ash Wednesday (3) | `feriale_tempus_quadragesimae.json` | Classified as feriale in litcal            |
+| `mary_mother_of_god` (sanc.) | `MaryMotherOfGod` (temporale)       | eprex sanctorale → litcal temporale        |
+| `epiphany` (sanctorale)      | `Epiphany` (temporale)              | eprex sanctorale → litcal temporale        |
+| `nativity_of_the_lord` (s.)  | `Christmas` (temporale)             | eprex sanctorale → litcal temporale        |
+
+**Cross-category mappings:**
+
+The eprex project classifies Mary Mother of God, Epiphany, and Christmas in its sanctorale,
+while the Roman Missal (and thus litcal) places them in the temporale (Proprium de Tempore).
+These mappings are handled manually in `temporale.json` and skipped by `merge-sanctorale.ts`
+via the `TEMPORALE_EVENTS` constant.
 
 The following files track entries without external ID mappings:
 

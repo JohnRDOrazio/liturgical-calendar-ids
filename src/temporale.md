@@ -10,7 +10,7 @@
 | AshWednesday     | Feria IV Cinerum                                 | ash_wednesday                      | 0002       | QUA0            | ash_wednesday                          |
 | BaptismLord      | In Festo Baptismatis Domini                      | baptism_of_the_lord                | 0001       | BAP0            | baptism_of_the_lord                    |
 | ChristKing       | Domini Nostri Iesu Christi Universorum Regis     | christ_the_king                    | 0026       | ORD34           | christ_the_king                        |
-| Christmas        | In Nativitate Domini                             |                                    |            |                 |                                        |
+| Christmas        | In Nativitate Domini                             | nativity_of_the_lord               | 1225       | 1225            | nativity_of_the_lord                   |
 | Christmas2       | Dominica II Post Nativitatem                     | second_sunday_after_christmas      | 0028       | NAT2D           |                                        |
 | CorpusChristi    | Ss.mi Corporis et Sanguinis Christi              | most_holy_body_and_blood_of_christ | 0024       | COR0            | most_holy_body_and_blood_of_christ     |
 | Easter           | Dominica Paschæ in Resurrectione Domini          | easter_sunday                      | 0013       | PAS0            | easter_sunday                          |
@@ -21,7 +21,7 @@
 | Easter6          | Dominica VI in Paschæ                            |                                    |            |                 |                                        |
 | Easter7          | Dominica VII Paschæ                              |                                    |            |                 |                                        |
 | EasterVigil      | Vigilia Paschalis                                | holy_saturday                      | 0012       | TRI3            | holy_saturday                          |
-| Epiphany         | In Epiphania Domini                              |                                    |            |                 |                                        |
+| Epiphany         | In Epiphania Domini                              | epiphany                           | 0106       | 0106            | epiphany                               |
 | FriOctaveEaster  | Feria VI infra Octavam Paschæ                    | friday_of_easter_octave            | 0018       | PAS1F6          |                                        |
 | GoodFri          | Feria VI in Passione Domini                      | good_friday                        | 0011       | TRI2            | good_friday                            |
 | HolyFamily       | S. Familiæ Iesu, Mariæ et Joseph                 | holy_family                        | 0027       | NAT1F           | holy_family_of_jesus_mary_and_joseph   |
@@ -33,7 +33,7 @@
 | Lent3            | Dominica III in Quadragesima                     |                                    |            |                 |                                        |
 | Lent4            | Dominica IV in Quadragesima                      |                                    |            |                 |                                        |
 | Lent5            | Dominica V in Quadragesima                       |                                    |            |                 |                                        |
-| MaryMotherOfGod  | SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ          |                                    |            |                 |                                        |
+| MaryMotherOfGod  | SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ          | mary_mother_of_god                 | 0101       | 0101            | mary_mother_of_god                     |
 | MonHolyWeek      | Feria II Hebdomadæ Sanctæ                        | monday_of_holy_week                | 0007       | QUA6F2          | monday_of_holy_week                    |
 | MonOctaveEaster  | Feria II infra Octavam Paschæ                    | monday_of_easter_octave            | 0014       | PAS1F2          | monday_within_the_octave_of_easter     |
 | OrdSunday2       | Dominica II «Per Annum»                          |                                    |            |                 |                                        |

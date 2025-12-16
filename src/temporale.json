@@ -49,7 +49,11 @@
   },
   {
     "litcal_event_key": "Christmas",
-    "name": "In Nativitate Domini"
+    "name": "In Nativitate Domini",
+    "eprex_key": "nativity_of_the_lord",
+    "eprex_code": "1225",
+    "eprex_short_key": "1225",
+    "romcal_key": "nativity_of_the_lord"
   },
   {
     "litcal_event_key": "Christmas2",
@@ -112,7 +116,11 @@
   },
   {
     "litcal_event_key": "Epiphany",
-    "name": "In Epiphania Domini"
+    "name": "In Epiphania Domini",
+    "eprex_key": "epiphany",
+    "eprex_code": "0106",
+    "eprex_short_key": "0106",
+    "romcal_key": "epiphany"
   },
   {
     "litcal_event_key": "FriOctaveEaster",
@@ -179,7 +187,11 @@
   },
   {
     "litcal_event_key": "MaryMotherOfGod",
-    "name": "SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ"
+    "name": "SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ",
+    "eprex_key": "mary_mother_of_god",
+    "eprex_code": "0101",
+    "eprex_short_key": "0101",
+    "romcal_key": "mary_mother_of_god"
   },
   {
     "litcal_event_key": "MonHolyWeek",
