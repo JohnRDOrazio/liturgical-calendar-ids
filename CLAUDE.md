@@ -16,7 +16,7 @@ Use Bun instead of Node.js:
 
 ```text
 src/
-  *.json    # Source data: liturgical events with event_key and name
+  *.json    # Source data: liturgical events with litcal_event_key and name
   *.md      # Generated markdown documentation (tables)
 index.ts    # Generator script
 ```
@@ -44,7 +44,7 @@ Each JSON file contains an array of liturgical events:
 ```json
 [
   {
-    "event_key": "Easter",
+    "litcal_event_key": "Easter",
     "name": "Dominica Paschæ in Resurrectione Domini"
   }
 ]

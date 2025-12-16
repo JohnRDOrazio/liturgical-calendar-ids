@@ -5,7 +5,7 @@ const SRC_DIR = './src';
 const DAY_ORDER = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
 interface LiturgicalEvent {
-  event_key: string;
+  litcal_event_key: string;
   name: string;
   missal?: string;
   decree?: string;
@@ -49,8 +49,8 @@ function parseEventKey(eventKey: string): ParsedKey {
 
 function sortEvents(events: LiturgicalEvent[]): LiturgicalEvent[] {
   return events.sort((a, b) => {
-    const parsedA = parseEventKey(a.event_key);
-    const parsedB = parseEventKey(b.event_key);
+    const parsedA = parseEventKey(a.litcal_event_key);
+    const parsedB = parseEventKey(b.litcal_event_key);
 
     // First sort by prefix
     if (parsedA.prefix !== parsedB.prefix) {

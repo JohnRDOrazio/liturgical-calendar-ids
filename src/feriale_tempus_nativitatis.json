@@ -1,86 +1,86 @@
 [
   {
-    "event_key": "ChristmasWeekdayDec29",
+    "litcal_event_key": "ChristmasWeekdayDec29",
     "name": "Dies Quintus Octavæ Nativitatis"
   },
   {
-    "event_key": "ChristmasWeekdayDec30",
+    "litcal_event_key": "ChristmasWeekdayDec30",
     "name": "Dies Sextus Octavæ Nativitatis"
   },
   {
-    "event_key": "ChristmasWeekdayDec31",
+    "litcal_event_key": "ChristmasWeekdayDec31",
     "name": "Dies Septimus Octavæ Nativitatis"
   },
   {
-    "event_key": "ChristmasWeekdayJan2",
+    "litcal_event_key": "ChristmasWeekdayJan2",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "ChristmasWeekdayJan3",
+    "litcal_event_key": "ChristmasWeekdayJan3",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "ChristmasWeekdayJan4",
+    "litcal_event_key": "ChristmasWeekdayJan4",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "ChristmasWeekdayJan5",
+    "litcal_event_key": "ChristmasWeekdayJan5",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "ChristmasWeekdayJan6",
+    "litcal_event_key": "ChristmasWeekdayJan6",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "ChristmasWeekdayJan7",
+    "litcal_event_key": "ChristmasWeekdayJan7",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanyMonday",
+    "litcal_event_key": "DayAfterEpiphanyMonday",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanyTuesday",
+    "litcal_event_key": "DayAfterEpiphanyTuesday",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanyWednesday",
+    "litcal_event_key": "DayAfterEpiphanyWednesday",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanyThursday",
+    "litcal_event_key": "DayAfterEpiphanyThursday",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanyFriday",
+    "litcal_event_key": "DayAfterEpiphanyFriday",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanySaturday",
+    "litcal_event_key": "DayAfterEpiphanySaturday",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanyJan7",
+    "litcal_event_key": "DayAfterEpiphanyJan7",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanyJan8",
+    "litcal_event_key": "DayAfterEpiphanyJan8",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanyJan9",
+    "litcal_event_key": "DayAfterEpiphanyJan9",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanyJan10",
+    "litcal_event_key": "DayAfterEpiphanyJan10",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanyJan11",
+    "litcal_event_key": "DayAfterEpiphanyJan11",
     "name": "%s temporis Nativitatis"
   },
   {
-    "event_key": "DayAfterEpiphanyJan12",
+    "litcal_event_key": "DayAfterEpiphanyJan12",
     "name": "%s temporis Nativitatis"
   }
 ]

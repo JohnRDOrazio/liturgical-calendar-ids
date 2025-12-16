@@ -1,6 +1,6 @@
 # Liturgical Calendar IDs
 
-A reference repository documenting the unique event IDs (`event_key`) used in the
+A reference repository documenting the unique event IDs (`litcal_event_key`) used in the
 [Liturgical Calendar API](https://github.com/Liturgical-Calendar/LiturgicalCalendarAPI)
 for Roman Catholic liturgical celebrations.
 
@@ -25,7 +25,7 @@ The `sanctorale.json` file also includes references to the Roman Missal edition 
 
 ```text
 src/
-  *.json                  # Source data with event_key, name, and missal/decree
+  *.json                  # Source data with litcal_event_key, name, and missal/decree
   *.md                    # Generated markdown documentation
   liturgical_events.md    # Combined table of all events
 ```
@@ -62,7 +62,7 @@ Each JSON file contains an array of liturgical events:
 ```json
 [
   {
-    "event_key": "Easter",
+    "litcal_event_key": "Easter",
     "name": "Dominica Paschæ in Resurrectione Domini"
   }
 ]
@@ -72,7 +72,7 @@ Sanctorale entries include a `missal` or `decree` field indicating the source:
 
 ```json
 {
-  "event_key": "StJohnPaulII",
+  "litcal_event_key": "StJohnPaulII",
   "name": "S. Ioannis Pauli II, papæ",
   "decree": "2014-05-29 - Prot. N. 309/14"
 }
@@ -106,9 +106,9 @@ they are however given distinct IDs so that they can have distinct names, accord
 | DayAfterEpiphanyFriday    | DayAfterEpiphanyJan11 | Feria VI temporis Nativitatis           | Feria propria del 11 gennaio              | Friday - Christmas Weekday                |
 | DayAfterEpiphanySaturday  | DayAfterEpiphanyJan12 | Sabbato temporis Nativitatis            | Feria propria del 12 gennaio              | Saturday - Christmas Weekday              |
 
-When Epiphany is set to Sunday, the `DayAfterEpiphanyMonday` format of the `event_key` is used.
+When Epiphany is set to Sunday, the `DayAfterEpiphanyMonday` format of the `litcal_event_key` is used.
 
-When Epiphany is set to January 6, the `DayAfterEpiphanyJan7` format of the `event_key` is used.
+When Epiphany is set to January 6, the `DayAfterEpiphanyJan7` format of the `litcal_event_key` is used.
 
 <a name="footnote1">1</a>: `%s` is substituted at runtime with the actual day of the week in the given year, in Latin.
 
