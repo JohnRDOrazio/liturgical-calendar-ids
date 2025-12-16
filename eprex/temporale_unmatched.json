@@ -1,0 +1,34 @@
+[
+  {
+    "eprex_key": "thursday_after_ash_wednesday",
+    "eprex_code": "0003",
+    "eprex_short_key": "QUA0F5",
+    "nomina_la": "Feria V post Cineres"
+  },
+  {
+    "eprex_key": "friday_after_ash_wednesday",
+    "eprex_code": "0004",
+    "eprex_short_key": "QUA0F6",
+    "nomina_la": "Feria VI post Cineres"
+  },
+  {
+    "eprex_key": "saturday_after_ash_wednesday",
+    "eprex_code": "0005",
+    "eprex_short_key": "QUA0S",
+    "nomina_la": "Sabbatum post Cineres"
+  },
+  {
+    "eprex_key": "holy_saturday",
+    "eprex_code": "0012",
+    "eprex_short_key": "TRI3",
+    "romcal_key": "holy_saturday",
+    "nomina_la": "Sabbatum Sanctum"
+  },
+  {
+    "eprex_key": "mary_mother_of_the_church",
+    "eprex_code": "0030",
+    "eprex_short_key": "MME0",
+    "romcal_key": "mary_mother_of_the_church",
+    "nomina_la": "Beatae Mariae Virginis, Ecclesiae Matris"
+  }
+]
