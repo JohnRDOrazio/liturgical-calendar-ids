@@ -29,8 +29,8 @@ src/
   *.md                    # Generated Markdown documentation
   liturgical_events.md    # Combined table of all events
 eprex/
-  sanctorale.ts                 # Source data from liturgy_ids_eprex project
-  temporale.ts                  # Source data from liturgy_ids_eprex project
+  sanctorale.ts                 # eprex source data for sanctorale mappings
+  temporale.ts                  # eprex source data for temporale mappings
   sanctorale_missing_keys.json  # Sanctorale entries without eprex mappings
   sanctorale_missing_keys.md    # Markdown table of sanctorale missing keys
   temporale_missing_keys.json   # Temporale entries without eprex mappings
@@ -106,7 +106,7 @@ Sanctorale entries include a `missal` or `decree` field indicating the source:
 
 ## External ID Mappings
 
-Sanctorale entries may include external ID mappings from the [liturgy_ids_eprex](https://github.com/eprex/liturgy_ids_eprex) project:
+Sanctorale entries may include external ID mappings from the [eprex](eprex/) source data:
 
 ```json
 {
