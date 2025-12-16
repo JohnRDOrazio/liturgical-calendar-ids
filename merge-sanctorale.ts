@@ -4,6 +4,39 @@
 
 import { readFileSync, writeFileSync, unlinkSync, existsSync } from 'fs';
 
+// Helper function to read a file with error handling
+function safeReadFileSync(filePath: string): string {
+  try {
+    return readFileSync(filePath, 'utf-8');
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.error(`Error reading file '${filePath}': ${message}`);
+    process.exit(1);
+  }
+}
+
+// Helper function to write a file with error handling
+function safeWriteFileSync(filePath: string, content: string): void {
+  try {
+    writeFileSync(filePath, content);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.error(`Error writing file '${filePath}': ${message}`);
+    process.exit(1);
+  }
+}
+
+// Helper function to delete a file with error handling
+function safeUnlinkSync(filePath: string): void {
+  try {
+    unlinkSync(filePath);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.error(`Error deleting file '${filePath}': ${message}`);
+    process.exit(1);
+  }
+}
+
 // Manual mapping of eprex_key to litcal_event_key for complex cases
 const MANUAL_MAPPINGS: Record<string, string> = {
   // January
@@ -77,7 +110,7 @@ const TEMPORALE_EVENTS = [
 
 // Read the sanctorale.json file
 const sanctoraleJson = JSON.parse(
-  readFileSync('./src/sanctorale.json', 'utf-8')
+  safeReadFileSync('./src/sanctorale.json')
 ) as Array<{
   litcal_event_key: string;
   name: string;
@@ -112,7 +145,7 @@ interface EprexEntry {
 // Parse the sanctorale.ts file to extract entries
 // The eprex/ directory contains TypeScript source files from the liturgy_ids_eprex project
 // These are parsed as text, not imported as modules
-const sanctoraleTsContent = readFileSync('./eprex/sanctorale.ts', 'utf-8');
+const sanctoraleTsContent = safeReadFileSync('./eprex/sanctorale.ts');
 
 // Extract all entries using regex - split into two passes for robustness
 // WARNING: This regex parsing assumes a specific TypeScript format in the source file:
@@ -179,6 +212,29 @@ function normalizeKey(key: string): string {
   return key.toLowerCase().replace(/_/g, '');
 }
 
+// Levenshtein distance for fuzzy key matching
+function levenshteinDistance(a: string, b: string): number {
+  const matrix: number[][] = Array(b.length + 1)
+    .fill(null)
+    .map(() => Array(a.length + 1).fill(0));
+
+  for (let i = 0; i <= a.length; i++) matrix[0][i] = i;
+  for (let j = 0; j <= b.length; j++) matrix[j][0] = j;
+
+  for (let j = 1; j <= b.length; j++) {
+    for (let i = 1; i <= a.length; i++) {
+      const substitutionCost = a[i - 1] === b[j - 1] ? 0 : 1;
+      matrix[j][i] = Math.min(
+        matrix[j - 1][i] + 1, // deletion
+        matrix[j][i - 1] + 1, // insertion
+        matrix[j - 1][i - 1] + substitutionCost // substitution
+      );
+    }
+  }
+
+  return matrix[b.length][a.length];
+}
+
 // Attempt to match entries
 const unmatched: Array<{
   eprex_key: string;
@@ -219,12 +275,19 @@ for (const eprex of eprexEntries) {
 
       const sanctoraleKeyNorm = normalizeKey(key);
 
-      // Check if keys are similar
-      // Use minimum length threshold (>4) for substring matching to avoid false positives
+      // Check if keys are similar using multiple strategies:
+      // 1. Exact match
+      // 2. Substring match (with length threshold >4 to avoid false positives)
+      // 3. Levenshtein distance (within 30% of max key length)
+      const maxLen = Math.max(eprexKeyNorm.length, sanctoraleKeyNorm.length);
+      const maxDistance = Math.floor(maxLen * 0.3);
+      const distance = levenshteinDistance(eprexKeyNorm, sanctoraleKeyNorm);
+
       if (
         sanctoraleKeyNorm === eprexKeyNorm ||
         (eprexKeyNorm.length > 4 && sanctoraleKeyNorm.includes(eprexKeyNorm)) ||
-        (sanctoraleKeyNorm.length > 4 && eprexKeyNorm.includes(sanctoraleKeyNorm))
+        (sanctoraleKeyNorm.length > 4 && eprexKeyNorm.includes(sanctoraleKeyNorm)) ||
+        distance <= maxDistance
       ) {
         matchFound = true;
         matchedKey = key;
@@ -242,11 +305,13 @@ for (const eprex of eprexEntries) {
 
       const sanctoraleNameNorm = normalizeLatinName(entry.name);
 
-      // Check if names are similar
+      // Check if names are similar using multiple strategies:
+      // 1. Exact match
+      // 2. Substring match (with length threshold >4 to avoid false positives)
       if (
         sanctoraleNameNorm === eprexNameNorm ||
-        sanctoraleNameNorm.includes(eprexNameNorm) ||
-        eprexNameNorm.includes(sanctoraleNameNorm)
+        (eprexNameNorm.length > 4 && sanctoraleNameNorm.includes(eprexNameNorm)) ||
+        (sanctoraleNameNorm.length > 4 && eprexNameNorm.includes(sanctoraleNameNorm))
       ) {
         matchFound = true;
         matchedKey = key;
@@ -286,7 +351,7 @@ console.log(`\nTotal matched: ${matchCount}`);
 console.log(`Total unmatched: ${unmatched.length}`);
 
 // Write updated sanctorale.json
-writeFileSync(
+safeWriteFileSync(
   './src/sanctorale.json',
   JSON.stringify(sanctoraleJson, null, 2) + '\n'
 );
@@ -294,7 +359,7 @@ console.log('\nUpdated src/sanctorale.json');
 
 // Write unmatched entries
 if (unmatched.length > 0) {
-  writeFileSync(
+  safeWriteFileSync(
     './src/unmatched_sanctorale.json',
     JSON.stringify(unmatched, null, 2) + '\n'
   );
@@ -305,7 +370,7 @@ if (unmatched.length > 0) {
   // Remove the unmatched file if it exists and there are no unmatched entries
   const unmatchedPath = './src/unmatched_sanctorale.json';
   if (existsSync(unmatchedPath)) {
-    unlinkSync(unmatchedPath);
+    safeUnlinkSync(unmatchedPath);
     console.log('Removed src/unmatched_sanctorale.json (no unmatched entries)');
   }
 }
