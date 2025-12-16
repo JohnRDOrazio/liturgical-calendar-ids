@@ -1,0 +1,1570 @@
+[
+  {
+    "romcal_id": "advent_1_sunday",
+    "name_la": "Dominica prima Adventus"
+  },
+  {
+    "romcal_id": "advent_1_monday",
+    "name_la": "Feria secunda, hebdomada prima Adventus"
+  },
+  {
+    "romcal_id": "advent_1_tuesday",
+    "name_la": "Feria tertia, hebdomada prima Adventus"
+  },
+  {
+    "romcal_id": "advent_1_wednesday",
+    "name_la": "Feria quarta, hebdomada prima Adventus"
+  },
+  {
+    "romcal_id": "advent_1_thursday",
+    "name_la": "Feria quinta, hebdomada prima Adventus"
+  },
+  {
+    "romcal_id": "advent_1_friday",
+    "name_la": "Feria sexta, hebdomada prima Adventus"
+  },
+  {
+    "romcal_id": "advent_1_saturday",
+    "name_la": "Sabbato, hebdomada prima Adventus"
+  },
+  {
+    "romcal_id": "advent_2_sunday",
+    "name_la": "Dominica secunda Adventus"
+  },
+  {
+    "romcal_id": "advent_2_monday",
+    "name_la": "Feria secunda, hebdomada secunda Adventus"
+  },
+  {
+    "romcal_id": "advent_2_tuesday",
+    "name_la": "Feria tertia, hebdomada secunda Adventus"
+  },
+  {
+    "romcal_id": "advent_2_wednesday",
+    "name_la": "Feria quarta, hebdomada secunda Adventus"
+  },
+  {
+    "romcal_id": "advent_2_thursday",
+    "name_la": "Feria quinta, hebdomada secunda Adventus"
+  },
+  {
+    "romcal_id": "advent_2_friday",
+    "name_la": "Feria sexta, hebdomada secunda Adventus"
+  },
+  {
+    "romcal_id": "advent_2_saturday",
+    "name_la": "Sabbato, hebdomada secunda Adventus"
+  },
+  {
+    "romcal_id": "advent_3_sunday",
+    "name_la": "Dominica tertia Adventus"
+  },
+  {
+    "romcal_id": "advent_3_monday",
+    "name_la": "Feria secunda, hebdomada tertia Adventus"
+  },
+  {
+    "romcal_id": "advent_3_tuesday",
+    "name_la": "Feria tertia, hebdomada tertia Adventus"
+  },
+  {
+    "romcal_id": "advent_3_wednesday",
+    "name_la": "Feria quarta, hebdomada tertia Adventus"
+  },
+  {
+    "romcal_id": "advent_3_thursday",
+    "name_la": "Feria quinta, hebdomada tertia Adventus"
+  },
+  {
+    "romcal_id": "advent_3_friday",
+    "name_la": "Feria sexta, hebdomada tertia Adventus"
+  },
+  {
+    "romcal_id": "advent_4_sunday",
+    "name_la": "Dominica quarta Adventus"
+  },
+  {
+    "romcal_id": "advent_december_17",
+    "name_la": "Dia 17 decembris"
+  },
+  {
+    "romcal_id": "advent_december_18",
+    "name_la": "Dia 18 decembris"
+  },
+  {
+    "romcal_id": "advent_december_19",
+    "name_la": "Dia 19 decembris"
+  },
+  {
+    "romcal_id": "advent_december_20",
+    "name_la": "Dia 20 decembris"
+  },
+  {
+    "romcal_id": "advent_december_21",
+    "name_la": "Dia 21 decembris"
+  },
+  {
+    "romcal_id": "advent_december_22",
+    "name_la": "Dia 22 decembris"
+  },
+  {
+    "romcal_id": "advent_december_23",
+    "name_la": "Dia 23 decembris"
+  },
+  {
+    "romcal_id": "advent_december_24",
+    "name_la": "Dia 24 decembris"
+  },
+  {
+    "romcal_id": "nativity_of_the_lord",
+    "name_la": "In Nativitate Domini"
+  },
+  {
+    "romcal_id": "christmas_octave_day_2",
+    "name_la": "De die 2 infra octavam Nativitatis"
+  },
+  {
+    "romcal_id": "christmas_octave_day_3",
+    "name_la": "De die 3 infra octavam Nativitatis"
+  },
+  {
+    "romcal_id": "christmas_octave_day_4",
+    "name_la": "De die 4 infra octavam Nativitatis"
+  },
+  {
+    "romcal_id": "christmas_octave_day_5",
+    "name_la": "De die 5 infra octavam Nativitatis"
+  },
+  {
+    "romcal_id": "christmas_octave_day_6",
+    "name_la": "De die 6 infra octavam Nativitatis"
+  },
+  {
+    "romcal_id": "christmas_octave_day_7",
+    "name_la": "De die 7 infra octavam Nativitatis"
+  },
+  {
+    "romcal_id": "holy_family_of_jesus_mary_and_joseph",
+    "name_la": "Sanctæ Familiæ Iesu, Mariæ et Ioseph"
+  },
+  {
+    "romcal_id": "mary_mother_of_god",
+    "name_la": "In octava Nativitatis. Sollemnitas Sanctæ Dei Genetricis Mariæ"
+  },
+  {
+    "romcal_id": "second_sunday_after_christmas",
+    "name_la": "Dominica secunda post Nativitatem"
+  },
+  {
+    "romcal_id": "christmas_time_january_2",
+    "name_la": "Die 2 ianuarii"
+  },
+  {
+    "romcal_id": "christmas_time_january_3",
+    "name_la": "Die 3 ianuarii"
+  },
+  {
+    "romcal_id": "christmas_time_january_4",
+    "name_la": "Die 4 ianuarii"
+  },
+  {
+    "romcal_id": "christmas_time_january_5",
+    "name_la": "Die 5 ianuarii"
+  },
+  {
+    "romcal_id": "christmas_time_january_6",
+    "name_la": "Die 6 ianuarii"
+  },
+  {
+    "romcal_id": "christmas_time_january_7",
+    "name_la": "Die 7 ianuarii"
+  },
+  {
+    "romcal_id": "christmas_time_january_8",
+    "name_la": "Die 8 ianuarii"
+  },
+  {
+    "romcal_id": "epiphany_of_the_lord",
+    "name_la": "In Epiphania Domini"
+  },
+  {
+    "romcal_id": "monday_after_epiphany",
+    "name_la": "Feria secunda post Epiphaniam"
+  },
+  {
+    "romcal_id": "tuesday_after_epiphany",
+    "name_la": "Feria tertia post Epiphaniam"
+  },
+  {
+    "romcal_id": "wednesday_after_epiphany",
+    "name_la": "Feria quarta post Epiphaniam"
+  },
+  {
+    "romcal_id": "thursday_after_epiphany",
+    "name_la": "Feria quinta post Epiphaniam"
+  },
+  {
+    "romcal_id": "friday_after_epiphany",
+    "name_la": "Feria sexta post Epiphaniam"
+  },
+  {
+    "romcal_id": "saturday_after_epiphany",
+    "name_la": "Sabbato post Epiphaniam"
+  },
+  {
+    "romcal_id": "baptism_of_the_lord",
+    "name_la": "In Baptismate Domini"
+  },
+  {
+    "romcal_id": "ash_wednesday",
+    "name_la": "Feria IV Cinerum"
+  },
+  {
+    "romcal_id": "thursday_after_ash_wednesday",
+    "name_la": "Feria quinta post Cineres"
+  },
+  {
+    "romcal_id": "friday_after_ash_wednesday",
+    "name_la": "Feria sexta post Cineres"
+  },
+  {
+    "romcal_id": "saturday_after_ash_wednesday",
+    "name_la": "Sabbato post Cineres"
+  },
+  {
+    "romcal_id": "lent_1_sunday",
+    "name_la": "Dominica prima Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_1_monday",
+    "name_la": "Feria secunda, hebdomada prima Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_1_tuesday",
+    "name_la": "Feria tertia, hebdomada prima Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_1_wednesday",
+    "name_la": "Feria quarta, hebdomada prima Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_1_thursday",
+    "name_la": "Feria quinta, hebdomada prima Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_1_friday",
+    "name_la": "Feria sexta, hebdomada prima Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_1_saturday",
+    "name_la": "Sabbato, hebdomada prima Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_2_sunday",
+    "name_la": "Dominica secunda Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_2_monday",
+    "name_la": "Feria secunda, hebdomada secunda Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_2_tuesday",
+    "name_la": "Feria tertia, hebdomada secunda Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_2_wednesday",
+    "name_la": "Feria quarta, hebdomada secunda Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_2_thursday",
+    "name_la": "Feria quinta, hebdomada secunda Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_2_friday",
+    "name_la": "Feria sexta, hebdomada secunda Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_2_saturday",
+    "name_la": "Sabbato, hebdomada secunda Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_3_sunday",
+    "name_la": "Dominica tertia Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_3_monday",
+    "name_la": "Feria secunda, hebdomada tertia Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_3_tuesday",
+    "name_la": "Feria tertia, hebdomada tertia Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_3_wednesday",
+    "name_la": "Feria quarta, hebdomada tertia Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_3_thursday",
+    "name_la": "Feria quinta, hebdomada tertia Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_3_friday",
+    "name_la": "Feria sexta, hebdomada tertia Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_3_saturday",
+    "name_la": "Sabbato, hebdomada tertia Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_4_sunday",
+    "name_la": "Dominica quarta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_4_monday",
+    "name_la": "Feria secunda, hebdomada quarta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_4_tuesday",
+    "name_la": "Feria tertia, hebdomada quarta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_4_wednesday",
+    "name_la": "Feria quarta, hebdomada quarta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_4_thursday",
+    "name_la": "Feria quinta, hebdomada quarta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_4_friday",
+    "name_la": "Feria sexta, hebdomada quarta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_4_saturday",
+    "name_la": "Sabbato, hebdomada quarta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_5_sunday",
+    "name_la": "Dominica quinta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_5_monday",
+    "name_la": "Feria secunda, hebdomada quinta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_5_tuesday",
+    "name_la": "Feria tertia, hebdomada quinta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_5_wednesday",
+    "name_la": "Feria quarta, hebdomada quinta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_5_thursday",
+    "name_la": "Feria quinta, hebdomada quinta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_5_friday",
+    "name_la": "Feria sexta, hebdomada quinta Quadragesimæ"
+  },
+  {
+    "romcal_id": "lent_5_saturday",
+    "name_la": "Sabbato, hebdomada quinta Quadragesimæ"
+  },
+  {
+    "romcal_id": "palm_sunday_of_the_passion_of_the_lord",
+    "name_la": "Dominica in Palmis de Passione Domini"
+  },
+  {
+    "romcal_id": "holy_monday",
+    "name_la": "Feria secunda Hebdomadæ Sanctæ"
+  },
+  {
+    "romcal_id": "holy_tuesday",
+    "name_la": "Feria tertia Hebdomadæ Sanctæ"
+  },
+  {
+    "romcal_id": "holy_wednesday",
+    "name_la": "Feria quarta Hebdomadæ Sanctæ"
+  },
+  {
+    "romcal_id": "holy_thursday",
+    "name_la": "Feria quinta Hebdomadæ Sanctæ"
+  },
+  {
+    "romcal_id": "thursday_of_the_lords_supper",
+    "name_la": "Feria V Hebdomadæ Sanctæ, in Cena Domini"
+  },
+  {
+    "romcal_id": "friday_of_the_passion_of_the_lord",
+    "name_la": "Feria VI in Passione Domini"
+  },
+  {
+    "romcal_id": "holy_saturday",
+    "name_la": "Sabbato Sancto/Vigilia paschalis"
+  },
+  {
+    "romcal_id": "easter_sunday",
+    "name_la": "Dominica Paschæ in Resurrectione Domini"
+  },
+  {
+    "romcal_id": "easter_monday",
+    "name_la": "De die Feria secunda infra octavam Paschæ"
+  },
+  {
+    "romcal_id": "easter_tuesday",
+    "name_la": "De die Feria tertia infra octavam Paschæ"
+  },
+  {
+    "romcal_id": "easter_wednesday",
+    "name_la": "De die Feria quarta infra octavam Paschæ"
+  },
+  {
+    "romcal_id": "easter_thursday",
+    "name_la": "De die Feria quinta infra octavam Paschæ"
+  },
+  {
+    "romcal_id": "easter_friday",
+    "name_la": "De die Feria sexta infra octavam Paschæ"
+  },
+  {
+    "romcal_id": "easter_saturday",
+    "name_la": "De die Sabbato infra octavam Paschæ"
+  },
+  {
+    "romcal_id": "divine_mercy_sunday",
+    "name_la": "Dominica in octava Paschæ seu Dominica de Divina Misericordia"
+  },
+  {
+    "romcal_id": "easter_time_2_monday",
+    "name_la": "Feria secunda, hebdomada secunda temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_2_tuesday",
+    "name_la": "Feria tertia, hebdomada secunda temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_2_wednesday",
+    "name_la": "Feria quarta, hebdomada secunda temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_2_thursday",
+    "name_la": "Feria quinta, hebdomada secunda temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_2_friday",
+    "name_la": "Feria sexta, hebdomada secunda temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_2_saturday",
+    "name_la": "Sabbato, hebdomada secunda temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_3_sunday",
+    "name_la": "Dominica tertia Paschæ"
+  },
+  {
+    "romcal_id": "easter_time_3_monday",
+    "name_la": "Feria secunda, hebdomada tertia temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_3_tuesday",
+    "name_la": "Feria tertia, hebdomada tertia temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_3_wednesday",
+    "name_la": "Feria quarta, hebdomada tertia temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_3_thursday",
+    "name_la": "Feria quinta, hebdomada tertia temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_3_friday",
+    "name_la": "Feria sexta, hebdomada tertia temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_3_saturday",
+    "name_la": "Sabbato, hebdomada tertia temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_4_sunday",
+    "name_la": "Dominica quarta Paschæ"
+  },
+  {
+    "romcal_id": "easter_time_4_monday",
+    "name_la": "Feria secunda, hebdomada quarta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_4_tuesday",
+    "name_la": "Feria tertia, hebdomada quarta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_4_wednesday",
+    "name_la": "Feria quarta, hebdomada quarta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_4_thursday",
+    "name_la": "Feria quinta, hebdomada quarta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_4_friday",
+    "name_la": "Feria sexta, hebdomada quarta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_4_saturday",
+    "name_la": "Sabbato, hebdomada quarta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_5_sunday",
+    "name_la": "Dominica quinta Paschæ"
+  },
+  {
+    "romcal_id": "easter_time_5_monday",
+    "name_la": "Feria secunda, hebdomada quinta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_5_tuesday",
+    "name_la": "Feria tertia, hebdomada quinta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_5_wednesday",
+    "name_la": "Feria quarta, hebdomada quinta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_5_thursday",
+    "name_la": "Feria quinta, hebdomada quinta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_5_friday",
+    "name_la": "Feria sexta, hebdomada quinta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_5_saturday",
+    "name_la": "Sabbato, hebdomada quinta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_6_sunday",
+    "name_la": "Dominica sexta Paschæ"
+  },
+  {
+    "romcal_id": "easter_time_6_monday",
+    "name_la": "Feria secunda, hebdomada sexta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_6_tuesday",
+    "name_la": "Feria tertia, hebdomada sexta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_6_wednesday",
+    "name_la": "Feria quarta, hebdomada sexta temporis paschalis"
+  },
+  {
+    "romcal_id": "ascension_of_the_lord",
+    "name_la": "In Ascensione Domini"
+  },
+  {
+    "romcal_id": "easter_time_6_thursday",
+    "name_la": "Feria quinta, hebdomada sexta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_6_friday",
+    "name_la": "Feria sexta, hebdomada sexta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_6_saturday",
+    "name_la": "Sabbato, hebdomada sexta temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_7_sunday",
+    "name_la": "Dominica septima Paschæ"
+  },
+  {
+    "romcal_id": "easter_time_7_monday",
+    "name_la": "Feria secunda, hebdomada septima temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_7_tuesday",
+    "name_la": "Feria tertia, hebdomada septima temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_7_wednesday",
+    "name_la": "Feria quarta, hebdomada septima temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_7_thursday",
+    "name_la": "Feria quinta, hebdomada septima temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_7_friday",
+    "name_la": "Feria sexta, hebdomada septima temporis paschalis"
+  },
+  {
+    "romcal_id": "easter_time_7_saturday",
+    "name_la": "Sabbato, hebdomada septima temporis paschalis"
+  },
+  {
+    "romcal_id": "pentecost_sunday",
+    "name_la": "Dominica Pentecostes"
+  },
+  {
+    "romcal_id": "most_holy_trinity",
+    "name_la": "Ss.mæ Trinitatis"
+  },
+  {
+    "romcal_id": "most_holy_body_and_blood_of_christ",
+    "name_la": "Ss.mi Corporis et Sanguinis Christi"
+  },
+  {
+    "romcal_id": "most_sacred_heart_of_jesus",
+    "name_la": "Sacratissimi Cordis Iesu"
+  },
+  {
+    "romcal_id": "ordinary_time_1_monday",
+    "name_la": "Feria secunda, hebdomada prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_1_tuesday",
+    "name_la": "Feria tertia, hebdomada prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_1_wednesday",
+    "name_la": "Feria quarta, hebdomada prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_1_thursday",
+    "name_la": "Feria quinta, hebdomada prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_1_friday",
+    "name_la": "Feria sexta, hebdomada prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_1_saturday",
+    "name_la": "Sabbato, hebdomada prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_2_sunday",
+    "name_la": "Dominica secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_2_monday",
+    "name_la": "Feria secunda, hebdomada secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_2_tuesday",
+    "name_la": "Feria tertia, hebdomada secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_2_wednesday",
+    "name_la": "Feria quarta, hebdomada secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_2_thursday",
+    "name_la": "Feria quinta, hebdomada secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_2_friday",
+    "name_la": "Feria sexta, hebdomada secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_2_saturday",
+    "name_la": "Sabbato, hebdomada secunda per annum"
+  },
+  {
+    "romcal_id": "sunday_of_the_word_of_god",
+    "name_la": "Dominica tertia per annum, seu Dominica Verbi Dei"
+  },
+  {
+    "romcal_id": "ordinary_time_3_monday",
+    "name_la": "Feria secunda, hebdomada tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_3_tuesday",
+    "name_la": "Feria tertia, hebdomada tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_3_wednesday",
+    "name_la": "Feria quarta, hebdomada tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_3_thursday",
+    "name_la": "Feria quinta, hebdomada tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_3_friday",
+    "name_la": "Feria sexta, hebdomada tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_3_saturday",
+    "name_la": "Sabbato, hebdomada tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_4_sunday",
+    "name_la": "Dominica quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_4_monday",
+    "name_la": "Feria secunda, hebdomada quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_4_tuesday",
+    "name_la": "Feria tertia, hebdomada quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_4_wednesday",
+    "name_la": "Feria quarta, hebdomada quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_4_thursday",
+    "name_la": "Feria quinta, hebdomada quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_4_friday",
+    "name_la": "Feria sexta, hebdomada quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_4_saturday",
+    "name_la": "Sabbato, hebdomada quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_5_sunday",
+    "name_la": "Dominica quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_5_monday",
+    "name_la": "Feria secunda, hebdomada quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_5_tuesday",
+    "name_la": "Feria tertia, hebdomada quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_5_wednesday",
+    "name_la": "Feria quarta, hebdomada quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_5_thursday",
+    "name_la": "Feria quinta, hebdomada quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_5_friday",
+    "name_la": "Feria sexta, hebdomada quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_5_saturday",
+    "name_la": "Sabbato, hebdomada quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_6_sunday",
+    "name_la": "Dominica sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_6_monday",
+    "name_la": "Feria secunda, hebdomada sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_6_tuesday",
+    "name_la": "Feria tertia, hebdomada sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_6_wednesday",
+    "name_la": "Feria quarta, hebdomada sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_6_thursday",
+    "name_la": "Feria quinta, hebdomada sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_6_friday",
+    "name_la": "Feria sexta, hebdomada sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_6_saturday",
+    "name_la": "Sabbato, hebdomada sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_7_sunday",
+    "name_la": "Dominica septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_7_monday",
+    "name_la": "Feria secunda, hebdomada septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_7_tuesday",
+    "name_la": "Feria tertia, hebdomada septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_7_wednesday",
+    "name_la": "Feria quarta, hebdomada septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_7_thursday",
+    "name_la": "Feria quinta, hebdomada septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_7_friday",
+    "name_la": "Feria sexta, hebdomada septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_7_saturday",
+    "name_la": "Sabbato, hebdomada septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_8_sunday",
+    "name_la": "Dominica octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_8_monday",
+    "name_la": "Feria secunda, hebdomada octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_8_tuesday",
+    "name_la": "Feria tertia, hebdomada octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_8_wednesday",
+    "name_la": "Feria quarta, hebdomada octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_8_thursday",
+    "name_la": "Feria quinta, hebdomada octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_8_friday",
+    "name_la": "Feria sexta, hebdomada octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_8_saturday",
+    "name_la": "Sabbato, hebdomada octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_9_sunday",
+    "name_la": "Dominica nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_9_monday",
+    "name_la": "Feria secunda, hebdomada nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_9_tuesday",
+    "name_la": "Feria tertia, hebdomada nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_9_wednesday",
+    "name_la": "Feria quarta, hebdomada nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_9_thursday",
+    "name_la": "Feria quinta, hebdomada nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_9_friday",
+    "name_la": "Feria sexta, hebdomada nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_9_saturday",
+    "name_la": "Sabbato, hebdomada nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_10_sunday",
+    "name_la": "Dominica decima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_10_monday",
+    "name_la": "Feria secunda, hebdomada decima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_10_tuesday",
+    "name_la": "Feria tertia, hebdomada decima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_10_wednesday",
+    "name_la": "Feria quarta, hebdomada decima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_10_thursday",
+    "name_la": "Feria quinta, hebdomada decima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_10_friday",
+    "name_la": "Feria sexta, hebdomada decima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_10_saturday",
+    "name_la": "Sabbato, hebdomada decima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_11_sunday",
+    "name_la": "Dominica undecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_11_monday",
+    "name_la": "Feria secunda, hebdomada undecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_11_tuesday",
+    "name_la": "Feria tertia, hebdomada undecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_11_wednesday",
+    "name_la": "Feria quarta, hebdomada undecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_11_thursday",
+    "name_la": "Feria quinta, hebdomada undecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_11_friday",
+    "name_la": "Feria sexta, hebdomada undecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_11_saturday",
+    "name_la": "Sabbato, hebdomada undecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_12_sunday",
+    "name_la": "Dominica duodecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_12_monday",
+    "name_la": "Feria secunda, hebdomada duodecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_12_tuesday",
+    "name_la": "Feria tertia, hebdomada duodecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_12_wednesday",
+    "name_la": "Feria quarta, hebdomada duodecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_12_thursday",
+    "name_la": "Feria quinta, hebdomada duodecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_12_friday",
+    "name_la": "Feria sexta, hebdomada duodecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_12_saturday",
+    "name_la": "Sabbato, hebdomada duodecima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_13_sunday",
+    "name_la": "Dominica decima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_13_monday",
+    "name_la": "Feria secunda, hebdomada decima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_13_tuesday",
+    "name_la": "Feria tertia, hebdomada decima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_13_wednesday",
+    "name_la": "Feria quarta, hebdomada decima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_13_thursday",
+    "name_la": "Feria quinta, hebdomada decima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_13_friday",
+    "name_la": "Feria sexta, hebdomada decima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_13_saturday",
+    "name_la": "Sabbato, hebdomada decima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_14_sunday",
+    "name_la": "Dominica decima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_14_monday",
+    "name_la": "Feria secunda, hebdomada decima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_14_tuesday",
+    "name_la": "Feria tertia, hebdomada decima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_14_wednesday",
+    "name_la": "Feria quarta, hebdomada decima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_14_thursday",
+    "name_la": "Feria quinta, hebdomada decima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_14_friday",
+    "name_la": "Feria sexta, hebdomada decima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_14_saturday",
+    "name_la": "Sabbato, hebdomada decima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_15_sunday",
+    "name_la": "Dominica decima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_15_monday",
+    "name_la": "Feria secunda, hebdomada decima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_15_tuesday",
+    "name_la": "Feria tertia, hebdomada decima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_15_wednesday",
+    "name_la": "Feria quarta, hebdomada decima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_15_thursday",
+    "name_la": "Feria quinta, hebdomada decima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_15_friday",
+    "name_la": "Feria sexta, hebdomada decima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_15_saturday",
+    "name_la": "Sabbato, hebdomada decima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_16_sunday",
+    "name_la": "Dominica decima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_16_monday",
+    "name_la": "Feria secunda, hebdomada decima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_16_tuesday",
+    "name_la": "Feria tertia, hebdomada decima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_16_wednesday",
+    "name_la": "Feria quarta, hebdomada decima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_16_thursday",
+    "name_la": "Feria quinta, hebdomada decima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_16_friday",
+    "name_la": "Feria sexta, hebdomada decima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_16_saturday",
+    "name_la": "Sabbato, hebdomada decima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_17_sunday",
+    "name_la": "Dominica decima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_17_monday",
+    "name_la": "Feria secunda, hebdomada decima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_17_tuesday",
+    "name_la": "Feria tertia, hebdomada decima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_17_wednesday",
+    "name_la": "Feria quarta, hebdomada decima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_17_thursday",
+    "name_la": "Feria quinta, hebdomada decima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_17_friday",
+    "name_la": "Feria sexta, hebdomada decima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_17_saturday",
+    "name_la": "Sabbato, hebdomada decima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_18_sunday",
+    "name_la": "Dominica decima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_18_monday",
+    "name_la": "Feria secunda, hebdomada decima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_18_tuesday",
+    "name_la": "Feria tertia, hebdomada decima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_18_wednesday",
+    "name_la": "Feria quarta, hebdomada decima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_18_thursday",
+    "name_la": "Feria quinta, hebdomada decima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_18_friday",
+    "name_la": "Feria sexta, hebdomada decima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_18_saturday",
+    "name_la": "Sabbato, hebdomada decima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_19_sunday",
+    "name_la": "Dominica decima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_19_monday",
+    "name_la": "Feria secunda, hebdomada decima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_19_tuesday",
+    "name_la": "Feria tertia, hebdomada decima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_19_wednesday",
+    "name_la": "Feria quarta, hebdomada decima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_19_thursday",
+    "name_la": "Feria quinta, hebdomada decima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_19_friday",
+    "name_la": "Feria sexta, hebdomada decima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_19_saturday",
+    "name_la": "Sabbato, hebdomada decima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_20_sunday",
+    "name_la": "Dominica vigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_20_monday",
+    "name_la": "Feria secunda, hebdomada vigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_20_tuesday",
+    "name_la": "Feria tertia, hebdomada vigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_20_wednesday",
+    "name_la": "Feria quarta, hebdomada vigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_20_thursday",
+    "name_la": "Feria quinta, hebdomada vigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_20_friday",
+    "name_la": "Feria sexta, hebdomada vigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_20_saturday",
+    "name_la": "Sabbato, hebdomada vigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_21_sunday",
+    "name_la": "Dominica vigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_21_monday",
+    "name_la": "Feria secunda, hebdomada vigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_21_tuesday",
+    "name_la": "Feria tertia, hebdomada vigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_21_wednesday",
+    "name_la": "Feria quarta, hebdomada vigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_21_thursday",
+    "name_la": "Feria quinta, hebdomada vigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_21_friday",
+    "name_la": "Feria sexta, hebdomada vigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_21_saturday",
+    "name_la": "Sabbato, hebdomada vigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_22_sunday",
+    "name_la": "Dominica vigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_22_monday",
+    "name_la": "Feria secunda, hebdomada vigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_22_tuesday",
+    "name_la": "Feria tertia, hebdomada vigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_22_wednesday",
+    "name_la": "Feria quarta, hebdomada vigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_22_thursday",
+    "name_la": "Feria quinta, hebdomada vigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_22_friday",
+    "name_la": "Feria sexta, hebdomada vigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_22_saturday",
+    "name_la": "Sabbato, hebdomada vigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_23_sunday",
+    "name_la": "Dominica vigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_23_monday",
+    "name_la": "Feria secunda, hebdomada vigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_23_tuesday",
+    "name_la": "Feria tertia, hebdomada vigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_23_wednesday",
+    "name_la": "Feria quarta, hebdomada vigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_23_thursday",
+    "name_la": "Feria quinta, hebdomada vigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_23_friday",
+    "name_la": "Feria sexta, hebdomada vigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_23_saturday",
+    "name_la": "Sabbato, hebdomada vigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_24_sunday",
+    "name_la": "Dominica vigesima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_24_monday",
+    "name_la": "Feria secunda, hebdomada vigesima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_24_tuesday",
+    "name_la": "Feria tertia, hebdomada vigesima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_24_wednesday",
+    "name_la": "Feria quarta, hebdomada vigesima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_24_thursday",
+    "name_la": "Feria quinta, hebdomada vigesima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_24_friday",
+    "name_la": "Feria sexta, hebdomada vigesima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_24_saturday",
+    "name_la": "Sabbato, hebdomada vigesima quarta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_25_sunday",
+    "name_la": "Dominica vigesima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_25_monday",
+    "name_la": "Feria secunda, hebdomada vigesima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_25_tuesday",
+    "name_la": "Feria tertia, hebdomada vigesima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_25_wednesday",
+    "name_la": "Feria quarta, hebdomada vigesima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_25_thursday",
+    "name_la": "Feria quinta, hebdomada vigesima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_25_friday",
+    "name_la": "Feria sexta, hebdomada vigesima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_25_saturday",
+    "name_la": "Sabbato, hebdomada vigesima quinta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_26_sunday",
+    "name_la": "Dominica vigesima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_26_monday",
+    "name_la": "Feria secunda, hebdomada vigesima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_26_tuesday",
+    "name_la": "Feria tertia, hebdomada vigesima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_26_wednesday",
+    "name_la": "Feria quarta, hebdomada vigesima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_26_thursday",
+    "name_la": "Feria quinta, hebdomada vigesima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_26_friday",
+    "name_la": "Feria sexta, hebdomada vigesima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_26_saturday",
+    "name_la": "Sabbato, hebdomada vigesima sexta per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_27_sunday",
+    "name_la": "Dominica vigesima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_27_monday",
+    "name_la": "Feria secunda, hebdomada vigesima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_27_tuesday",
+    "name_la": "Feria tertia, hebdomada vigesima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_27_wednesday",
+    "name_la": "Feria quarta, hebdomada vigesima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_27_thursday",
+    "name_la": "Feria quinta, hebdomada vigesima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_27_friday",
+    "name_la": "Feria sexta, hebdomada vigesima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_27_saturday",
+    "name_la": "Sabbato, hebdomada vigesima septima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_28_sunday",
+    "name_la": "Dominica vigesima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_28_monday",
+    "name_la": "Feria secunda, hebdomada vigesima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_28_tuesday",
+    "name_la": "Feria tertia, hebdomada vigesima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_28_wednesday",
+    "name_la": "Feria quarta, hebdomada vigesima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_28_thursday",
+    "name_la": "Feria quinta, hebdomada vigesima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_28_friday",
+    "name_la": "Feria sexta, hebdomada vigesima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_28_saturday",
+    "name_la": "Sabbato, hebdomada vigesima octava per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_29_sunday",
+    "name_la": "Dominica vigesima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_29_monday",
+    "name_la": "Feria secunda, hebdomada vigesima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_29_tuesday",
+    "name_la": "Feria tertia, hebdomada vigesima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_29_wednesday",
+    "name_la": "Feria quarta, hebdomada vigesima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_29_thursday",
+    "name_la": "Feria quinta, hebdomada vigesima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_29_friday",
+    "name_la": "Feria sexta, hebdomada vigesima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_29_saturday",
+    "name_la": "Sabbato, hebdomada vigesima nona per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_30_sunday",
+    "name_la": "Dominica trigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_30_monday",
+    "name_la": "Feria secunda, hebdomada trigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_30_tuesday",
+    "name_la": "Feria tertia, hebdomada trigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_30_wednesday",
+    "name_la": "Feria quarta, hebdomada trigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_30_thursday",
+    "name_la": "Feria quinta, hebdomada trigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_30_friday",
+    "name_la": "Feria sexta, hebdomada trigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_30_saturday",
+    "name_la": "Sabbato, hebdomada trigesima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_31_sunday",
+    "name_la": "Dominica trigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_31_monday",
+    "name_la": "Feria secunda, hebdomada trigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_31_tuesday",
+    "name_la": "Feria tertia, hebdomada trigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_31_wednesday",
+    "name_la": "Feria quarta, hebdomada trigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_31_thursday",
+    "name_la": "Feria quinta, hebdomada trigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_31_friday",
+    "name_la": "Feria sexta, hebdomada trigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_31_saturday",
+    "name_la": "Sabbato, hebdomada trigesima prima per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_32_sunday",
+    "name_la": "Dominica trigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_32_monday",
+    "name_la": "Feria secunda, hebdomada trigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_32_tuesday",
+    "name_la": "Feria tertia, hebdomada trigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_32_wednesday",
+    "name_la": "Feria quarta, hebdomada trigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_32_thursday",
+    "name_la": "Feria quinta, hebdomada trigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_32_friday",
+    "name_la": "Feria sexta, hebdomada trigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_32_saturday",
+    "name_la": "Sabbato, hebdomada trigesima secunda per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_33_sunday",
+    "name_la": "Dominica trigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_33_monday",
+    "name_la": "Feria secunda, hebdomada trigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_33_tuesday",
+    "name_la": "Feria tertia, hebdomada trigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_33_wednesday",
+    "name_la": "Feria quarta, hebdomada trigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_33_thursday",
+    "name_la": "Feria quinta, hebdomada trigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_33_friday",
+    "name_la": "Feria sexta, hebdomada trigesima tertia per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_33_saturday",
+    "name_la": "Sabbato, hebdomada trigesima tertia per annum"
+  },
+  {
+    "romcal_id": "our_lord_jesus_christ_king_of_the_universe",
+    "name_la": "D. N. I. C. universorum regis"
+  },
+  {
+    "romcal_id": "ordinary_time_34_monday",
+    "name_la": "Feria secunda, hebdomada trigesima quartra per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_34_tuesday",
+    "name_la": "Feria tertia, hebdomada trigesima quartra per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_34_wednesday",
+    "name_la": "Feria quarta, hebdomada trigesima quartra per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_34_thursday",
+    "name_la": "Feria quinta, hebdomada trigesima quartra per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_34_friday",
+    "name_la": "Feria sexta, hebdomada trigesima quartra per annum"
+  },
+  {
+    "romcal_id": "ordinary_time_34_saturday",
+    "name_la": "Sabbato, hebdomada trigesima quartra per annum"
+  }
+]

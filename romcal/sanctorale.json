@@ -1,0 +1,882 @@
+[
+  {
+    "romcal_id": "adalbert_of_prague_bishop",
+    "name_la": "S. Adalberti, episcopi et martyris"
+  },
+  {
+    "romcal_id": "agatha_of_sicily_virgin",
+    "name_la": "S. Agathæ, virginis et martyris"
+  },
+  {
+    "romcal_id": "agnes_of_rome_virgin",
+    "name_la": "S. Agnetis, virginis et martyris"
+  },
+  {
+    "romcal_id": "albert_the_great_bishop",
+    "name_la": "S. Alberti Magni, episcopi"
+  },
+  {
+    "romcal_id": "all_saints",
+    "name_la": "Omnium Sanctorum"
+  },
+  {
+    "romcal_id": "aloysius_gonzaga_religious",
+    "name_la": "S. Aloisii Gonzaga, religiosi"
+  },
+  {
+    "romcal_id": "alphonsus_mary_liguori_bishop",
+    "name_la": "S. Alfonsi Mariæ de’ Liguori, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "ambrose_of_milan_bishop",
+    "name_la": "S. Ambrosii, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "andrew_apostle",
+    "name_la": "S. Andreæ, apostoli"
+  },
+  {
+    "romcal_id": "andrew_dung_lac_priest_and_companions_martyrs",
+    "name_la": "Ss. Andreæ Dũng Lạc, presbyteri, et sociorum, martyrum"
+  },
+  {
+    "romcal_id": "andrew_kim_tae_gon_priest_paul_chong_ha_sang_and_companions_martyrs",
+    "name_la": "Ss. Andreæ Kim Tae-gŏn, presbyteri, Pauli Chŏng Ha-sang et sociorum, martyrum"
+  },
+  {
+    "romcal_id": "angela_merici_virgin",
+    "name_la": "S. Angelæ Merici, virginis"
+  },
+  {
+    "romcal_id": "annunciation_of_the_lord",
+    "name_la": "In Annuntiatione Domini"
+  },
+  {
+    "romcal_id": "anselm_of_canterbury_bishop",
+    "name_la": "S. Anselmi, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "ansgar_of_hamburg_bishop",
+    "name_la": "S. Ansgarii, episcopi"
+  },
+  {
+    "romcal_id": "anthony_mary_claret_bishop",
+    "name_la": "S. Antonii Mariæ Claret, episcopi"
+  },
+  {
+    "romcal_id": "anthony_of_egypt_abbot",
+    "name_la": "S. Antonii, abbatis"
+  },
+  {
+    "romcal_id": "anthony_of_padua_priest",
+    "name_la": "S. Antonii de Padova, presbyteri et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "anthony_zaccaria_priest",
+    "name_la": "S. Antonii Mariæ Zaccaria, presbyteri"
+  },
+  {
+    "romcal_id": "apollinaris_of_ravenna_bishop",
+    "name_la": "S. Apollinaris, episcopi et martyris"
+  },
+  {
+    "romcal_id": "assumption_of_the_blessed_virgin_mary",
+    "name_la": "In Assumptione Beatæ Mariæ Virginis"
+  },
+  {
+    "romcal_id": "athanasius_of_alexandria_bishop",
+    "name_la": "S. Athanasii, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "augustine_of_canterbury_bishop",
+    "name_la": "S. Augustini Cantuariensis, episcopi"
+  },
+  {
+    "romcal_id": "augustine_of_hippo_bishop",
+    "name_la": "S. Augustini, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "augustine_zhao_rong_priest_and_companions_martyrs",
+    "name_la": "Ss. Augustini Zhao Rong, presbyteri, et sociorum, martyrum"
+  },
+  {
+    "romcal_id": "barnabas_apostle",
+    "name_la": "S. Barnabæ, apostoli"
+  },
+  {
+    "romcal_id": "bartholomew_apostle",
+    "name_la": "S. Bartholomæi, apostoli"
+  },
+  {
+    "romcal_id": "basil_the_great_and_gregory_nazianzen_bishops",
+    "name_la": "Ss. Basilii Magni et Gregorii Nazianzeni, episcoporum et Ecclesiæ doctorum"
+  },
+  {
+    "romcal_id": "bede_the_venerable_priest",
+    "name_la": "S. Bedæ Venerabilis, presbyteri et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "benedict_of_nursia_abbot",
+    "name_la": "S. Benedicti, abbatis"
+  },
+  {
+    "romcal_id": "bernard_of_clairvaux_abbot",
+    "name_la": "S. Bernardi, abbatis et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "bernardine_of_siena_priest",
+    "name_la": "S. Bernardini Senensis, presbyteri"
+  },
+  {
+    "romcal_id": "blaise_of_sebaste_bishop",
+    "name_la": "S. Blasii, episcopi et martyris"
+  },
+  {
+    "romcal_id": "bonaventure_of_bagnoregio_bishop",
+    "name_la": "S. Bonaventuræ, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "boniface_of_mainz_bishop",
+    "name_la": "S. Bonifatii, episcopi et martyris"
+  },
+  {
+    "romcal_id": "bridget_of_sweden_religious",
+    "name_la": "S. Birgittæ, religiosæ"
+  },
+  {
+    "romcal_id": "bruno_of_cologne_priest",
+    "name_la": "S. Brunonis, presbyteri"
+  },
+  {
+    "romcal_id": "cajetan_of_thiene_priest",
+    "name_la": "S. Caietani, presbyteri"
+  },
+  {
+    "romcal_id": "callistus_i_pope",
+    "name_la": "S. Callisti I, papæ et martyris"
+  },
+  {
+    "romcal_id": "camillus_de_lellis_priest",
+    "name_la": "S. Camilli de Lellis, presbyteri"
+  },
+  {
+    "romcal_id": "casimir_of_poland",
+    "name_la": "S. Casimiri"
+  },
+  {
+    "romcal_id": "catherine_of_alexandria_virgin",
+    "name_la": "S. Catharinæ Alexandrinæ, virginis et martyris"
+  },
+  {
+    "romcal_id": "catherine_of_siena_virgin",
+    "name_la": "S. Catharinæ Senensis, virginis et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "cecilia_of_rome_virgin",
+    "name_la": "S. Cæciliæ, virginis et martyris"
+  },
+  {
+    "romcal_id": "chair_of_saint_peter_the_apostle",
+    "name_la": "Cathedræ S. Petri, apostoli"
+  },
+  {
+    "romcal_id": "charles_borromeo_bishop",
+    "name_la": "S. Caroli Borromeo, episcopi"
+  },
+  {
+    "romcal_id": "charles_lwanga_and_companions_martyrs",
+    "name_la": "Ss. Caroli Lwanga et sociorum, martyrum"
+  },
+  {
+    "romcal_id": "christopher_magallanes_priest_and_companions_martyrs",
+    "name_la": "Ss. Christophori Magallanes, presbyteri, et sociorum, martyrum"
+  },
+  {
+    "romcal_id": "clare_of_assisi_virgin",
+    "name_la": "S. Claræ, virginis"
+  },
+  {
+    "romcal_id": "clement_i_pope",
+    "name_la": "S. Clementis I, papæ et martyris"
+  },
+  {
+    "romcal_id": "columban_of_luxeuil_abbot",
+    "name_la": "S. Columbani, abbatis"
+  },
+  {
+    "romcal_id": "commemoration_of_all_the_faithful_departed",
+    "name_la": "In Commemoratione omnium fidelium defunctorum"
+  },
+  {
+    "romcal_id": "conversion_of_saint_paul_the_apostle",
+    "name_la": "In conversione S. Pauli, apostoli"
+  },
+  {
+    "romcal_id": "cornelius_i_pope_and_cyprian_of_carthage_bishop_martyrs",
+    "name_la": "Ss. Cornelii, papæ, et Cypriani, episcopi, martyrum"
+  },
+  {
+    "romcal_id": "cosmas_of_cilicia_and_damian_of_cilicia_martyrs",
+    "name_la": "Ss. Cosmæ et Damiani, martyrum"
+  },
+  {
+    "romcal_id": "cyril_constantine_the_philosopher_monk_and_methodius_michael_of_thessaloniki_bishop",
+    "name_la": "Ss. Cyrilli, monachi, et Methodii, episcopi"
+  },
+  {
+    "romcal_id": "cyril_of_alexandria_bishop",
+    "name_la": "S. Cyrilli Alexandrini, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "cyril_of_jerusalem_bishop",
+    "name_la": "S. Cyrilli Hierosolymitani, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "damasus_i_pope",
+    "name_la": "S. Damasi I, papæ"
+  },
+  {
+    "romcal_id": "dedication_of_the_basilica_of_saint_mary_major",
+    "name_la": "In Dedicatione basilicæ S. Mariæ"
+  },
+  {
+    "romcal_id": "dedication_of_the_basilicas_of_saints_peter_and_paul_apostles",
+    "name_la": "In Dedicatione basilicarum Ss. Petri et Pauli, apostolorum"
+  },
+  {
+    "romcal_id": "dedication_of_the_lateran_basilica",
+    "name_la": "In Dedicatione Basilicæ Lateranensis"
+  },
+  {
+    "romcal_id": "denis_of_paris_bishop_and_companions_martyrs",
+    "name_la": "Ss. Dionysii, episcopi, et sociorum, martyrum"
+  },
+  {
+    "romcal_id": "dominic_de_guzman_priest",
+    "name_la": "S. Dominici, presbyteri"
+  },
+  {
+    "romcal_id": "elizabeth_of_hungary_religious",
+    "name_la": "S. Elisabeth Hungariæ, religiosæ"
+  },
+  {
+    "romcal_id": "elizabeth_of_portugal",
+    "name_la": "S. Elisabeth Lusitaniæ"
+  },
+  {
+    "romcal_id": "ephrem_the_syrian_deacon",
+    "name_la": "S. Ephræm, diaconi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "eusebius_of_vercelli_bishop",
+    "name_la": "S. Eusebii Vercellensis, episcopi"
+  },
+  {
+    "romcal_id": "exaltation_of_the_holy_cross",
+    "name_la": "In Exaltatione Sanctæ Crucis"
+  },
+  {
+    "romcal_id": "fabian_i_pope",
+    "name_la": "S. Fabiani, papæ et martyris"
+  },
+  {
+    "romcal_id": "faustina_kowalska_virgin",
+    "name_la": "S. Faustinæ Kowalska, virginis"
+  },
+  {
+    "romcal_id": "fidelis_of_sigmaringen_priest",
+    "name_la": "S. Fidelis a Sigmaringen, presbyteri et martyris"
+  },
+  {
+    "romcal_id": "first_martyrs_of_the_holy_roman_church",
+    "name_la": "Ss. Protomartyrum S. Romanæ Ecclesiæ"
+  },
+  {
+    "romcal_id": "frances_of_rome_religious",
+    "name_la": "S. Franciscæ Romanæ, religiosæ"
+  },
+  {
+    "romcal_id": "francis_de_sales_bishop",
+    "name_la": "S. Francisci de Sales, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "francis_of_assisi",
+    "name_la": "S. Francisci Assisiensis"
+  },
+  {
+    "romcal_id": "francis_of_paola_hermit",
+    "name_la": "S. Francisci de Paola, eremitæ"
+  },
+  {
+    "romcal_id": "francis_xavier_priest",
+    "name_la": "S. Francisci Xavier, presbyteri"
+  },
+  {
+    "romcal_id": "george_of_lydda_martyr",
+    "name_la": "S. Georgii, martyris"
+  },
+  {
+    "romcal_id": "gertrude_the_great_virgin",
+    "name_la": "S. Gertrudis, virginis"
+  },
+  {
+    "romcal_id": "gregory_i_the_great_pope",
+    "name_la": "S. Gregorii Magni, papæ et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "gregory_of_narek_abbot",
+    "name_la": "S. Gregorii Narecensis, abbatis et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "gregory_vii_pope",
+    "name_la": "S. Gregorii VII, papæ"
+  },
+  {
+    "romcal_id": "hedwig_of_silesia_religious",
+    "name_la": "S. Hedvigis, religiosæ"
+  },
+  {
+    "romcal_id": "henry_ii_emperor",
+    "name_la": "S. Henrici"
+  },
+  {
+    "romcal_id": "hilary_of_poitiers_bishop",
+    "name_la": "S. Hilarii, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "hildegard_of_bingen_abbess",
+    "name_la": "S. Hildegardis Bingensis, abatissæ et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "holy_guardian_angels",
+    "name_la": "Ss. Angelorum Custodum"
+  },
+  {
+    "romcal_id": "holy_innocents_martyrs",
+    "name_la": "Ss. Innocentium, martyrum"
+  },
+  {
+    "romcal_id": "ignatius_of_antioch_bishop",
+    "name_la": "S. Ignatii Antiocheni, episcopi et martyris"
+  },
+  {
+    "romcal_id": "ignatius_of_loyola_priest",
+    "name_la": "S. Ignatii de Loyola, presbyteri"
+  },
+  {
+    "romcal_id": "immaculate_conception_of_the_blessed_virgin_mary",
+    "name_la": "In Conceptione Immaculata Beatæ Mariæ Virginis"
+  },
+  {
+    "romcal_id": "immaculate_heart_of_mary",
+    "name_la": "Immaculati Cordis B. Mariæ Virginis"
+  },
+  {
+    "romcal_id": "irenaeus_of_lyon_bishop",
+    "name_la": "S. Irenæi, episcopi, martyris et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "isidore_of_seville_bishop",
+    "name_la": "S. Isidori, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "james_apostle",
+    "name_la": "S. Iacobi, apostoli"
+  },
+  {
+    "romcal_id": "jane_frances_de_chantal_religious",
+    "name_la": "S. Ioannæ Franciscæ de Chantal, religiosæ"
+  },
+  {
+    "romcal_id": "januarius_i_of_benevento_bishop",
+    "name_la": "S. Ianuarii, episcopi et martyris"
+  },
+  {
+    "romcal_id": "jerome_emiliani",
+    "name_la": "S. Hieronymi Emiliani"
+  },
+  {
+    "romcal_id": "jerome_of_stridon_priest",
+    "name_la": "S. Hieronymi, presbyteri et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "joachim_and_anne_parents_of_mary",
+    "name_la": "Ss. Ioachim et Annæ, parentum B. M. V."
+  },
+  {
+    "romcal_id": "john_apostle",
+    "name_la": "S. Ioannis, apostoli et evangelistæ"
+  },
+  {
+    "romcal_id": "john_baptist_de_la_salle_priest",
+    "name_la": "S. Ioannis Baptistæ de la Salle, presbyteri"
+  },
+  {
+    "romcal_id": "john_bosco_priest",
+    "name_la": "S. Ioannis Bosco, presbyteri"
+  },
+  {
+    "romcal_id": "john_chrysostom_bishop",
+    "name_la": "S. Ioannis Chrysostomi, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "john_damascene_priest",
+    "name_la": "S. Ioannis Damasceni, presbyteri et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "john_de_brebeuf_isaac_jogues_priests_and_companions_martyrs",
+    "name_la": "Ss. Ioannis de Brébeuf et Isaac Jogues, presbyterorum, et sociorum, martyrum"
+  },
+  {
+    "romcal_id": "john_eudes_priest",
+    "name_la": "S. Ioannis Eudes, presbyteri"
+  },
+  {
+    "romcal_id": "john_fisher_bishop_and_thomas_more_martyrs",
+    "name_la": "Ss. Ioannis Fisher, episcopi, et Thomæ More, martyrum"
+  },
+  {
+    "romcal_id": "john_i_pope",
+    "name_la": "S. Ioannis I, papæ et martyris"
+  },
+  {
+    "romcal_id": "john_leonardi_priest",
+    "name_la": "S. Ioannis Leonardi, presbyteri"
+  },
+  {
+    "romcal_id": "john_mary_vianney_priest",
+    "name_la": "S. Ioannis Mariæ Vianney, presbyteri"
+  },
+  {
+    "romcal_id": "john_of_avila_priest",
+    "name_la": "S. Ioannis de Avila, presbyteri et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "john_of_capistrano_priest",
+    "name_la": "S. Ioannis de Capestrano, presbyteri"
+  },
+  {
+    "romcal_id": "john_of_god_duarte_cidade_religious",
+    "name_la": "S. Ioannis a Deo, religiosi"
+  },
+  {
+    "romcal_id": "john_of_kanty_priest",
+    "name_la": "S. Ioannis de Kęty, presbyteri"
+  },
+  {
+    "romcal_id": "john_of_the_cross_priest",
+    "name_la": "S. Ioannis a Cruce, presbyteri et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "john_paul_ii_pope",
+    "name_la": "S. Ioannis Pauli II, papæ"
+  },
+  {
+    "romcal_id": "john_xxiii_pope",
+    "name_la": "S. Ioannis XXIII, papæ"
+  },
+  {
+    "romcal_id": "josaphat_kuntsevych_bishop",
+    "name_la": "S. Iosaphat, episcopi et martyris"
+  },
+  {
+    "romcal_id": "joseph_of_calasanz_priest",
+    "name_la": "S. Iosephi de Calasanz, presbyteri"
+  },
+  {
+    "romcal_id": "joseph_spouse_of_mary",
+    "name_la": "S. Iosephi, Sponsi B. M. V."
+  },
+  {
+    "romcal_id": "joseph_the_worker",
+    "name_la": "S. Iosephi opificis"
+  },
+  {
+    "romcal_id": "josephine_bakhita_virgin",
+    "name_la": "S. Iosephinæ Bakhita, virginis"
+  },
+  {
+    "romcal_id": "juan_diego_cuauhtlatoatzin",
+    "name_la": "S. Ioannis Didaci Cuauhtlatoatzin"
+  },
+  {
+    "romcal_id": "justin_martyr",
+    "name_la": "S. Iustini, martyris"
+  },
+  {
+    "romcal_id": "lawrence_of_brindisi_priest",
+    "name_la": "S. Laurentii de Brindisi, presbyteri et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "lawrence_of_rome_deacon",
+    "name_la": "S. Laurentii, diaconi et martyris"
+  },
+  {
+    "romcal_id": "lawrence_ruiz_and_companions_martyrs",
+    "name_la": "Ss. Laurentii Ruiz et sociorum, martyrum"
+  },
+  {
+    "romcal_id": "leo_i_the_great_pope",
+    "name_la": "S. Leonis Magni, papæ et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "louis_grignion_de_montfort_priest",
+    "name_la": "S. Ludovici Mariæ Grignion de Montfort, presbyteri"
+  },
+  {
+    "romcal_id": "louis_ix_of_france",
+    "name_la": "S. Ludovici"
+  },
+  {
+    "romcal_id": "lucy_of_syracuse_virgin",
+    "name_la": "S. Luciæ, virginis et martyris"
+  },
+  {
+    "romcal_id": "luke_evangelist",
+    "name_la": "S. Lucæ, evangelistæ"
+  },
+  {
+    "romcal_id": "marcellinus_of_rome_and_peter_the_exorcist_martyrs",
+    "name_la": "Ss. Marcellini et Petri, martyrum"
+  },
+  {
+    "romcal_id": "margaret_mary_alacoque_virgin",
+    "name_la": "S. Margaritæ Mariæ Alacoque, virginis"
+  },
+  {
+    "romcal_id": "margaret_of_scotland",
+    "name_la": "S. Margaritæ Scotiæ"
+  },
+  {
+    "romcal_id": "maria_goretti_virgin",
+    "name_la": "S. Mariæ Goretti, virginis et martyris"
+  },
+  {
+    "romcal_id": "mark_evangelist",
+    "name_la": "S. Marci, evangelistæ"
+  },
+  {
+    "romcal_id": "martha_of_bethany_mary_of_bethany_and_lazarus_of_bethany",
+    "name_la": "S. Marthæ, Mariæ et Lazari"
+  },
+  {
+    "romcal_id": "martin_de_porres_religious",
+    "name_la": "S. Martini de Porres, religiosi"
+  },
+  {
+    "romcal_id": "martin_i_pope",
+    "name_la": "S. Martini I, papæ et martyris"
+  },
+  {
+    "romcal_id": "martin_of_tours_bishop",
+    "name_la": "S. Martini Turonensis, episcopi"
+  },
+  {
+    "romcal_id": "mary_magdalene",
+    "name_la": "S. Mariæ Magdalenæ"
+  },
+  {
+    "romcal_id": "mary_magdalene_de_pazzi_virgin",
+    "name_la": "S. Mariæ Magdalenæ de’ Pazzi, virginis"
+  },
+  {
+    "romcal_id": "mary_mother_of_the_church",
+    "name_la": "B. Mariæ Virginis Ecclesiæ Matris"
+  },
+  {
+    "romcal_id": "matthew_apostle",
+    "name_la": "S. Matthæi, apostoli et evangelistæ"
+  },
+  {
+    "romcal_id": "matthias_apostle",
+    "name_la": "S. Matthiæ, apostoli"
+  },
+  {
+    "romcal_id": "maximilian_mary_raymund_kolbe_priest",
+    "name_la": "S. Maximiliani Mariæ Kolbe, presbyteri et martyris"
+  },
+  {
+    "romcal_id": "michael_gabriel_and_raphael_archangels",
+    "name_la": "Ss. Michaelis, Gabrielis et Raphaelis, archangelorum"
+  },
+  {
+    "romcal_id": "monica_of_hippo",
+    "name_la": "S. Monicæ"
+  },
+  {
+    "romcal_id": "most_holy_name_of_jesus",
+    "name_la": "Ss.mi Nominis Iesu"
+  },
+  {
+    "romcal_id": "most_holy_name_of_mary",
+    "name_la": "Ss.mi Nominis Mariæ"
+  },
+  {
+    "romcal_id": "nativity_of_john_the_baptist",
+    "name_la": "In Nativitate S. Ioannis Baptistæ"
+  },
+  {
+    "romcal_id": "nativity_of_the_blessed_virgin_mary",
+    "name_la": "In Nativitate B. Mariæ Virginis"
+  },
+  {
+    "romcal_id": "nereus_of_terracina_and_achilleus_of_terracina_martyrs",
+    "name_la": "Ss. Nerei et Achillei, martyrum"
+  },
+  {
+    "romcal_id": "nicholas_of_myra_bishop",
+    "name_la": "S. Nicolai, episcopi"
+  },
+  {
+    "romcal_id": "norbert_of_xanten_bishop",
+    "name_la": "S. Norberti, episcopi"
+  },
+  {
+    "romcal_id": "our_lady_of_fatima",
+    "name_la": "B. Mariæ Virginis de Fatima"
+  },
+  {
+    "romcal_id": "our_lady_of_guadalupe",
+    "name_la": "B. Mariæ Virginis de Guadalupe"
+  },
+  {
+    "romcal_id": "our_lady_of_loreto",
+    "name_la": "B. Mariæ Virginis de Loreto"
+  },
+  {
+    "romcal_id": "our_lady_of_lourdes",
+    "name_la": "B. Mariæ Virginis de Lourdes"
+  },
+  {
+    "romcal_id": "our_lady_of_mount_carmel",
+    "name_la": "B. Mariæ Virginis de Monte Carmelo"
+  },
+  {
+    "romcal_id": "our_lady_of_sorrows",
+    "name_la": "B. Mariæ Virginis Perdolentis"
+  },
+  {
+    "romcal_id": "our_lady_of_the_rosary",
+    "name_la": "B. Mariæ Virginis a Rosario"
+  },
+  {
+    "romcal_id": "pancras_of_rome_martyr",
+    "name_la": "S. Pancratii, martyris"
+  },
+  {
+    "romcal_id": "passion_of_saint_john_the_baptist",
+    "name_la": "In Passione S. Ioannis Baptistæ"
+  },
+  {
+    "romcal_id": "patrick_of_ireland_bishop",
+    "name_la": "S. Patricii, episcopi"
+  },
+  {
+    "romcal_id": "paul_miki_and_companions_martyrs",
+    "name_la": "Ss. Pauli Miki et sociorum, martyrum"
+  },
+  {
+    "romcal_id": "paul_of_the_cross_priest",
+    "name_la": "S. Pauli a Cruce, presbyteri"
+  },
+  {
+    "romcal_id": "paul_vi_pope",
+    "name_la": "S. Pauli VI, papæ"
+  },
+  {
+    "romcal_id": "paulinus_of_nola_bishop",
+    "name_la": "S. Paulini Nolani, episcopi"
+  },
+  {
+    "romcal_id": "perpetua_of_carthage_and_felicity_of_carthage_martyrs",
+    "name_la": "Ss. Perpetuæ et Felicitatis, martyrum"
+  },
+  {
+    "romcal_id": "peter_and_paul_apostles",
+    "name_la": "Ss. Petri et Pauli, apostolorum"
+  },
+  {
+    "romcal_id": "peter_canisius_priest",
+    "name_la": "S. Petri Canisii, presbyteri et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "peter_chanel_priest",
+    "name_la": "S. Petri Chanel, presbyteri et martyris"
+  },
+  {
+    "romcal_id": "peter_chrysologus_bishop",
+    "name_la": "S. Petri Chrysologi, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "peter_claver_priest",
+    "name_la": "S. Petri Claver, presbyteri"
+  },
+  {
+    "romcal_id": "peter_damian_bishop",
+    "name_la": "S. Petri Damiani, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "peter_julian_eymard_priest",
+    "name_la": "S. Petri Iuliani Eymard, presbyteri"
+  },
+  {
+    "romcal_id": "philip_and_james_apostles",
+    "name_la": "Ss. Philippi et Iacobi, apostolorum"
+  },
+  {
+    "romcal_id": "philip_neri_priest",
+    "name_la": "S. Philippi Neri, presbyteri"
+  },
+  {
+    "romcal_id": "pius_francesco_forgione_priest",
+    "name_la": "S. Pii de Pietrelcina, presbyteri"
+  },
+  {
+    "romcal_id": "pius_v_pope",
+    "name_la": "S. Pii V, papæ"
+  },
+  {
+    "romcal_id": "pius_x_pope",
+    "name_la": "S. Pii X, papæ"
+  },
+  {
+    "romcal_id": "polycarp_of_smyrna_bishop",
+    "name_la": "S. Polycarpi, episcopi et martyris"
+  },
+  {
+    "romcal_id": "pontian_i_pope_and_hippolytus_of_rome_priest",
+    "name_la": "Ss. Pontiani, papæ, et Hippolyti, presbyteri, martyrum"
+  },
+  {
+    "romcal_id": "presentation_of_the_blessed_virgin_mary",
+    "name_la": "In Præsentatione B. Mariæ Virginis"
+  },
+  {
+    "romcal_id": "presentation_of_the_lord",
+    "name_la": "In Præsentatione Domini"
+  },
+  {
+    "romcal_id": "queenship_of_the_blessed_virgin_mary",
+    "name_la": "B. Mariæ Virginis Reginæ"
+  },
+  {
+    "romcal_id": "raymond_of_penyafort_priest",
+    "name_la": "S. Raimundi de Penyafort, presbyteri"
+  },
+  {
+    "romcal_id": "rita_of_cascia_religious",
+    "name_la": "S. Ritæ de Cascia, religiosæ"
+  },
+  {
+    "romcal_id": "robert_bellarmine_bishop",
+    "name_la": "S. Roberti Bellarmini, episcopi et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "romuald_of_ravenna_abbot",
+    "name_la": "S. Romualdi, abbatis"
+  },
+  {
+    "romcal_id": "rose_of_lima_virgin",
+    "name_la": "S. Rosæ de Lima, virginis"
+  },
+  {
+    "romcal_id": "scholastica_of_nursia_virgin",
+    "name_la": "S. Scholasticæ, virginis"
+  },
+  {
+    "romcal_id": "sebastian_of_milan_martyr",
+    "name_la": "S. Sebastiani, martyris"
+  },
+  {
+    "romcal_id": "seven_holy_founders_of_the_servite_order",
+    "name_la": "Ss. septem Fundatorum Ordinis Servorum B. M. V."
+  },
+  {
+    "romcal_id": "sharbel_makhluf_priest",
+    "name_la": "S. Sarbelii Makhlūf, presbyteri"
+  },
+  {
+    "romcal_id": "simon_and_jude_apostles",
+    "name_la": "Ss. Simonis et Iudæ, apostolorum"
+  },
+  {
+    "romcal_id": "sixtus_ii_pope_and_companions_martyrs",
+    "name_la": "Ss. Xysti II, papæ, et sociorum, martyrum"
+  },
+  {
+    "romcal_id": "stanislaus_of_szczepanow_bishop",
+    "name_la": "S. Stanislai, episcopi et martyris"
+  },
+  {
+    "romcal_id": "stephen_i_of_hungary",
+    "name_la": "S. Stephani Hungariæ"
+  },
+  {
+    "romcal_id": "stephen_the_first_martyr",
+    "name_la": "S. Stephani, protomartyris"
+  },
+  {
+    "romcal_id": "sylvester_i_pope",
+    "name_la": "S. Silvestri I, papæ"
+  },
+  {
+    "romcal_id": "teresa_benedicta_of_the_cross_stein_virgin",
+    "name_la": "S. Teresiæ Benedictæ a Cruce Stein, virginis et martyris"
+  },
+  {
+    "romcal_id": "teresa_of_calcutta_virgin",
+    "name_la": "S. Teresiæ de Calcutta, virginis"
+  },
+  {
+    "romcal_id": "teresa_of_jesus_of_avila_virgin",
+    "name_la": "S. Teresiæ a Iesu, virginis et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "therese_of_the_child_jesus_and_the_holy_face_of_lisieux_virgin",
+    "name_la": "S. Teresiæ a Iesu Infante, virginis et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "thomas_apostle",
+    "name_la": "S. Thomæ, apostoli"
+  },
+  {
+    "romcal_id": "thomas_aquinas_priest",
+    "name_la": "S. Thomæ de Aquino, presbyteri et Ecclesiæ doctoris"
+  },
+  {
+    "romcal_id": "thomas_becket_bishop",
+    "name_la": "S. Thomæ Becket, episcopi et martyris"
+  },
+  {
+    "romcal_id": "timothy_of_ephesus_and_titus_of_crete_bishops",
+    "name_la": "Ss. Timothei et Titi, episcoporum"
+  },
+  {
+    "romcal_id": "transfiguration_of_the_lord",
+    "name_la": "In Transfiguratione Domini"
+  },
+  {
+    "romcal_id": "turibius_of_mogrovejo_bishop",
+    "name_la": "S. Turibii de Mogrovejo, episcopi"
+  },
+  {
+    "romcal_id": "vincent_de_paul_priest",
+    "name_la": "S. Vincentii de Paul, presbyteri"
+  },
+  {
+    "romcal_id": "vincent_ferrer_priest",
+    "name_la": "S. Vincentii Ferrer, presbyteri"
+  },
+  {
+    "romcal_id": "vincent_of_saragossa_deacon",
+    "name_la": "S. Vincentii, diaconi et martyris"
+  },
+  {
+    "romcal_id": "visitation_of_mary",
+    "name_la": "In Visitatione B. Mariæ Virginis"
+  },
+  {
+    "romcal_id": "wenceslaus_i_of_bohemia_martyr",
+    "name_la": "S. Venceslai, martyris"
+  }
+]
