@@ -60,22 +60,32 @@ async function generateCombinedMarkdown(): Promise<void> {
     }
   }
 
-  const headers = [
-    'name',
-    'litcal_event_key',
-    'romcal_key',
-    'eprex_key',
-    'eprex_code',
-    'eprex_short_key',
-    'missal/decree',
-    'temporale/sanctorale',
-  ];
+  const headers = ['Name', 'Keys', 'Missal/Decree', 'Source'];
   const headerRow = `| ${headers.join(' | ')} |`;
   const separatorRow = `| ${headers.map(() => '---').join(' | ')} |`;
-  const dataRows = allEvents.map(
-    (event) =>
-      `| ${event.name} | ${event.litcal_event_key} | ${event.romcal_key} | ${event.eprex_key} | ${event.eprex_code} | ${event.eprex_short_key} | ${event.missal} | ${event.source} |`
-  );
+  const dataRows = allEvents.map((event) => {
+    // Build the Keys column with main keys visible and extra details collapsed
+    const mainKeys = [
+      `\`litcal_key\`: ${event.litcal_event_key}`,
+      event.romcal_key ? `\`romcal_key\`: ${event.romcal_key}` : '',
+      event.eprex_key ? `\`eprex_key\`: ${event.eprex_key}` : '',
+    ]
+      .filter(Boolean)
+      .join('<br>');
+
+    const extraDetails = [
+      event.eprex_code ? `\`eprex_code\`: ${event.eprex_code}` : '',
+      event.eprex_short_key ? `\`eprex_short_key\`: ${event.eprex_short_key}` : '',
+    ]
+      .filter(Boolean)
+      .join('<br>');
+
+    const keysCell = extraDetails
+      ? `${mainKeys}<details><summary>More details</summary>${extraDetails}</details>`
+      : mainKeys;
+
+    return `| **${event.name}** | ${keysCell} | ${event.missal} | ${event.source} |`;
+  });
 
   const markdown = [
     '# Liturgical Celebration IDs',
