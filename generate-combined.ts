@@ -67,11 +67,9 @@ async function generateCombinedMarkdown(): Promise<void> {
     // Build the Keys column with main keys visible and extra details collapsed
     const mainKeys = [
       `\`litcal_key\`: ${event.litcal_event_key}`,
-      event.romcal_key ? `\`romcal_key\`: ${event.romcal_key}` : '',
-      event.eprex_key ? `\`eprex_key\`: ${event.eprex_key}` : '',
-    ]
-      .filter(Boolean)
-      .join('<br>');
+      `\`romcal_key\`: ${event.romcal_key || '⚠️ missing'}`,
+      `\`eprex_key\`: ${event.eprex_key || '⚠️ missing'}`,
+    ].join('<br>');
 
     const extraDetails = [
       event.eprex_code ? `\`eprex_code\`: ${event.eprex_code}` : '',
