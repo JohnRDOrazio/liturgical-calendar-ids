@@ -60,7 +60,7 @@ async function generateCombinedMarkdown(): Promise<void> {
     }
   }
 
-  const headers = ['Name', 'Keys', 'Missal/Decree', 'Source'];
+  const headers = ['Name', 'Keys', 'Missal/Decree'];
   const headerRow = `| ${headers.join(' | ')} |`;
   const separatorRow = `| ${headers.map(() => '---').join(' | ')} |`;
   const dataRows = allEvents.map((event) => {
@@ -76,15 +76,14 @@ async function generateCombinedMarkdown(): Promise<void> {
     const extraDetails = [
       event.eprex_code ? `\`eprex_code\`: ${event.eprex_code}` : '',
       event.eprex_short_key ? `\`eprex_short_key\`: ${event.eprex_short_key}` : '',
+      `\`source\`: ${event.source}`,
     ]
       .filter(Boolean)
       .join('<br>');
 
-    const keysCell = extraDetails
-      ? `${mainKeys}<details><summary>More details</summary>${extraDetails}</details>`
-      : mainKeys;
+    const keysCell = `${mainKeys}<details><summary>More details</summary>${extraDetails}</details>`;
 
-    return `| **${event.name}** | ${keysCell} | ${event.missal} | ${event.source} |`;
+    return `| **${event.name}** | ${keysCell} | ${event.missal} |`;
   });
 
   const markdown = [
