@@ -3,8 +3,9 @@
  * and generate a JSON file with IDs and Latin names
  */
 
-import { existsSync, readFileSync, writeFileSync } from "fs";
+import { existsSync, readFileSync } from "fs";
 import { join } from "path";
+import { safeWriteFileSync } from "./utils/file-helpers";
 
 // Read the general-roman calendar file
 const generalRomanPath = join(
@@ -107,7 +108,7 @@ events.sort((a, b) => a.romcal_id.localeCompare(b.romcal_id));
 // Write to JSON file
 const outputPath = join(import.meta.dir, "romcal", "sanctorale.json");
 
-writeFileSync(outputPath, JSON.stringify(events, null, 2));
+safeWriteFileSync(outputPath, JSON.stringify(events, null, 2));
 
 console.log(`Generated ${events.length} sanctorale events`);
 console.log(`Output written to: ${outputPath}`);

@@ -3,8 +3,8 @@
  * and generate a JSON file with IDs and Latin names
  */
 
-import { writeFileSync } from "fs";
 import { join } from "path";
+import { safeWriteFileSync } from "./utils/file-helpers";
 
 // Constants from romcal
 const WEEKDAYS = [
@@ -399,7 +399,7 @@ const outputPath = join(
   "temporale.json"
 );
 
-writeFileSync(outputPath, JSON.stringify(events, null, 2));
+safeWriteFileSync(outputPath, JSON.stringify(events, null, 2));
 
 console.log(`Generated ${events.length} temporale events`);
 console.log(`Output written to: ${outputPath}`);
