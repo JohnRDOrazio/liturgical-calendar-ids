@@ -26,11 +26,9 @@ const CROSS_CATEGORY_FROM_SANCTORALE: Record<string, string> = {
 // Romcal entries that have no litcal equivalent or are duplicates
 const NO_LITCAL_EQUIVALENT = new Set([
   "christmas_time_january_8", // Only used when Epiphany is on Sunday Jan 7
-  "thursday_of_the_lords_supper", // Same as holy_thursday in litcal (HolyThurs)
 ]);
 
 // Litcal entries without romcal equivalents (for documentation)
-// - HolyThursChrism: Chrism Mass on Holy Thursday morning (romcal doesn't separate)
 // - DayAfterEpiphanyJan7-12: Date-based keys when Epiphany is fixed to Jan 6
 //   (romcal uses day-of-week format: monday_after_epiphany, etc.)
 
@@ -118,8 +116,8 @@ const MANUAL_MAPPINGS: Record<string, string> = {
   holy_monday: "MonHolyWeek",
   holy_tuesday: "TueHolyWeek",
   holy_wednesday: "WedHolyWeek",
-  holy_thursday: "HolyThurs", // Morning (before Chrism Mass)
-  thursday_of_the_lords_supper: "HolyThurs", // Evening (Lord's Supper) - same litcal key
+  holy_thursday: "HolyThursChrism", // Chrism Mass (morning)
+  thursday_of_the_lords_supper: "HolyThurs", // Mass of the Lord's Supper (evening)
   friday_of_the_passion_of_the_lord: "GoodFri",
   holy_saturday: "EasterVigil",
 
