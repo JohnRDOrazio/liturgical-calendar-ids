@@ -177,6 +177,17 @@ The following files track entries without external ID mappings:
 - `eprex/sanctorale_missing_keys.json` - sanctorale entries without eprex mappings
 - `eprex/temporale_missing_keys.json` - temporale entries without eprex mappings
 
+### Projects Not Included
+
+The [calendarium-romanum](https://github.com/igneus/calendarium-romanum) Ruby gem and its companion
+[church-calendar-api](https://github.com/igneus/church-calendar-api) are not included in the mappings.
+While the gem internally uses symbol identifiers for celebrations (e.g., `joseph`, `assumption`, `easter_sunday`),
+the HTTP API does not expose these identifiers in its responses. The API returns celebration data with title,
+colour, rank, and date, but without the internal symbol that would allow reliable cross-project mapping.
+
+This makes automated comparison of calendar calculations between these projects and others difficult,
+as matching celebrations would require fuzzy matching on titles rather than deterministic ID comparison.
+
 ## Special cases
 
 ### Jesus Christ, Eternal High Priest

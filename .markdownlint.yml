@@ -24,6 +24,9 @@ MD033:
     - kbd
     - style
     - sup
+    - br
+    - details
+    - summary
 MD036: false
 MD041: false
 MD046:
