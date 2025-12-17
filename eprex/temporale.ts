@@ -233,7 +233,7 @@ export const TEMPORALE: DiesSpecialis[] = [
     },
     match: (date, easter) => idemDies(date, addDies(easter, -2)),
     daysFromEaster: -2,
-    externalIds: { romcal: 'good_friday', eprex: '0011' }
+    externalIds: { romcal: 'friday_of_the_passion_of_the_lord', eprex: '0011' }
   },
   {
     code: '0012',
@@ -292,7 +292,7 @@ export const TEMPORALE: DiesSpecialis[] = [
     },
     match: (date, easter) => idemDies(date, addDies(easter, 1)),
     daysFromEaster: 1,
-    externalIds: { romcal: 'monday_within_the_octave_of_easter', eprex: '0014' }
+    externalIds: { romcal: 'easter_monday', eprex: '0014' }
   },
   {
     code: '0015',
@@ -497,7 +497,7 @@ export const TEMPORALE: DiesSpecialis[] = [
       en: 'Our Lord Jesus Christ, King of the Universe'
     },
     match: (date, _easter) => idemDies(date, christusRex(date.getFullYear())),
-    externalIds: { romcal: 'christ_the_king', eprex: '0026' }
+    externalIds: { romcal: 'our_lord_jesus_christ_king_of_the_universe', eprex: '0026' }
   },
 
   // =========================================================================

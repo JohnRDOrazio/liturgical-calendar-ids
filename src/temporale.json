@@ -1,19 +1,23 @@
 [
   {
     "litcal_event_key": "Advent1",
-    "name": "Dominica Prima Adventus"
+    "name": "Dominica Prima Adventus",
+    "romcal_key": "advent_1_sunday"
   },
   {
     "litcal_event_key": "Advent2",
-    "name": "Dominica Secunda Adventus"
+    "name": "Dominica Secunda Adventus",
+    "romcal_key": "advent_2_sunday"
   },
   {
     "litcal_event_key": "Advent3",
-    "name": "Dominica Tertia Adventus (Gaudete)"
+    "name": "Dominica Tertia Adventus (Gaudete)",
+    "romcal_key": "advent_3_sunday"
   },
   {
     "litcal_event_key": "Advent4",
-    "name": "Dominica Quarta Adventus"
+    "name": "Dominica Quarta Adventus",
+    "romcal_key": "advent_4_sunday"
   },
   {
     "litcal_event_key": "Ascension",
@@ -45,7 +49,7 @@
     "eprex_key": "christ_the_king",
     "eprex_code": "0026",
     "eprex_short_key": "ORD34",
-    "romcal_key": "christ_the_king"
+    "romcal_key": "our_lord_jesus_christ_king_of_the_universe"
   },
   {
     "litcal_event_key": "Christmas",
@@ -60,7 +64,8 @@
     "name": "Dominica II Post Nativitatem",
     "eprex_key": "second_sunday_after_christmas",
     "eprex_code": "0028",
-    "eprex_short_key": "NAT2D"
+    "eprex_short_key": "NAT2D",
+    "romcal_key": "second_sunday_after_christmas"
   },
   {
     "litcal_event_key": "CorpusChristi",
@@ -88,23 +93,28 @@
   },
   {
     "litcal_event_key": "Easter3",
-    "name": "Dominica III in Paschæ"
+    "name": "Dominica III in Paschæ",
+    "romcal_key": "easter_time_3_sunday"
   },
   {
     "litcal_event_key": "Easter4",
-    "name": "Dominica IV in Paschæ"
+    "name": "Dominica IV in Paschæ",
+    "romcal_key": "easter_time_4_sunday"
   },
   {
     "litcal_event_key": "Easter5",
-    "name": "Dominica V in Paschæ"
+    "name": "Dominica V in Paschæ",
+    "romcal_key": "easter_time_5_sunday"
   },
   {
     "litcal_event_key": "Easter6",
-    "name": "Dominica VI in Paschæ"
+    "name": "Dominica VI in Paschæ",
+    "romcal_key": "easter_time_6_sunday"
   },
   {
     "litcal_event_key": "Easter7",
-    "name": "Dominica VII Paschæ"
+    "name": "Dominica VII Paschæ",
+    "romcal_key": "easter_time_7_sunday"
   },
   {
     "litcal_event_key": "EasterVigil",
@@ -120,14 +130,7 @@
     "eprex_key": "epiphany",
     "eprex_code": "0106",
     "eprex_short_key": "0106",
-    "romcal_key": "epiphany"
-  },
-  {
-    "litcal_event_key": "FriOctaveEaster",
-    "name": "Feria VI infra Octavam Paschæ",
-    "eprex_key": "friday_of_easter_octave",
-    "eprex_code": "0018",
-    "eprex_short_key": "PAS1F6"
+    "romcal_key": "epiphany_of_the_lord"
   },
   {
     "litcal_event_key": "GoodFri",
@@ -135,7 +138,7 @@
     "eprex_key": "good_friday",
     "eprex_code": "0011",
     "eprex_short_key": "TRI2",
-    "romcal_key": "good_friday"
+    "romcal_key": "friday_of_the_passion_of_the_lord"
   },
   {
     "litcal_event_key": "HolyFamily",
@@ -151,11 +154,12 @@
     "eprex_key": "holy_thursday",
     "eprex_code": "0010",
     "eprex_short_key": "TRI1",
-    "romcal_key": "holy_thursday"
+    "romcal_key": "thursday_of_the_lords_supper"
   },
   {
     "litcal_event_key": "HolyThursChrism",
-    "name": "Feria V Hebdomadæ Sanctæ - Ad Missam Chrismatis"
+    "name": "Feria V Hebdomadæ Sanctæ - Ad Missam Chrismatis",
+    "romcal_key": "holy_thursday"
   },
   {
     "litcal_event_key": "ImmaculateHeart",
@@ -167,23 +171,28 @@
   },
   {
     "litcal_event_key": "Lent1",
-    "name": "Dominica I in Quadragesima"
+    "name": "Dominica I in Quadragesima",
+    "romcal_key": "lent_1_sunday"
   },
   {
     "litcal_event_key": "Lent2",
-    "name": "Dominica II in Quadragesima"
+    "name": "Dominica II in Quadragesima",
+    "romcal_key": "lent_2_sunday"
   },
   {
     "litcal_event_key": "Lent3",
-    "name": "Dominica III in Quadragesima"
+    "name": "Dominica III in Quadragesima",
+    "romcal_key": "lent_3_sunday"
   },
   {
     "litcal_event_key": "Lent4",
-    "name": "Dominica IV in Quadragesima"
+    "name": "Dominica IV in Quadragesima",
+    "romcal_key": "lent_4_sunday"
   },
   {
     "litcal_event_key": "Lent5",
-    "name": "Dominica V in Quadragesima"
+    "name": "Dominica V in Quadragesima",
+    "romcal_key": "lent_5_sunday"
   },
   {
     "litcal_event_key": "MaryMotherOfGod",
@@ -194,152 +203,164 @@
     "romcal_key": "mary_mother_of_god"
   },
   {
-    "litcal_event_key": "MonHolyWeek",
-    "name": "Feria II Hebdomadæ Sanctæ",
-    "eprex_key": "monday_of_holy_week",
-    "eprex_code": "0007",
-    "eprex_short_key": "QUA6F2",
-    "romcal_key": "monday_of_holy_week"
-  },
-  {
-    "litcal_event_key": "MonOctaveEaster",
-    "name": "Feria II infra Octavam Paschæ",
-    "eprex_key": "monday_of_easter_octave",
-    "eprex_code": "0014",
-    "eprex_short_key": "PAS1F2",
-    "romcal_key": "monday_within_the_octave_of_easter"
-  },
-  {
     "litcal_event_key": "OrdSunday2",
-    "name": "Dominica II «Per Annum»"
+    "name": "Dominica II «Per Annum»",
+    "romcal_key": "ordinary_time_2_sunday"
   },
   {
     "litcal_event_key": "OrdSunday3",
-    "name": "Dominica III «Per Annum»"
+    "name": "Dominica III «Per Annum»",
+    "romcal_key": "sunday_of_the_word_of_god"
   },
   {
     "litcal_event_key": "OrdSunday4",
-    "name": "Dominica IV «Per Annum»"
+    "name": "Dominica IV «Per Annum»",
+    "romcal_key": "ordinary_time_4_sunday"
   },
   {
     "litcal_event_key": "OrdSunday5",
-    "name": "Dominica V «Per Annum»"
+    "name": "Dominica V «Per Annum»",
+    "romcal_key": "ordinary_time_5_sunday"
   },
   {
     "litcal_event_key": "OrdSunday6",
-    "name": "Dominica VI «Per Annum»"
+    "name": "Dominica VI «Per Annum»",
+    "romcal_key": "ordinary_time_6_sunday"
   },
   {
     "litcal_event_key": "OrdSunday7",
-    "name": "Dominica VII «Per Annum»"
+    "name": "Dominica VII «Per Annum»",
+    "romcal_key": "ordinary_time_7_sunday"
   },
   {
     "litcal_event_key": "OrdSunday8",
-    "name": "Dominica VIII «Per Annum»"
+    "name": "Dominica VIII «Per Annum»",
+    "romcal_key": "ordinary_time_8_sunday"
   },
   {
     "litcal_event_key": "OrdSunday9",
-    "name": "Dominica IX «Per Annum»"
+    "name": "Dominica IX «Per Annum»",
+    "romcal_key": "ordinary_time_9_sunday"
   },
   {
     "litcal_event_key": "OrdSunday10",
-    "name": "Dominica X «Per Annum»"
+    "name": "Dominica X «Per Annum»",
+    "romcal_key": "ordinary_time_10_sunday"
   },
   {
     "litcal_event_key": "OrdSunday11",
-    "name": "Dominica XI «Per Annum»"
+    "name": "Dominica XI «Per Annum»",
+    "romcal_key": "ordinary_time_11_sunday"
   },
   {
     "litcal_event_key": "OrdSunday12",
-    "name": "Dominica XII «Per Annum»"
+    "name": "Dominica XII «Per Annum»",
+    "romcal_key": "ordinary_time_12_sunday"
   },
   {
     "litcal_event_key": "OrdSunday13",
-    "name": "Dominica XIII «Per Annum»"
+    "name": "Dominica XIII «Per Annum»",
+    "romcal_key": "ordinary_time_13_sunday"
   },
   {
     "litcal_event_key": "OrdSunday14",
-    "name": "Dominica XIV «Per Annum»"
+    "name": "Dominica XIV «Per Annum»",
+    "romcal_key": "ordinary_time_14_sunday"
   },
   {
     "litcal_event_key": "OrdSunday15",
-    "name": "Dominica XV «Per Annum»"
+    "name": "Dominica XV «Per Annum»",
+    "romcal_key": "ordinary_time_15_sunday"
   },
   {
     "litcal_event_key": "OrdSunday16",
-    "name": "Dominica XVI «Per Annum»"
+    "name": "Dominica XVI «Per Annum»",
+    "romcal_key": "ordinary_time_16_sunday"
   },
   {
     "litcal_event_key": "OrdSunday17",
-    "name": "Dominica XVII «Per Annum»"
+    "name": "Dominica XVII «Per Annum»",
+    "romcal_key": "ordinary_time_17_sunday"
   },
   {
     "litcal_event_key": "OrdSunday18",
-    "name": "Dominica XVIII «Per Annum»"
+    "name": "Dominica XVIII «Per Annum»",
+    "romcal_key": "ordinary_time_18_sunday"
   },
   {
     "litcal_event_key": "OrdSunday19",
-    "name": "Dominica XIX «Per Annum»"
+    "name": "Dominica XIX «Per Annum»",
+    "romcal_key": "ordinary_time_19_sunday"
   },
   {
     "litcal_event_key": "OrdSunday20",
-    "name": "Dominica XX «Per Annum»"
+    "name": "Dominica XX «Per Annum»",
+    "romcal_key": "ordinary_time_20_sunday"
   },
   {
     "litcal_event_key": "OrdSunday21",
-    "name": "Dominica XXI «Per Annum»"
+    "name": "Dominica XXI «Per Annum»",
+    "romcal_key": "ordinary_time_21_sunday"
   },
   {
     "litcal_event_key": "OrdSunday22",
-    "name": "Dominica XXII «Per Annum»"
+    "name": "Dominica XXII «Per Annum»",
+    "romcal_key": "ordinary_time_22_sunday"
   },
   {
     "litcal_event_key": "OrdSunday23",
-    "name": "Dominica XXIII «Per Annum»"
+    "name": "Dominica XXIII «Per Annum»",
+    "romcal_key": "ordinary_time_23_sunday"
   },
   {
     "litcal_event_key": "OrdSunday24",
-    "name": "Dominica XXIV «Per Annum»"
+    "name": "Dominica XXIV «Per Annum»",
+    "romcal_key": "ordinary_time_24_sunday"
   },
   {
     "litcal_event_key": "OrdSunday25",
-    "name": "Dominica XXV «Per Annum»"
+    "name": "Dominica XXV «Per Annum»",
+    "romcal_key": "ordinary_time_25_sunday"
   },
   {
     "litcal_event_key": "OrdSunday26",
-    "name": "Dominica XXVI «Per Annum»"
+    "name": "Dominica XXVI «Per Annum»",
+    "romcal_key": "ordinary_time_26_sunday"
   },
   {
     "litcal_event_key": "OrdSunday27",
-    "name": "Dominica XXVII «Per Annum»"
+    "name": "Dominica XXVII «Per Annum»",
+    "romcal_key": "ordinary_time_27_sunday"
   },
   {
     "litcal_event_key": "OrdSunday28",
-    "name": "Dominica XXVIII «Per Annum»"
+    "name": "Dominica XXVIII «Per Annum»",
+    "romcal_key": "ordinary_time_28_sunday"
   },
   {
     "litcal_event_key": "OrdSunday29",
-    "name": "Dominica XXIX «Per Annum»"
+    "name": "Dominica XXIX «Per Annum»",
+    "romcal_key": "ordinary_time_29_sunday"
   },
   {
     "litcal_event_key": "OrdSunday30",
-    "name": "Dominica XXX «Per Annum»"
+    "name": "Dominica XXX «Per Annum»",
+    "romcal_key": "ordinary_time_30_sunday"
   },
   {
     "litcal_event_key": "OrdSunday31",
-    "name": "Dominica XXXI «Per Annum»"
+    "name": "Dominica XXXI «Per Annum»",
+    "romcal_key": "ordinary_time_31_sunday"
   },
   {
     "litcal_event_key": "OrdSunday32",
-    "name": "Dominica XXXII «Per Annum»"
+    "name": "Dominica XXXII «Per Annum»",
+    "romcal_key": "ordinary_time_32_sunday"
   },
   {
     "litcal_event_key": "OrdSunday33",
-    "name": "Dominica XXXIII «Per Annum»"
-  },
-  {
-    "litcal_event_key": "OrdSunday34",
-    "name": "Dominica XXXIV «Per Annum»"
+    "name": "Dominica XXXIII «Per Annum»",
+    "romcal_key": "ordinary_time_33_sunday"
   },
   {
     "litcal_event_key": "PalmSun",
@@ -366,55 +387,11 @@
     "romcal_key": "most_sacred_heart_of_jesus"
   },
   {
-    "litcal_event_key": "SatOctaveEaster",
-    "name": "Sabbato infra Octavam Paschæ",
-    "eprex_key": "saturday_of_easter_octave",
-    "eprex_code": "0019",
-    "eprex_short_key": "PAS1S"
-  },
-  {
-    "litcal_event_key": "ThuOctaveEaster",
-    "name": "Feria V infra Octavam Paschæ",
-    "eprex_key": "thursday_of_easter_octave",
-    "eprex_code": "0017",
-    "eprex_short_key": "PAS1F5"
-  },
-  {
     "litcal_event_key": "Trinity",
     "name": "Dominica post Pentecostem Sanctissimæ Trinitatis",
     "eprex_key": "most_holy_trinity",
     "eprex_code": "0023",
     "eprex_short_key": "TRI0",
     "romcal_key": "most_holy_trinity"
-  },
-  {
-    "litcal_event_key": "TueHolyWeek",
-    "name": "Feria III Hebdomadæ Sanctæ",
-    "eprex_key": "tuesday_of_holy_week",
-    "eprex_code": "0008",
-    "eprex_short_key": "QUA6F3",
-    "romcal_key": "tuesday_of_holy_week"
-  },
-  {
-    "litcal_event_key": "TueOctaveEaster",
-    "name": "Feria III infra Octavam Paschæ",
-    "eprex_key": "tuesday_of_easter_octave",
-    "eprex_code": "0015",
-    "eprex_short_key": "PAS1F3"
-  },
-  {
-    "litcal_event_key": "WedHolyWeek",
-    "name": "Feria IV Hebdomadæ Sanctæ",
-    "eprex_key": "wednesday_of_holy_week",
-    "eprex_code": "0009",
-    "eprex_short_key": "QUA6F4",
-    "romcal_key": "wednesday_of_holy_week"
-  },
-  {
-    "litcal_event_key": "WedOctaveEaster",
-    "name": "Feria IV infra Octavam Paschæ",
-    "eprex_key": "wednesday_of_easter_octave",
-    "eprex_code": "0016",
-    "eprex_short_key": "PAS1F4"
   }
 ]

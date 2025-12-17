@@ -1,63 +1,78 @@
 [
   {
     "litcal_event_key": "ChristmasWeekdayDec29",
-    "name": "Dies Quintus Octavæ Nativitatis"
+    "name": "Dies Quintus Octavæ Nativitatis",
+    "romcal_key": "christmas_octave_day_5"
   },
   {
     "litcal_event_key": "ChristmasWeekdayDec30",
-    "name": "Dies Sextus Octavæ Nativitatis"
+    "name": "Dies Sextus Octavæ Nativitatis",
+    "romcal_key": "christmas_octave_day_6"
   },
   {
     "litcal_event_key": "ChristmasWeekdayDec31",
-    "name": "Dies Septimus Octavæ Nativitatis"
+    "name": "Dies Septimus Octavæ Nativitatis",
+    "romcal_key": "christmas_octave_day_7"
   },
   {
     "litcal_event_key": "ChristmasWeekdayJan2",
-    "name": "%s temporis Nativitatis"
+    "name": "%s temporis Nativitatis",
+    "romcal_key": "christmas_time_january_2"
   },
   {
     "litcal_event_key": "ChristmasWeekdayJan3",
-    "name": "%s temporis Nativitatis"
+    "name": "%s temporis Nativitatis",
+    "romcal_key": "christmas_time_january_3"
   },
   {
     "litcal_event_key": "ChristmasWeekdayJan4",
-    "name": "%s temporis Nativitatis"
+    "name": "%s temporis Nativitatis",
+    "romcal_key": "christmas_time_january_4"
   },
   {
     "litcal_event_key": "ChristmasWeekdayJan5",
-    "name": "%s temporis Nativitatis"
+    "name": "%s temporis Nativitatis",
+    "romcal_key": "christmas_time_january_5"
   },
   {
     "litcal_event_key": "ChristmasWeekdayJan6",
-    "name": "%s temporis Nativitatis"
+    "name": "%s temporis Nativitatis",
+    "romcal_key": "christmas_time_january_6"
   },
   {
     "litcal_event_key": "ChristmasWeekdayJan7",
-    "name": "%s temporis Nativitatis"
+    "name": "%s temporis Nativitatis",
+    "romcal_key": "christmas_time_january_7"
   },
   {
     "litcal_event_key": "DayAfterEpiphanyMonday",
-    "name": "%s temporis Nativitatis"
+    "name": "%s temporis Nativitatis",
+    "romcal_key": "monday_after_epiphany"
   },
   {
     "litcal_event_key": "DayAfterEpiphanyTuesday",
-    "name": "%s temporis Nativitatis"
+    "name": "%s temporis Nativitatis",
+    "romcal_key": "tuesday_after_epiphany"
   },
   {
     "litcal_event_key": "DayAfterEpiphanyWednesday",
-    "name": "%s temporis Nativitatis"
+    "name": "%s temporis Nativitatis",
+    "romcal_key": "wednesday_after_epiphany"
   },
   {
     "litcal_event_key": "DayAfterEpiphanyThursday",
-    "name": "%s temporis Nativitatis"
+    "name": "%s temporis Nativitatis",
+    "romcal_key": "thursday_after_epiphany"
   },
   {
     "litcal_event_key": "DayAfterEpiphanyFriday",
-    "name": "%s temporis Nativitatis"
+    "name": "%s temporis Nativitatis",
+    "romcal_key": "friday_after_epiphany"
   },
   {
     "litcal_event_key": "DayAfterEpiphanySaturday",
-    "name": "%s temporis Nativitatis"
+    "name": "%s temporis Nativitatis",
+    "romcal_key": "saturday_after_epiphany"
   },
   {
     "litcal_event_key": "DayAfterEpiphanyJan7",

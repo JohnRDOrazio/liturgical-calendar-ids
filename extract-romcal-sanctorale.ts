@@ -1,0 +1,163 @@
+/**
+ * Extract all Proper of Saints (sanctorale) IDs from romcal's General Roman Calendar
+ * and generate a JSON file with IDs and Latin names
+ */
+
+import { existsSync, readFileSync } from "fs";
+import { join } from "path";
+import { safeWriteFileSync } from "./utils/file-helpers";
+
+// Read the general-roman calendar file
+const generalRomanPath = join(
+  import.meta.dir,
+  "..",
+  "romcal",
+  "rites",
+  "roman1969",
+  "src",
+  "calendars",
+  "general-roman",
+  "index.ts"
+);
+
+if (!existsSync(generalRomanPath)) {
+  console.error(`File not found: ${generalRomanPath}`);
+  process.exit(1);
+}
+const generalRomanContent = readFileSync(generalRomanPath, "utf-8");
+
+// Read the Latin locale file
+const latinLocalePath = join(
+  import.meta.dir,
+  "..",
+  "romcal",
+  "rites",
+  "roman1969",
+  "src",
+  "locales",
+  "la.ts"
+);
+
+if (!existsSync(latinLocalePath)) {
+  console.error(`File not found: ${latinLocalePath}`);
+  process.exit(1);
+}
+
+const latinLocaleContent = readFileSync(latinLocalePath, "utf-8");
+
+// Extract the names object from the Latin locale
+// The file exports: export const locale: Locale = { ... names: { ... } ... }
+const namesMatch = latinLocaleContent.match(/names:\s*\{([^}]+(?:\{[^}]*\}[^}]*)*)\}/s);
+
+if (!namesMatch) {
+  console.error("Could not find names object in Latin locale file");
+  process.exit(1);
+}
+
+// Parse the names object into a map
+const latinNames: Record<string, string> = {};
+const namesContent = namesMatch[1];
+
+// Match key-value pairs like: key: 'value' or key: "value"
+// More permissive pattern that handles basic escapes (e.g., O'Brien)
+const nameEntries = namesContent.matchAll(
+  /(\w+):\s*(['"`])((?:[^\\]|\\.)*?)\2/g
+);
+
+for (const match of nameEntries) {
+  const [, key, , value] = match;
+  latinNames[key] = value;
+}
+
+// Extract all event IDs from the inputs object in general-roman/index.ts
+// The pattern is: event_id: { ... }
+const inputsMatch = generalRomanContent.match(/inputs:\s*Inputs\s*=\s*\{([\s\S]+)\};?\s*\}/);
+
+if (!inputsMatch) {
+  console.error("Could not find inputs object in general-roman file");
+  process.exit(1);
+}
+
+const inputsContent = inputsMatch[1];
+
+// Blacklist of property names that are not liturgical event IDs
+// These are internal romcal configuration properties
+const PROPERTY_BLACKLIST = new Set([
+  "dateDef",
+  "from",
+  "to",
+  "setDate",
+  "ifIsBetween",
+  "setDay",
+  "day",
+  "month",
+  "name",
+  "rank",
+  "input",
+  "date",
+  "precedence",
+  "seasons",
+  "periods",
+  "liturgicalColors",
+  "martyrology",
+  "titles",
+  "properCycle",
+  "fromCalendar",
+  "fromCalendarId",
+]);
+
+// Find all event IDs (they are keys at the start of lines, followed by colon and opening brace)
+// Uses flexible indentation matching in case romcal reformats their source
+const eventIdPattern = /^\s+(\w+):\s*\{/gm;
+const eventIds: string[] = [];
+const seenIds = new Set<string>();
+
+let match;
+while ((match = eventIdPattern.exec(inputsContent)) !== null) {
+  const id = match[1];
+  // Skip blacklisted property names and duplicates
+  if (!PROPERTY_BLACKLIST.has(id) && !seenIds.has(id)) {
+    eventIds.push(id);
+    seenIds.add(id);
+  }
+}
+
+interface SanctoraleEvent {
+  romcal_id: string;
+  name_la: string;
+}
+
+const events: SanctoraleEvent[] = [];
+const missingNames: string[] = [];
+
+for (const id of eventIds) {
+  const name_la = latinNames[id];
+  if (name_la) {
+    events.push({ romcal_id: id, name_la });
+  } else {
+    missingNames.push(id);
+  }
+}
+
+// Sort by romcal_id for consistency
+events.sort((a, b) => a.romcal_id.localeCompare(b.romcal_id));
+
+// Write to JSON file
+const outputPath = join(import.meta.dir, "romcal", "sanctorale.json");
+
+safeWriteFileSync(outputPath, JSON.stringify(events, null, 2));
+
+console.log(`Generated ${events.length} sanctorale events`);
+console.log(`Output written to: ${outputPath}`);
+
+// Report entries without Latin names (these are likely not actual liturgical events)
+if (missingNames.length > 0) {
+  console.log(`\nFiltered out ${missingNames.length} entries without Latin names:`);
+  for (const id of missingNames.slice(0, 10)) {
+    console.log(`  - ${id}`);
+  }
+  if (missingNames.length > 10) {
+    console.log(`  ... and ${missingNames.length - 10} more`);
+  }
+}
+

@@ -14,6 +14,7 @@ import {
   getNestedPropertyString,
   levenshteinDistance,
 } from './utils/ast-helpers';
+import { normalizeLatinName, normalizeKey } from './utils/string-helpers';
 
 // Manual mapping of eprex_key to litcal_event_key for complex cases
 const MANUAL_MAPPINGS: Record<string, string> = {
@@ -168,22 +169,6 @@ if (eprexEntries.length === 0) {
 
 console.log(`Found ${eprexEntries.length} entries in eprex temporale.ts`);
 
-// Normalize Latin text for comparison
-function normalizeLatinName(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/æ/g, 'ae')
-    .replace(/œ/g, 'oe')
-    .replace(/[.,;:«»]/g, '')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-// Convert event key formats
-function normalizeKey(key: string): string {
-  // Convert snake_case to lowercase for comparison
-  return key.toLowerCase().replace(/_/g, '');
-}
 
 // Attempt to match entries
 const unmatched: Array<{
