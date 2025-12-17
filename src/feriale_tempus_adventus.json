@@ -1,102 +1,127 @@
 [
   {
     "litcal_event_key": "AdventWeekday1Monday",
-    "name": "Feria II Hebdomadæ Primæ Adventus"
+    "name": "Feria II Hebdomadæ Primæ Adventus",
+    "romcal_key": "advent_1_monday"
   },
   {
     "litcal_event_key": "AdventWeekday1Tuesday",
-    "name": "Feria III Hebdomadæ Primæ Adventus"
+    "name": "Feria III Hebdomadæ Primæ Adventus",
+    "romcal_key": "advent_1_tuesday"
   },
   {
     "litcal_event_key": "AdventWeekday1Wednesday",
-    "name": "Feria IV Hebdomadæ Primæ Adventus"
+    "name": "Feria IV Hebdomadæ Primæ Adventus",
+    "romcal_key": "advent_1_wednesday"
   },
   {
     "litcal_event_key": "AdventWeekday1Thursday",
-    "name": "Feria V Hebdomadæ Primæ Adventus"
+    "name": "Feria V Hebdomadæ Primæ Adventus",
+    "romcal_key": "advent_1_thursday"
   },
   {
     "litcal_event_key": "AdventWeekday1Friday",
-    "name": "Feria VI Hebdomadæ Primæ Adventus"
+    "name": "Feria VI Hebdomadæ Primæ Adventus",
+    "romcal_key": "advent_1_friday"
   },
   {
     "litcal_event_key": "AdventWeekday1Saturday",
-    "name": "Sabbato Hebdomadæ Primæ Adventus"
+    "name": "Sabbato Hebdomadæ Primæ Adventus",
+    "romcal_key": "advent_1_saturday"
   },
   {
     "litcal_event_key": "AdventWeekday2Monday",
-    "name": "Feria II Hebdomadæ Secundæ Adventus"
+    "name": "Feria II Hebdomadæ Secundæ Adventus",
+    "romcal_key": "advent_2_monday"
   },
   {
     "litcal_event_key": "AdventWeekday2Tuesday",
-    "name": "Feria III Hebdomadæ Secundæ Adventus"
+    "name": "Feria III Hebdomadæ Secundæ Adventus",
+    "romcal_key": "advent_2_tuesday"
   },
   {
     "litcal_event_key": "AdventWeekday2Wednesday",
-    "name": "Feria IV Hebdomadæ Secundæ Adventus"
+    "name": "Feria IV Hebdomadæ Secundæ Adventus",
+    "romcal_key": "advent_2_wednesday"
   },
   {
     "litcal_event_key": "AdventWeekday2Thursday",
-    "name": "Feria V Hebdomadæ Secundæ Adventus"
+    "name": "Feria V Hebdomadæ Secundæ Adventus",
+    "romcal_key": "advent_2_thursday"
   },
   {
     "litcal_event_key": "AdventWeekday2Friday",
-    "name": "Feria VI Hebdomadæ Secundæ Adventus"
+    "name": "Feria VI Hebdomadæ Secundæ Adventus",
+    "romcal_key": "advent_2_friday"
   },
   {
     "litcal_event_key": "AdventWeekday2Saturday",
-    "name": "Sabbato Hebdomadæ Secundæ Adventus"
+    "name": "Sabbato Hebdomadæ Secundæ Adventus",
+    "romcal_key": "advent_2_saturday"
   },
   {
     "litcal_event_key": "AdventWeekday3Monday",
-    "name": "Feria II Hebdomadæ Tertiæ Adventus"
+    "name": "Feria II Hebdomadæ Tertiæ Adventus",
+    "romcal_key": "advent_3_monday"
   },
   {
     "litcal_event_key": "AdventWeekday3Tuesday",
-    "name": "Feria III Hebdomadæ Tertiæ Adventus"
+    "name": "Feria III Hebdomadæ Tertiæ Adventus",
+    "romcal_key": "advent_3_tuesday"
   },
   {
     "litcal_event_key": "AdventWeekday3Wednesday",
-    "name": "Feria IV Hebdomadæ Tertiæ Adventus"
+    "name": "Feria IV Hebdomadæ Tertiæ Adventus",
+    "romcal_key": "advent_3_wednesday"
   },
   {
     "litcal_event_key": "AdventWeekday3Thursday",
-    "name": "Feria V Hebdomadæ Tertiæ Adventus"
+    "name": "Feria V Hebdomadæ Tertiæ Adventus",
+    "romcal_key": "advent_3_thursday"
   },
   {
     "litcal_event_key": "AdventWeekday3Friday",
-    "name": "Feria VI Hebdomadæ Tertiæ Adventus"
+    "name": "Feria VI Hebdomadæ Tertiæ Adventus",
+    "romcal_key": "advent_3_friday"
   },
   {
     "litcal_event_key": "AdventWeekdayDec17",
-    "name": "Feria IV Hebdomadæ Tertiæ Adventus"
+    "name": "Feria IV Hebdomadæ Tertiæ Adventus",
+    "romcal_key": "advent_december_17"
   },
   {
     "litcal_event_key": "AdventWeekdayDec18",
-    "name": "Feria V Hebdomadæ Tertiæ Adventus"
+    "name": "Feria V Hebdomadæ Tertiæ Adventus",
+    "romcal_key": "advent_december_18"
   },
   {
     "litcal_event_key": "AdventWeekdayDec19",
-    "name": "Feria VI Hebdomadæ Tertiæ Adventus"
+    "name": "Feria VI Hebdomadæ Tertiæ Adventus",
+    "romcal_key": "advent_december_19"
   },
   {
     "litcal_event_key": "AdventWeekdayDec20",
-    "name": "Sabbato Hebdomadæ Tertiæ Adventus"
+    "name": "Sabbato Hebdomadæ Tertiæ Adventus",
+    "romcal_key": "advent_december_20"
   },
   {
     "litcal_event_key": "AdventWeekdayDec21",
-    "name": "Feria II Hebdomadæ Quartæ Adventus"
+    "name": "Feria II Hebdomadæ Quartæ Adventus",
+    "romcal_key": "advent_december_21"
   },
   {
     "litcal_event_key": "AdventWeekdayDec22",
-    "name": "Feria II Hebdomadæ Quartæ Adventus"
+    "name": "Feria II Hebdomadæ Quartæ Adventus",
+    "romcal_key": "advent_december_22"
   },
   {
     "litcal_event_key": "AdventWeekdayDec23",
-    "name": "Feria III Hebdomadæ Quartæ Adventus"
+    "name": "Feria III Hebdomadæ Quartæ Adventus",
+    "romcal_key": "advent_december_23"
   },
   {
     "litcal_event_key": "AdventWeekdayDec24",
-    "name": "Feria IV Hebdomadæ Quartæ Adventus"
+    "name": "Feria IV Hebdomadæ Quartæ Adventus",
+    "romcal_key": "advent_december_24"
   }
 ]

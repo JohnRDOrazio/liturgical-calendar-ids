@@ -1,0 +1,37 @@
+[
+  {
+    "litcal_event_key": "HolyThursChrism",
+    "name": "Feria V Hebdomadæ Sanctæ - Ad Missam Chrismatis",
+    "file": "temporale.json"
+  },
+  {
+    "litcal_event_key": "DayAfterEpiphanyJan7",
+    "name": "%s temporis Nativitatis",
+    "file": "feriale_tempus_nativitatis.json"
+  },
+  {
+    "litcal_event_key": "DayAfterEpiphanyJan8",
+    "name": "%s temporis Nativitatis",
+    "file": "feriale_tempus_nativitatis.json"
+  },
+  {
+    "litcal_event_key": "DayAfterEpiphanyJan9",
+    "name": "%s temporis Nativitatis",
+    "file": "feriale_tempus_nativitatis.json"
+  },
+  {
+    "litcal_event_key": "DayAfterEpiphanyJan10",
+    "name": "%s temporis Nativitatis",
+    "file": "feriale_tempus_nativitatis.json"
+  },
+  {
+    "litcal_event_key": "DayAfterEpiphanyJan11",
+    "name": "%s temporis Nativitatis",
+    "file": "feriale_tempus_nativitatis.json"
+  },
+  {
+    "litcal_event_key": "DayAfterEpiphanyJan12",
+    "name": "%s temporis Nativitatis",
+    "file": "feriale_tempus_nativitatis.json"
+  }
+]

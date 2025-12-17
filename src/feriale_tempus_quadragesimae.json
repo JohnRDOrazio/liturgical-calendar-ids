@@ -4,152 +4,188 @@
     "name": "Feria V post Feria IV Cinerum",
     "eprex_key": "thursday_after_ash_wednesday",
     "eprex_code": "0003",
-    "eprex_short_key": "QUA0F5"
+    "eprex_short_key": "QUA0F5",
+    "romcal_key": "thursday_after_ash_wednesday"
   },
   {
     "litcal_event_key": "FridayAfterAshWednesday",
     "name": "Feria VI post Feria IV Cinerum",
     "eprex_key": "friday_after_ash_wednesday",
     "eprex_code": "0004",
-    "eprex_short_key": "QUA0F6"
+    "eprex_short_key": "QUA0F6",
+    "romcal_key": "friday_after_ash_wednesday"
   },
   {
     "litcal_event_key": "SaturdayAfterAshWednesday",
     "name": "Sabbato post Feria IV Cinerum",
     "eprex_key": "saturday_after_ash_wednesday",
     "eprex_code": "0005",
-    "eprex_short_key": "QUA0S"
+    "eprex_short_key": "QUA0S",
+    "romcal_key": "saturday_after_ash_wednesday"
   },
   {
     "litcal_event_key": "LentWeekday1Monday",
-    "name": "Feria II Hebdomadæ Primæ Quadragesimæ"
+    "name": "Feria II Hebdomadæ Primæ Quadragesimæ",
+    "romcal_key": "lent_1_monday"
   },
   {
     "litcal_event_key": "LentWeekday1Tuesday",
-    "name": "Feria III Hebdomadæ Primæ Quadragesimæ"
+    "name": "Feria III Hebdomadæ Primæ Quadragesimæ",
+    "romcal_key": "lent_1_tuesday"
   },
   {
     "litcal_event_key": "LentWeekday1Wednesday",
-    "name": "Feria IV Hebdomadæ Primæ Quadragesimæ"
+    "name": "Feria IV Hebdomadæ Primæ Quadragesimæ",
+    "romcal_key": "lent_1_wednesday"
   },
   {
     "litcal_event_key": "LentWeekday1Thursday",
-    "name": "Feria V Hebdomadæ Primæ Quadragesimæ"
+    "name": "Feria V Hebdomadæ Primæ Quadragesimæ",
+    "romcal_key": "lent_1_thursday"
   },
   {
     "litcal_event_key": "LentWeekday1Friday",
-    "name": "Feria VI Hebdomadæ Primæ Quadragesimæ"
+    "name": "Feria VI Hebdomadæ Primæ Quadragesimæ",
+    "romcal_key": "lent_1_friday"
   },
   {
     "litcal_event_key": "LentWeekday1Saturday",
-    "name": "Sabbato Hebdomadæ Primæ Quadragesimæ"
+    "name": "Sabbato Hebdomadæ Primæ Quadragesimæ",
+    "romcal_key": "lent_1_saturday"
   },
   {
     "litcal_event_key": "LentWeekday2Monday",
-    "name": "Feria II Hebdomadæ Secundæ Quadragesimæ"
+    "name": "Feria II Hebdomadæ Secundæ Quadragesimæ",
+    "romcal_key": "lent_2_monday"
   },
   {
     "litcal_event_key": "LentWeekday2Tuesday",
-    "name": "Feria III Hebdomadæ Secundæ Quadragesimæ"
+    "name": "Feria III Hebdomadæ Secundæ Quadragesimæ",
+    "romcal_key": "lent_2_tuesday"
   },
   {
     "litcal_event_key": "LentWeekday2Wednesday",
-    "name": "Feria IV Hebdomadæ Secundæ Quadragesimæ"
+    "name": "Feria IV Hebdomadæ Secundæ Quadragesimæ",
+    "romcal_key": "lent_2_wednesday"
   },
   {
     "litcal_event_key": "LentWeekday2Thursday",
-    "name": "Feria V Hebdomadæ Secundæ Quadragesimæ"
+    "name": "Feria V Hebdomadæ Secundæ Quadragesimæ",
+    "romcal_key": "lent_2_thursday"
   },
   {
     "litcal_event_key": "LentWeekday2Friday",
-    "name": "Feria VI Hebdomadæ Secundæ Quadragesimæ"
+    "name": "Feria VI Hebdomadæ Secundæ Quadragesimæ",
+    "romcal_key": "lent_2_friday"
   },
   {
     "litcal_event_key": "LentWeekday2Saturday",
-    "name": "Sabbato Hebdomadæ Secundæ Quadragesimæ"
+    "name": "Sabbato Hebdomadæ Secundæ Quadragesimæ",
+    "romcal_key": "lent_2_saturday"
   },
   {
     "litcal_event_key": "LentWeekday3Monday",
-    "name": "Feria II Hebdomadæ Tertiæ Quadragesimæ"
+    "name": "Feria II Hebdomadæ Tertiæ Quadragesimæ",
+    "romcal_key": "lent_3_monday"
   },
   {
     "litcal_event_key": "LentWeekday3Tuesday",
-    "name": "Feria III Hebdomadæ Tertiæ Quadragesimæ"
+    "name": "Feria III Hebdomadæ Tertiæ Quadragesimæ",
+    "romcal_key": "lent_3_tuesday"
   },
   {
     "litcal_event_key": "LentWeekday3Wednesday",
-    "name": "Feria IV Hebdomadæ Tertiæ Quadragesimæ"
+    "name": "Feria IV Hebdomadæ Tertiæ Quadragesimæ",
+    "romcal_key": "lent_3_wednesday"
   },
   {
     "litcal_event_key": "LentWeekday3Thursday",
-    "name": "Feria V Hebdomadæ Tertiæ Quadragesimæ"
+    "name": "Feria V Hebdomadæ Tertiæ Quadragesimæ",
+    "romcal_key": "lent_3_thursday"
   },
   {
     "litcal_event_key": "LentWeekday3Friday",
-    "name": "Feria VI Hebdomadæ Tertiæ Quadragesimæ"
+    "name": "Feria VI Hebdomadæ Tertiæ Quadragesimæ",
+    "romcal_key": "lent_3_friday"
   },
   {
     "litcal_event_key": "LentWeekday3Saturday",
-    "name": "Sabbato Hebdomadæ Tertiæ Quadragesimæ"
+    "name": "Sabbato Hebdomadæ Tertiæ Quadragesimæ",
+    "romcal_key": "lent_3_saturday"
   },
   {
     "litcal_event_key": "LentWeekday4Monday",
-    "name": "Feria II Hebdomadæ Quartæ Quadragesimæ"
+    "name": "Feria II Hebdomadæ Quartæ Quadragesimæ",
+    "romcal_key": "lent_4_monday"
   },
   {
     "litcal_event_key": "LentWeekday4Tuesday",
-    "name": "Feria III Hebdomadæ Quartæ Quadragesimæ"
+    "name": "Feria III Hebdomadæ Quartæ Quadragesimæ",
+    "romcal_key": "lent_4_tuesday"
   },
   {
     "litcal_event_key": "LentWeekday4Wednesday",
-    "name": "Feria IV Hebdomadæ Quartæ Quadragesimæ"
+    "name": "Feria IV Hebdomadæ Quartæ Quadragesimæ",
+    "romcal_key": "lent_4_wednesday"
   },
   {
     "litcal_event_key": "LentWeekday4Thursday",
-    "name": "Feria V Hebdomadæ Quartæ Quadragesimæ"
+    "name": "Feria V Hebdomadæ Quartæ Quadragesimæ",
+    "romcal_key": "lent_4_thursday"
   },
   {
     "litcal_event_key": "LentWeekday4Friday",
-    "name": "Feria VI Hebdomadæ Quartæ Quadragesimæ"
+    "name": "Feria VI Hebdomadæ Quartæ Quadragesimæ",
+    "romcal_key": "lent_4_friday"
   },
   {
     "litcal_event_key": "LentWeekday4Saturday",
-    "name": "Sabbato Hebdomadæ Quartæ Quadragesimæ"
+    "name": "Sabbato Hebdomadæ Quartæ Quadragesimæ",
+    "romcal_key": "lent_4_saturday"
   },
   {
     "litcal_event_key": "LentWeekday5Monday",
-    "name": "Feria II Hebdomadæ Quintæ Quadragesimæ"
+    "name": "Feria II Hebdomadæ Quintæ Quadragesimæ",
+    "romcal_key": "lent_5_monday"
   },
   {
     "litcal_event_key": "LentWeekday5Tuesday",
-    "name": "Feria III Hebdomadæ Quintæ Quadragesimæ"
+    "name": "Feria III Hebdomadæ Quintæ Quadragesimæ",
+    "romcal_key": "lent_5_tuesday"
   },
   {
     "litcal_event_key": "LentWeekday5Wednesday",
-    "name": "Feria IV Hebdomadæ Quintæ Quadragesimæ"
+    "name": "Feria IV Hebdomadæ Quintæ Quadragesimæ",
+    "romcal_key": "lent_5_wednesday"
   },
   {
     "litcal_event_key": "LentWeekday5Thursday",
-    "name": "Feria V Hebdomadæ Quintæ Quadragesimæ"
+    "name": "Feria V Hebdomadæ Quintæ Quadragesimæ",
+    "romcal_key": "lent_5_thursday"
   },
   {
     "litcal_event_key": "LentWeekday5Friday",
-    "name": "Feria VI Hebdomadæ Quintæ Quadragesimæ"
+    "name": "Feria VI Hebdomadæ Quintæ Quadragesimæ",
+    "romcal_key": "lent_5_friday"
   },
   {
     "litcal_event_key": "LentWeekday5Saturday",
-    "name": "Sabbato Hebdomadæ Quintæ Quadragesimæ"
+    "name": "Sabbato Hebdomadæ Quintæ Quadragesimæ",
+    "romcal_key": "lent_5_saturday"
   },
   {
     "litcal_event_key": "MonHolyWeek",
-    "name": "Feria II Hebdomadæ Sanctæ"
+    "name": "Feria II Hebdomadæ Sanctæ",
+    "romcal_key": "holy_monday"
   },
   {
     "litcal_event_key": "TueHolyWeek",
-    "name": "Feria III Hebdomadæ Sanctæ"
+    "name": "Feria III Hebdomadæ Sanctæ",
+    "romcal_key": "holy_tuesday"
   },
   {
     "litcal_event_key": "WedHolyWeek",
-    "name": "Feria IV Hebdomadæ Sanctæ"
+    "name": "Feria IV Hebdomadæ Sanctæ",
+    "romcal_key": "holy_wednesday"
   }
 ]

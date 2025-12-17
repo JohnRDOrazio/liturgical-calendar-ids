@@ -1,170 +1,212 @@
 [
   {
     "litcal_event_key": "MonOctaveEaster",
-    "name": "Feria II infra Octavam Paschæ"
+    "name": "Feria II infra Octavam Paschæ",
+    "romcal_key": "easter_monday"
   },
   {
     "litcal_event_key": "TueOctaveEaster",
-    "name": "Feria III infra Octavam Paschæ"
+    "name": "Feria III infra Octavam Paschæ",
+    "romcal_key": "easter_tuesday"
   },
   {
     "litcal_event_key": "WedOctaveEaster",
-    "name": "Feria IV infra Octavam Paschæ"
+    "name": "Feria IV infra Octavam Paschæ",
+    "romcal_key": "easter_wednesday"
   },
   {
     "litcal_event_key": "ThuOctaveEaster",
-    "name": "Feria V infra Octavam Paschæ"
+    "name": "Feria V infra Octavam Paschæ",
+    "romcal_key": "easter_thursday"
   },
   {
     "litcal_event_key": "FriOctaveEaster",
-    "name": "Feria VI infra Octavam Paschæ"
+    "name": "Feria VI infra Octavam Paschæ",
+    "romcal_key": "easter_friday"
   },
   {
     "litcal_event_key": "SatOctaveEaster",
-    "name": "Sabbato infra Octavam Paschæ"
+    "name": "Sabbato infra Octavam Paschæ",
+    "romcal_key": "easter_saturday"
   },
   {
     "litcal_event_key": "EasterWeekday2Monday",
-    "name": "Feria II Hebdomadæ Secundæ Temporis Paschali"
+    "name": "Feria II Hebdomadæ Secundæ Temporis Paschali",
+    "romcal_key": "easter_time_2_monday"
   },
   {
     "litcal_event_key": "EasterWeekday2Tuesday",
-    "name": "Feria III Hebdomadæ Secundæ Temporis Paschali"
+    "name": "Feria III Hebdomadæ Secundæ Temporis Paschali",
+    "romcal_key": "easter_time_2_tuesday"
   },
   {
     "litcal_event_key": "EasterWeekday2Wednesday",
-    "name": "Feria IV Hebdomadæ Secundæ Temporis Paschali"
+    "name": "Feria IV Hebdomadæ Secundæ Temporis Paschali",
+    "romcal_key": "easter_time_2_wednesday"
   },
   {
     "litcal_event_key": "EasterWeekday2Thursday",
-    "name": "Feria V Hebdomadæ Secundæ Temporis Paschali"
+    "name": "Feria V Hebdomadæ Secundæ Temporis Paschali",
+    "romcal_key": "easter_time_2_thursday"
   },
   {
     "litcal_event_key": "EasterWeekday2Friday",
-    "name": "Feria VI Hebdomadæ Secundæ Temporis Paschali"
+    "name": "Feria VI Hebdomadæ Secundæ Temporis Paschali",
+    "romcal_key": "easter_time_2_friday"
   },
   {
     "litcal_event_key": "EasterWeekday2Saturday",
-    "name": "Sabbato Hebdomadæ Secundæ Temporis Paschali"
+    "name": "Sabbato Hebdomadæ Secundæ Temporis Paschali",
+    "romcal_key": "easter_time_2_saturday"
   },
   {
     "litcal_event_key": "EasterWeekday3Monday",
-    "name": "Feria II Hebdomadæ Tertiæ Temporis Paschali"
+    "name": "Feria II Hebdomadæ Tertiæ Temporis Paschali",
+    "romcal_key": "easter_time_3_monday"
   },
   {
     "litcal_event_key": "EasterWeekday3Tuesday",
-    "name": "Feria III Hebdomadæ Tertiæ Temporis Paschali"
+    "name": "Feria III Hebdomadæ Tertiæ Temporis Paschali",
+    "romcal_key": "easter_time_3_tuesday"
   },
   {
     "litcal_event_key": "EasterWeekday3Wednesday",
-    "name": "Feria IV Hebdomadæ Tertiæ Temporis Paschali"
+    "name": "Feria IV Hebdomadæ Tertiæ Temporis Paschali",
+    "romcal_key": "easter_time_3_wednesday"
   },
   {
     "litcal_event_key": "EasterWeekday3Thursday",
-    "name": "Feria V Hebdomadæ Tertiæ Temporis Paschali"
+    "name": "Feria V Hebdomadæ Tertiæ Temporis Paschali",
+    "romcal_key": "easter_time_3_thursday"
   },
   {
     "litcal_event_key": "EasterWeekday3Friday",
-    "name": "Feria VI Hebdomadæ Tertiæ Temporis Paschali"
+    "name": "Feria VI Hebdomadæ Tertiæ Temporis Paschali",
+    "romcal_key": "easter_time_3_friday"
   },
   {
     "litcal_event_key": "EasterWeekday3Saturday",
-    "name": "Sabbato Hebdomadæ Tertiæ Temporis Paschali"
+    "name": "Sabbato Hebdomadæ Tertiæ Temporis Paschali",
+    "romcal_key": "easter_time_3_saturday"
   },
   {
     "litcal_event_key": "EasterWeekday4Monday",
-    "name": "Feria II Hebdomadæ Quartæ Temporis Paschali"
+    "name": "Feria II Hebdomadæ Quartæ Temporis Paschali",
+    "romcal_key": "easter_time_4_monday"
   },
   {
     "litcal_event_key": "EasterWeekday4Tuesday",
-    "name": "Feria III Hebdomadæ Quartæ Temporis Paschali"
+    "name": "Feria III Hebdomadæ Quartæ Temporis Paschali",
+    "romcal_key": "easter_time_4_tuesday"
   },
   {
     "litcal_event_key": "EasterWeekday4Wednesday",
-    "name": "Feria IV Hebdomadæ Quartæ Temporis Paschali"
+    "name": "Feria IV Hebdomadæ Quartæ Temporis Paschali",
+    "romcal_key": "easter_time_4_wednesday"
   },
   {
     "litcal_event_key": "EasterWeekday4Thursday",
-    "name": "Feria V Hebdomadæ Quartæ Temporis Paschali"
+    "name": "Feria V Hebdomadæ Quartæ Temporis Paschali",
+    "romcal_key": "easter_time_4_thursday"
   },
   {
     "litcal_event_key": "EasterWeekday4Friday",
-    "name": "Feria VI Hebdomadæ Quartæ Temporis Paschali"
+    "name": "Feria VI Hebdomadæ Quartæ Temporis Paschali",
+    "romcal_key": "easter_time_4_friday"
   },
   {
     "litcal_event_key": "EasterWeekday4Saturday",
-    "name": "Sabbato Hebdomadæ Quartæ Temporis Paschali"
+    "name": "Sabbato Hebdomadæ Quartæ Temporis Paschali",
+    "romcal_key": "easter_time_4_saturday"
   },
   {
     "litcal_event_key": "EasterWeekday5Monday",
-    "name": "Feria II Hebdomadæ Quintæ Temporis Paschali"
+    "name": "Feria II Hebdomadæ Quintæ Temporis Paschali",
+    "romcal_key": "easter_time_5_monday"
   },
   {
     "litcal_event_key": "EasterWeekday5Tuesday",
-    "name": "Feria III Hebdomadæ Quintæ Temporis Paschali"
+    "name": "Feria III Hebdomadæ Quintæ Temporis Paschali",
+    "romcal_key": "easter_time_5_tuesday"
   },
   {
     "litcal_event_key": "EasterWeekday5Wednesday",
-    "name": "Feria IV Hebdomadæ Quintæ Temporis Paschali"
+    "name": "Feria IV Hebdomadæ Quintæ Temporis Paschali",
+    "romcal_key": "easter_time_5_wednesday"
   },
   {
     "litcal_event_key": "EasterWeekday5Thursday",
-    "name": "Feria V Hebdomadæ Quintæ Temporis Paschali"
+    "name": "Feria V Hebdomadæ Quintæ Temporis Paschali",
+    "romcal_key": "easter_time_5_thursday"
   },
   {
     "litcal_event_key": "EasterWeekday5Friday",
-    "name": "Feria VI Hebdomadæ Quintæ Temporis Paschali"
+    "name": "Feria VI Hebdomadæ Quintæ Temporis Paschali",
+    "romcal_key": "easter_time_5_friday"
   },
   {
     "litcal_event_key": "EasterWeekday5Saturday",
-    "name": "Sabbato Hebdomadæ Quintæ Temporis Paschali"
+    "name": "Sabbato Hebdomadæ Quintæ Temporis Paschali",
+    "romcal_key": "easter_time_5_saturday"
   },
   {
     "litcal_event_key": "EasterWeekday6Monday",
-    "name": "Feria II Hebdomadæ Sextæ Temporis Paschali"
+    "name": "Feria II Hebdomadæ Sextæ Temporis Paschali",
+    "romcal_key": "easter_time_6_monday"
   },
   {
     "litcal_event_key": "EasterWeekday6Tuesday",
-    "name": "Feria III Hebdomadæ Sextæ Temporis Paschali"
+    "name": "Feria III Hebdomadæ Sextæ Temporis Paschali",
+    "romcal_key": "easter_time_6_tuesday"
   },
   {
     "litcal_event_key": "EasterWeekday6Wednesday",
-    "name": "Feria IV Hebdomadæ Sextæ Temporis Paschali"
+    "name": "Feria IV Hebdomadæ Sextæ Temporis Paschali",
+    "romcal_key": "easter_time_6_wednesday"
   },
   {
     "litcal_event_key": "EasterWeekday6Thursday",
-    "name": "Feria V Hebdomadæ Sextæ Temporis Paschali"
+    "name": "Feria V Hebdomadæ Sextæ Temporis Paschali",
+    "romcal_key": "easter_time_6_thursday"
   },
   {
     "litcal_event_key": "EasterWeekday6Friday",
-    "name": "Feria VI Hebdomadæ Sextæ Temporis Paschali"
+    "name": "Feria VI Hebdomadæ Sextæ Temporis Paschali",
+    "romcal_key": "easter_time_6_friday"
   },
   {
     "litcal_event_key": "EasterWeekday6Saturday",
-    "name": "Sabbato Hebdomadæ Sextæ Temporis Paschali"
+    "name": "Sabbato Hebdomadæ Sextæ Temporis Paschali",
+    "romcal_key": "easter_time_6_saturday"
   },
   {
     "litcal_event_key": "EasterWeekday7Monday",
-    "name": "Feria II Hebdomadæ Septimæ Temporis Paschali"
+    "name": "Feria II Hebdomadæ Septimæ Temporis Paschali",
+    "romcal_key": "easter_time_7_monday"
   },
   {
     "litcal_event_key": "EasterWeekday7Tuesday",
-    "name": "Feria III Hebdomadæ Septimæ Temporis Paschali"
+    "name": "Feria III Hebdomadæ Septimæ Temporis Paschali",
+    "romcal_key": "easter_time_7_tuesday"
   },
   {
     "litcal_event_key": "EasterWeekday7Wednesday",
-    "name": "Feria IV Hebdomadæ Septimæ Temporis Paschali"
+    "name": "Feria IV Hebdomadæ Septimæ Temporis Paschali",
+    "romcal_key": "easter_time_7_wednesday"
   },
   {
     "litcal_event_key": "EasterWeekday7Thursday",
-    "name": "Feria V Hebdomadæ Septimæ Temporis Paschali"
+    "name": "Feria V Hebdomadæ Septimæ Temporis Paschali",
+    "romcal_key": "easter_time_7_thursday"
   },
   {
     "litcal_event_key": "EasterWeekday7Friday",
-    "name": "Feria VI Hebdomadæ Septimæ Temporis Paschali"
+    "name": "Feria VI Hebdomadæ Septimæ Temporis Paschali",
+    "romcal_key": "easter_time_7_friday"
   },
   {
     "litcal_event_key": "EasterWeekday7Saturday",
-    "name": "Sabbato Hebdomadæ Septimæ Temporis Paschali"
+    "name": "Sabbato Hebdomadæ Septimæ Temporis Paschali",
+    "romcal_key": "easter_time_7_saturday"
   }
 ]

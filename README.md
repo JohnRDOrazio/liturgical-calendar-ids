@@ -35,6 +35,8 @@ eprex/
   sanctorale_missing_keys.md    # Markdown table of sanctorale missing keys
   temporale_missing_keys.json   # Temporale entries without eprex mappings
   temporale_missing_keys.md     # Markdown table of temporale missing keys
+romcal/
+  sanctorale.json               # romcal source data for sanctorale mappings
 ```
 
 ## Documentation Tables
@@ -69,6 +71,7 @@ bun install
 | `bun run sort`                  | Sort JSON files by number and day of week               |
 | `bun run merge:sanctorale`      | Merge eprex sanctorale data into sanctorale.json        |
 | `bun run merge:temporale`       | Merge eprex temporale data into temporale.json          |
+| `bun run merge:romcal`          | Merge romcal sanctorale data into sanctorale.json       |
 | `bun run format:md`             | Format Markdown tables with Prettier                    |
 | `bun run lint:md`               | Lint Markdown files                                     |
 | `bun run lint:md:fix`           | Lint and auto-fix Markdown issues                       |
@@ -145,6 +148,24 @@ Some entries have different categorizations or names between the projects:
 The eprex project classifies Mary Mother of God, Epiphany, and Christmas in its sanctorale,
 while the Roman Missal (and thus litcal) places them in the temporale (Proprium de Tempore).
 These mappings are handled manually in `temporale.json` and skipped by `merge-sanctorale.ts`
+via the `TEMPORALE_EVENTS` constant.
+
+**Romcal mappings:**
+
+The `romcal_key` field maps litcal event keys to [romcal](https://github.com/romcal/romcal) identifiers.
+Romcal is a JavaScript library for calculating the liturgical calendar.
+
+Cross-category mappings between romcal sanctorale and litcal temporale:
+
+| romcal Entry               | litcal Entry                  | Notes                                                                                                                                 |
+| -------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `immaculate_heart_of_mary` | `ImmaculateHeart` (temporale) | Mobile feast (Saturday after Sacred Heart). See [issue #450](https://github.com/Liturgical-Calendar/LiturgicalCalendarAPI/issues/450) |
+
+The Immaculate Heart of Mary is classified in litcal's temporale because it's a mobile celebration
+(Saturday after the Solemnity of the Sacred Heart), not because it follows the Roman Missal's
+Proprium de Tempore division. This is a structural choice in the litcal API.
+
+This mapping is handled in `temporale.json` and skipped by `merge-romcal-sanctorale.ts`
 via the `TEMPORALE_EVENTS` constant.
 
 The following files track entries without external ID mappings:
