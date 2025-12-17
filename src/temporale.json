@@ -49,7 +49,7 @@
     "eprex_key": "christ_the_king",
     "eprex_code": "0026",
     "eprex_short_key": "ORD34",
-    "romcal_key": "christ_the_king"
+    "romcal_key": "our_lord_jesus_christ_king_of_the_universe"
   },
   {
     "litcal_event_key": "Christmas",
@@ -138,7 +138,7 @@
     "eprex_key": "good_friday",
     "eprex_code": "0011",
     "eprex_short_key": "TRI2",
-    "romcal_key": "good_friday"
+    "romcal_key": "friday_of_the_passion_of_the_lord"
   },
   {
     "litcal_event_key": "HolyFamily",
@@ -154,7 +154,7 @@
     "eprex_key": "holy_thursday",
     "eprex_code": "0010",
     "eprex_short_key": "TRI1",
-    "romcal_key": "holy_thursday"
+    "romcal_key": "thursday_of_the_lords_supper"
   },
   {
     "litcal_event_key": "HolyThursChrism",
