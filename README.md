@@ -37,6 +37,8 @@ eprex/
   temporale_missing_keys.md     # Markdown table of temporale missing keys
 romcal/
   sanctorale.json               # romcal source data for sanctorale mappings
+  temporale.json                # romcal source data for temporale mappings
+  temporale_missing.json        # Temporale entries without romcal mappings
 ```
 
 ## Documentation Tables
@@ -54,6 +56,8 @@ romcal/
 | Feriale Tempus Paschatis     | Weekdays in Easter season                    | [feriale_tempus_paschatis.md](src/feriale_tempus_paschatis.md)         |
 | Temporale Missing Keys       | Temporale entries without eprex mappings     | [temporale_missing_keys.md](eprex/temporale_missing_keys.md)           |
 | Sanctorale Missing Keys      | Sanctorale entries without eprex mappings    | [sanctorale_missing_keys.md](eprex/sanctorale_missing_keys.md)         |
+| Romcal Temporale Missing     | Litcal entries without romcal mappings       | [temporale_missing.md](romcal/temporale_missing.md)                    |
+| Romcal Temporale Unmatched   | Romcal entries without litcal mappings       | [temporale_unmatched.md](romcal/temporale_unmatched.md)                |
 
 ## Installation
 

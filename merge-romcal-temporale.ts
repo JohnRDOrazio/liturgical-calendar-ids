@@ -88,7 +88,6 @@ const MANUAL_MAPPINGS: Record<string, string> = {
   christmas_time_january_5: "ChristmasWeekdayJan5",
   christmas_time_january_6: "ChristmasWeekdayJan6",
   christmas_time_january_7: "ChristmasWeekdayJan7",
-  christmas_time_january_8: "ChristmasWeekdayJan8",
 
   // Days after Epiphany
   monday_after_epiphany: "DayAfterEpiphanyMonday",
@@ -271,7 +270,7 @@ const fileUpdates: Map<string, LitcalEntry[]> = new Map();
 for (const file of SOURCE_FILES) {
   if (existsSync(file)) {
     const entries = JSON.parse(safeReadFileSync(file)) as LitcalEntry[];
-    // Clear existing romcal_key values
+    // Clear existing romcal_key values to allow idempotent re-runs of this script
     for (const entry of entries) {
       delete entry.romcal_key;
     }
@@ -289,15 +288,18 @@ for (const romcal of romcalJson) {
 
   // Skip entries that have no litcal equivalent
   if (NO_LITCAL_EQUIVALENT.has(romcal.romcal_id)) {
-    console.log(`Skipped (no litcal equivalent): ${romcal.romcal_id}`);
+    unmatched.push(romcal);
+    console.log(`Unmatched (no litcal equivalent): ${romcal.romcal_id}`);
     continue;
   }
 
   const mapping = ALL_MAPPINGS[romcal.romcal_id];
 
   if (mapping && allEntries.has(mapping) && !usedKeys.has(mapping)) {
-    const { file, index } = allEntries.get(mapping)!;
-    const fileEntries = fileUpdates.get(file)!;
+    const entryData = allEntries.get(mapping);
+    const fileEntries = entryData ? fileUpdates.get(entryData.file) : undefined;
+    if (!entryData || !fileEntries) continue;
+    const { file, index } = entryData;
     fileEntries[index] = {
       ...fileEntries[index],
       romcal_key: romcal.romcal_id,
@@ -320,8 +322,10 @@ for (const romcal of romcalJson) {
 // Process cross-category mappings (romcal sanctorale → litcal temporale)
 for (const [romcalId, litcalKey] of Object.entries(CROSS_CATEGORY_FROM_SANCTORALE)) {
   if (allEntries.has(litcalKey) && !usedKeys.has(litcalKey)) {
-    const { file, index } = allEntries.get(litcalKey)!;
-    const fileEntries = fileUpdates.get(file)!;
+    const entryData = allEntries.get(litcalKey);
+    const fileEntries = entryData ? fileUpdates.get(entryData.file) : undefined;
+    if (!entryData || !fileEntries) continue;
+    const { file, index } = entryData;
     fileEntries[index] = {
       ...fileEntries[index],
       romcal_key: romcalId,

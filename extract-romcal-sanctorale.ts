@@ -3,7 +3,7 @@
  * and generate a JSON file with IDs and Latin names
  */
 
-import { readFileSync, writeFileSync } from "fs";
+import { existsSync, readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 
 // Read the general-roman calendar file
@@ -19,6 +19,10 @@ const generalRomanPath = join(
   "index.ts"
 );
 
+if (!existsSync(generalRomanPath)) {
+  console.error(`File not found: ${generalRomanPath}`);
+  process.exit(1);
+}
 const generalRomanContent = readFileSync(generalRomanPath, "utf-8");
 
 // Read the Latin locale file
@@ -32,6 +36,11 @@ const latinLocalePath = join(
   "locales",
   "la.ts"
 );
+
+if (!existsSync(latinLocalePath)) {
+  console.error(`File not found: ${latinLocalePath}`);
+  process.exit(1);
+}
 
 const latinLocaleContent = readFileSync(latinLocalePath, "utf-8");
 
@@ -49,13 +58,13 @@ const latinNames: Record<string, string> = {};
 const namesContent = namesMatch[1];
 
 // Match key-value pairs like: key: 'value' or key: "value"
-// Handle multi-line values and nested template strings
+// More permissive pattern that handles basic escapes (e.g., O'Brien)
 const nameEntries = namesContent.matchAll(
-  /(\w+):\s*['"`]([^'"`]+)['"`]/g
+  /(\w+):\s*(['"`])((?:[^\\]|\\.)*?)\2/g
 );
 
 for (const match of nameEntries) {
-  const [, key, value] = match;
+  const [, key, , value] = match;
   latinNames[key] = value;
 }
 
@@ -71,7 +80,8 @@ if (!inputsMatch) {
 const inputsContent = inputsMatch[1];
 
 // Find all event IDs (they are keys at the start of lines, followed by colon and opening brace)
-const eventIdPattern = /^\s{4}(\w+):\s*\{/gm;
+// Uses flexible indentation matching in case romcal reformats their source
+const eventIdPattern = /^\s+(\w+):\s*\{/gm;
 const eventIds: string[] = [];
 
 let match;

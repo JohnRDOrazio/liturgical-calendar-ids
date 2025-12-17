@@ -232,7 +232,7 @@ const unmatched: Array<{
 const usedSanctoraleKeys = new Set<string>();
 let matchCount = 0;
 
-// First, clear existing romcal_key values (they appear to be eprex-style keys)
+// Clear existing romcal_key values to allow idempotent re-runs of this script
 for (const entry of sanctoraleJson) {
   delete entry.romcal_key;
 }
@@ -260,6 +260,10 @@ for (const romcal of romcalJson) {
   if (!matchFound) {
     const romcalKeyNorm = normalizeKey(romcal.romcal_id);
 
+    // First-match strategy: breaks on the first satisfactory match found.
+    // Manual mappings (MANUAL_MAPPINGS) handle known ambiguous cases, so this
+    // approach is acceptable. If false positives occur, consider collecting
+    // all candidates and selecting the one with the lowest Levenshtein distance.
     for (const [key] of sanctoraleByKey) {
       if (usedSanctoraleKeys.has(key)) continue;
 

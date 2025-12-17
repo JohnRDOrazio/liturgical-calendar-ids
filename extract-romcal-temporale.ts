@@ -141,6 +141,8 @@ const events: TemporaleEvent[] = [];
 // ==================== ADVENT ====================
 
 // Advent weeks 1-3, days 0-6 (Sunday-Saturday)
+// Note: Only 20 iterations needed (not 21) because Saturday of week 3
+// never exists - it always falls on or after Dec 17 (privileged days)
 for (let i = 0; i < 20; i++) {
   const week = Math.floor(i / 7) + 1;
   const dow = i - (week - 1) * 7;

@@ -7,10 +7,10 @@
     "generate": "bun index.ts",
     "generate:combined": "bun generate-combined.ts",
     "sort": "bun sort-json.ts",
-    "merge:sanctorale": "tsx merge-sanctorale.ts",
-    "merge:temporale": "tsx merge-temporale.ts",
+    "merge:sanctorale": "bun merge-sanctorale.ts",
+    "merge:temporale": "bun merge-temporale.ts",
     "merge:romcal": "bun merge-romcal-sanctorale.ts",
-    "generate:missing-keys": "tsx generate-missing-keys.ts",
+    "generate:missing-keys": "bun generate-missing-keys.ts",
     "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
     "lint:md:fix": "markdownlint-cli2 --fix \"**/*.md\" \"#node_modules\"",
     "format:md": "prettier --write \"**/*.md\" --ignore-path .gitignore"
