@@ -61,20 +61,20 @@ async function generateCombinedMarkdown(): Promise<void> {
   }
 
   const headers = [
-    'litcal_event_key',
     'name',
-    'missal',
-    'temporale/sanctorale',
+    'litcal_event_key',
+    'romcal_key',
     'eprex_key',
     'eprex_code',
     'eprex_short_key',
-    'romcal_key',
+    'missal/decree',
+    'temporale/sanctorale',
   ];
   const headerRow = `| ${headers.join(' | ')} |`;
   const separatorRow = `| ${headers.map(() => '---').join(' | ')} |`;
   const dataRows = allEvents.map(
     (event) =>
-      `| ${event.litcal_event_key} | ${event.name} | ${event.missal} | ${event.source} | ${event.eprex_key} | ${event.eprex_code} | ${event.eprex_short_key} | ${event.romcal_key} |`
+      `| ${event.name} | ${event.litcal_event_key} | ${event.romcal_key} | ${event.eprex_key} | ${event.eprex_code} | ${event.eprex_short_key} | ${event.missal} | ${event.source} |`
   );
 
   const markdown = [
