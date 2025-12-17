@@ -80,14 +80,46 @@ if (!inputsMatch) {
 
 const inputsContent = inputsMatch[1];
 
+// Blacklist of property names that are not liturgical event IDs
+// These are internal romcal configuration properties
+const PROPERTY_BLACKLIST = new Set([
+  "dateDef",
+  "from",
+  "to",
+  "setDate",
+  "ifIsBetween",
+  "setDay",
+  "day",
+  "month",
+  "name",
+  "rank",
+  "input",
+  "date",
+  "precedence",
+  "seasons",
+  "periods",
+  "liturgicalColors",
+  "martyrology",
+  "titles",
+  "properCycle",
+  "fromCalendar",
+  "fromCalendarId",
+]);
+
 // Find all event IDs (they are keys at the start of lines, followed by colon and opening brace)
 // Uses flexible indentation matching in case romcal reformats their source
 const eventIdPattern = /^\s+(\w+):\s*\{/gm;
 const eventIds: string[] = [];
+const seenIds = new Set<string>();
 
 let match;
 while ((match = eventIdPattern.exec(inputsContent)) !== null) {
-  eventIds.push(match[1]);
+  const id = match[1];
+  // Skip blacklisted property names and duplicates
+  if (!PROPERTY_BLACKLIST.has(id) && !seenIds.has(id)) {
+    eventIds.push(id);
+    seenIds.add(id);
+  }
 }
 
 interface SanctoraleEvent {
@@ -96,10 +128,15 @@ interface SanctoraleEvent {
 }
 
 const events: SanctoraleEvent[] = [];
+const missingNames: string[] = [];
 
 for (const id of eventIds) {
-  const name_la = latinNames[id] || `[Missing Latin name for: ${id}]`;
-  events.push({ romcal_id: id, name_la });
+  const name_la = latinNames[id];
+  if (name_la) {
+    events.push({ romcal_id: id, name_la });
+  } else {
+    missingNames.push(id);
+  }
 }
 
 // Sort by romcal_id for consistency
@@ -113,11 +150,14 @@ safeWriteFileSync(outputPath, JSON.stringify(events, null, 2));
 console.log(`Generated ${events.length} sanctorale events`);
 console.log(`Output written to: ${outputPath}`);
 
-// Report any missing Latin names
-const missing = events.filter((e) => e.name_la.startsWith("[Missing"));
-if (missing.length > 0) {
-  console.log(`\nWarning: ${missing.length} events have missing Latin names:`);
-  for (const e of missing) {
-    console.log(`  - ${e.romcal_id}`);
+// Report entries without Latin names (these are likely not actual liturgical events)
+if (missingNames.length > 0) {
+  console.log(`\nFiltered out ${missingNames.length} entries without Latin names:`);
+  for (const id of missingNames.slice(0, 10)) {
+    console.log(`  - ${id}`);
+  }
+  if (missingNames.length > 10) {
+    console.log(`  ... and ${missingNames.length - 10} more`);
   }
 }
+

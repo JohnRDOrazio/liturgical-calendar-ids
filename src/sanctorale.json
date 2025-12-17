@@ -15,7 +15,7 @@
     "eprex_key": "all_souls",
     "eprex_code": "1102",
     "eprex_short_key": "1102",
-    "romcal_key": "all_souls"
+    "romcal_key": "commemoration_of_all_the_faithful_departed"
   },
   {
     "litcal_event_key": "Annunciation",
@@ -24,7 +24,7 @@
     "eprex_key": "annunciation",
     "eprex_code": "0325",
     "eprex_short_key": "0325",
-    "romcal_key": "annunciation"
+    "romcal_key": "annunciation_of_the_lord"
   },
   {
     "litcal_event_key": "Assumption",
@@ -33,7 +33,7 @@
     "eprex_key": "assumption",
     "eprex_code": "0815",
     "eprex_short_key": "0815",
-    "romcal_key": "assumption"
+    "romcal_key": "assumption_of_the_blessed_virgin_mary"
   },
   {
     "litcal_event_key": "BeheadingJohnBaptist",
@@ -42,7 +42,7 @@
     "eprex_key": "passion_of_john_the_baptist",
     "eprex_code": "0829",
     "eprex_short_key": "0829",
-    "romcal_key": "passion_of_john_the_baptist"
+    "romcal_key": "passion_of_saint_john_the_baptist"
   },
   {
     "litcal_event_key": "ChairStPeter",
@@ -51,7 +51,7 @@
     "eprex_key": "chair_of_peter",
     "eprex_code": "0222",
     "eprex_short_key": "0222",
-    "romcal_key": "chair_of_peter"
+    "romcal_key": "chair_of_saint_peter_the_apostle"
   },
   {
     "litcal_event_key": "ConversionStPaul",
@@ -60,7 +60,7 @@
     "eprex_key": "conversion_of_paul",
     "eprex_code": "0125",
     "eprex_short_key": "0125",
-    "romcal_key": "conversion_of_paul"
+    "romcal_key": "conversion_of_saint_paul_the_apostle"
   },
   {
     "litcal_event_key": "DedicationLateran",
@@ -69,7 +69,7 @@
     "eprex_key": "dedication_of_lateran",
     "eprex_code": "1109",
     "eprex_short_key": "1109",
-    "romcal_key": "dedication_of_lateran"
+    "romcal_key": "dedication_of_the_lateran_basilica"
   },
   {
     "litcal_event_key": "DedicationStMaryMajor",
@@ -90,7 +90,7 @@
     "eprex_key": "exaltation_of_the_cross",
     "eprex_code": "0914",
     "eprex_short_key": "0914",
-    "romcal_key": "exaltation_of_the_cross"
+    "romcal_key": "exaltation_of_the_holy_cross"
   },
   {
     "litcal_event_key": "FirstMartyrsRome",
@@ -105,7 +105,7 @@
     "eprex_key": "guardian_angels",
     "eprex_code": "1002",
     "eprex_short_key": "1002",
-    "romcal_key": "guardian_angels"
+    "romcal_key": "holy_guardian_angels"
   },
   {
     "litcal_event_key": "HolyInnocents",
@@ -114,7 +114,7 @@
     "eprex_key": "holy_innocents",
     "eprex_code": "1228",
     "eprex_short_key": "1228",
-    "romcal_key": "holy_innocents"
+    "romcal_key": "holy_innocents_martyrs"
   },
   {
     "litcal_event_key": "HolyNameMary",
@@ -129,7 +129,7 @@
     "eprex_key": "immaculate_conception",
     "eprex_code": "1208",
     "eprex_short_key": "1208",
-    "romcal_key": "immaculate_conception"
+    "romcal_key": "immaculate_conception_of_the_blessed_virgin_mary"
   },
   {
     "litcal_event_key": "JuanDiego",
@@ -180,7 +180,7 @@
     "eprex_key": "nativity_of_mary",
     "eprex_code": "0908",
     "eprex_short_key": "0908",
-    "romcal_key": "nativity_of_mary"
+    "romcal_key": "nativity_of_the_blessed_virgin_mary"
   },
   {
     "litcal_event_key": "OurLadyOfGuadalupe",
@@ -237,7 +237,7 @@
     "eprex_key": "presentation_of_mary",
     "eprex_code": "1121",
     "eprex_short_key": "1121",
-    "romcal_key": "presentation_of_mary"
+    "romcal_key": "presentation_of_the_blessed_virgin_mary"
   },
   {
     "litcal_event_key": "QueenshipMary",
@@ -246,7 +246,7 @@
     "eprex_key": "queenship_of_mary",
     "eprex_code": "0822",
     "eprex_short_key": "0822",
-    "romcal_key": "queenship_of_mary"
+    "romcal_key": "queenship_of_the_blessed_virgin_mary"
   },
   {
     "litcal_event_key": "SevenHolyFounders",
@@ -267,7 +267,7 @@
     "eprex_key": "agatha_virgin_martyr",
     "eprex_code": "0205",
     "eprex_short_key": "0205",
-    "romcal_key": "agatha_virgin_martyr"
+    "romcal_key": "agatha_of_sicily_virgin"
   },
   {
     "litcal_event_key": "StAgnes",
@@ -276,7 +276,7 @@
     "eprex_key": "agnes_virgin_martyr",
     "eprex_code": "0121",
     "eprex_short_key": "0121",
-    "romcal_key": "agnes_virgin_martyr"
+    "romcal_key": "agnes_of_rome_virgin"
   },
   {
     "litcal_event_key": "StAlbertGreat",
@@ -330,7 +330,7 @@
     "eprex_key": "angela_merici",
     "eprex_code": "0127",
     "eprex_short_key": "0127",
-    "romcal_key": "angela_merici"
+    "romcal_key": "angela_merici_virgin"
   },
   {
     "litcal_event_key": "StAnselm",
@@ -351,7 +351,7 @@
     "eprex_key": "anthony_abbot",
     "eprex_code": "0117",
     "eprex_short_key": "0117",
-    "romcal_key": "anthony_abbot"
+    "romcal_key": "anthony_of_egypt_abbot"
   },
   {
     "litcal_event_key": "StAnthonyMaryClaret",
@@ -468,7 +468,7 @@
     "eprex_key": "bridget_of_sweden",
     "eprex_code": "0723",
     "eprex_short_key": "0723",
-    "romcal_key": "bridget_of_sweden"
+    "romcal_key": "bridget_of_sweden_religious"
   },
   {
     "litcal_event_key": "StBruno",
@@ -513,7 +513,7 @@
     "eprex_key": "catherine_of_siena",
     "eprex_code": "0429",
     "eprex_short_key": "0429",
-    "romcal_key": "catherine_of_siena"
+    "romcal_key": "catherine_of_siena_virgin"
   },
   {
     "litcal_event_key": "StCecilia",
@@ -618,7 +618,7 @@
     "eprex_key": "fabian_pope_martyr",
     "eprex_code": "0120",
     "eprex_short_key": "0120a",
-    "romcal_key": "fabian_pope_martyr"
+    "romcal_key": "fabian_i_pope"
   },
   {
     "litcal_event_key": "StFaustinaKowalska",
@@ -654,7 +654,7 @@
     "eprex_key": "francis_de_sales",
     "eprex_code": "0124",
     "eprex_short_key": "0124",
-    "romcal_key": "francis_de_sales"
+    "romcal_key": "francis_de_sales_bishop"
   },
   {
     "litcal_event_key": "StFrancisPaola",
@@ -735,7 +735,7 @@
     "eprex_key": "ignatius_of_loyola",
     "eprex_code": "0731",
     "eprex_short_key": "0731",
-    "romcal_key": "ignatius_of_loyola"
+    "romcal_key": "ignatius_of_loyola_priest"
   },
   {
     "litcal_event_key": "StIrenaeus",
@@ -807,7 +807,7 @@
     "eprex_key": "john_bosco",
     "eprex_code": "0131",
     "eprex_short_key": "0131",
-    "romcal_key": "john_bosco"
+    "romcal_key": "john_bosco_priest"
   },
   {
     "litcal_event_key": "StJohnCapistrano",
@@ -846,7 +846,7 @@
     "eprex_key": "john_apostle_evangelist",
     "eprex_code": "1227",
     "eprex_short_key": "1227",
-    "romcal_key": "john_apostle_evangelist"
+    "romcal_key": "john_apostle"
   },
   {
     "litcal_event_key": "StJohnGod",
@@ -897,7 +897,7 @@
     "eprex_key": "joseph_husband_of_mary",
     "eprex_code": "0319",
     "eprex_short_key": "0319",
-    "romcal_key": "joseph_husband_of_mary"
+    "romcal_key": "joseph_spouse_of_mary"
   },
   {
     "litcal_event_key": "StJosephCalasanz",
@@ -939,7 +939,7 @@
     "eprex_key": "lawrence_deacon_martyr",
     "eprex_code": "0810",
     "eprex_short_key": "0810",
-    "romcal_key": "lawrence_deacon_martyr"
+    "romcal_key": "lawrence_of_rome_deacon"
   },
   {
     "litcal_event_key": "StLeoGreat",
@@ -1008,7 +1008,7 @@
     "eprex_key": "martha",
     "eprex_code": "0729",
     "eprex_short_key": "0729",
-    "romcal_key": "martha"
+    "romcal_key": "martha_of_bethany_mary_of_bethany_and_lazarus_of_bethany"
   },
   {
     "litcal_event_key": "StMartinPope",
@@ -1050,7 +1050,7 @@
     "eprex_key": "matthew_apostle_evangelist",
     "eprex_code": "0921",
     "eprex_short_key": "0921",
-    "romcal_key": "matthew_apostle_evangelist"
+    "romcal_key": "matthew_apostle"
   },
   {
     "litcal_event_key": "StMatthiasAp",
@@ -1188,7 +1188,7 @@
     "eprex_key": "polycarp_bishop_martyr",
     "eprex_code": "0223",
     "eprex_short_key": "0223",
-    "romcal_key": "polycarp_bishop_martyr"
+    "romcal_key": "polycarp_of_smyrna_bishop"
   },
   {
     "litcal_event_key": "StRayPenyafort",
@@ -1227,7 +1227,7 @@
     "eprex_key": "michael_gabriel_raphael",
     "eprex_code": "0929",
     "eprex_short_key": "0929",
-    "romcal_key": "michael_gabriel_raphael"
+    "romcal_key": "michael_gabriel_and_raphael_archangels"
   },
   {
     "litcal_event_key": "StsBasilGreg",
@@ -1236,7 +1236,7 @@
     "eprex_key": "basil_great_gregory_nazianzen",
     "eprex_code": "0102",
     "eprex_short_key": "0102",
-    "romcal_key": "basil_great_gregory_nazianzen"
+    "romcal_key": "basil_the_great_and_gregory_nazianzen_bishops"
   },
   {
     "litcal_event_key": "StsCharlesLwanga",
@@ -1251,7 +1251,7 @@
     "eprex_key": "scholastica_virgin",
     "eprex_code": "0210",
     "eprex_short_key": "0210",
-    "romcal_key": "scholastica_virgin"
+    "romcal_key": "scholastica_of_nursia_virgin"
   },
   {
     "litcal_event_key": "StsCorneliusCyprian",
@@ -1272,7 +1272,7 @@
     "eprex_key": "cyril_methodius",
     "eprex_code": "0214",
     "eprex_short_key": "0214",
-    "romcal_key": "cyril_methodius"
+    "romcal_key": "cyril_constantine_the_philosopher_monk_and_methodius_michael_of_thessaloniki_bishop"
   },
   {
     "litcal_event_key": "StSebastian",
@@ -1281,7 +1281,7 @@
     "eprex_key": "sebastian_martyr",
     "eprex_code": "0120b",
     "eprex_short_key": "0120b",
-    "romcal_key": "sebastian_martyr"
+    "romcal_key": "sebastian_of_milan_martyr"
   },
   {
     "litcal_event_key": "StSharbelMakhluf",
@@ -1296,7 +1296,7 @@
     "eprex_key": "simon_jude_apostles",
     "eprex_code": "1028",
     "eprex_short_key": "1028",
-    "romcal_key": "simon_jude_apostles"
+    "romcal_key": "simon_and_jude_apostles"
   },
   {
     "litcal_event_key": "StSixtusIIPope",
@@ -1317,7 +1317,7 @@
     "eprex_key": "joachim_anne",
     "eprex_code": "0726",
     "eprex_short_key": "0726",
-    "romcal_key": "joachim_anne"
+    "romcal_key": "joachim_and_anne_parents_of_mary"
   },
   {
     "litcal_event_key": "StsJohnFisherThomasMore",
@@ -1350,7 +1350,7 @@
     "eprex_key": "paul_miki_companions",
     "eprex_code": "0206",
     "eprex_short_key": "0206",
-    "romcal_key": "paul_miki_companions"
+    "romcal_key": "paul_miki_and_companions_martyrs"
   },
   {
     "litcal_event_key": "StsPerpetuaFelicity",
@@ -1374,7 +1374,7 @@
     "eprex_key": "philip_james_apostles",
     "eprex_code": "0503",
     "eprex_short_key": "0503",
-    "romcal_key": "philip_james_apostles"
+    "romcal_key": "philip_and_james_apostles"
   },
   {
     "litcal_event_key": "StsPontianHippolytus",
@@ -1401,7 +1401,7 @@
     "eprex_key": "stephen_first_martyr",
     "eprex_code": "1226",
     "eprex_short_key": "1226",
-    "romcal_key": "stephen_first_martyr"
+    "romcal_key": "stephen_the_first_martyr"
   },
   {
     "litcal_event_key": "StsTimothyTitus",
@@ -1410,7 +1410,7 @@
     "eprex_key": "timothy_titus_bishops",
     "eprex_code": "0126",
     "eprex_short_key": "0126",
-    "romcal_key": "timothy_titus_bishops"
+    "romcal_key": "timothy_of_ephesus_and_titus_of_crete_bishops"
   },
   {
     "litcal_event_key": "StSylvesterIPope",
@@ -1419,7 +1419,7 @@
     "eprex_key": "sylvester_pope",
     "eprex_code": "1231",
     "eprex_short_key": "1231",
-    "romcal_key": "sylvester_pope"
+    "romcal_key": "sylvester_i_pope"
   },
   {
     "litcal_event_key": "StTeresaJesus",
@@ -1428,7 +1428,7 @@
     "eprex_key": "teresa_of_avila",
     "eprex_code": "1015",
     "eprex_short_key": "1015",
-    "romcal_key": "teresa_of_avila"
+    "romcal_key": "teresa_of_jesus_of_avila_virgin"
   },
   {
     "litcal_event_key": "StThereseChildJesus",
@@ -1452,7 +1452,7 @@
     "eprex_key": "thomas_aquinas",
     "eprex_code": "0128",
     "eprex_short_key": "0128",
-    "romcal_key": "thomas_aquinas"
+    "romcal_key": "thomas_aquinas_priest"
   },
   {
     "litcal_event_key": "StThomasBecket",
@@ -1473,7 +1473,7 @@
     "eprex_key": "vincent_deacon_martyr",
     "eprex_code": "0122",
     "eprex_short_key": "0122",
-    "romcal_key": "vincent_deacon_martyr"
+    "romcal_key": "vincent_of_saragossa_deacon"
   },
   {
     "litcal_event_key": "StVincentDePaul",
@@ -1500,7 +1500,7 @@
     "eprex_key": "transfiguration",
     "eprex_code": "0806",
     "eprex_short_key": "0806",
-    "romcal_key": "transfiguration"
+    "romcal_key": "transfiguration_of_the_lord"
   },
   {
     "litcal_event_key": "Visitation",
@@ -1509,6 +1509,6 @@
     "eprex_key": "visitation",
     "eprex_code": "0531",
     "eprex_short_key": "0531",
-    "romcal_key": "visitation"
+    "romcal_key": "visitation_of_mary"
   }
 ]
