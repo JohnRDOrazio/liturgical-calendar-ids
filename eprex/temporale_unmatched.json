@@ -1,0 +1,60 @@
+[
+  {
+    "eprex_key": "monday_of_holy_week",
+    "eprex_code": "0007",
+    "eprex_short_key": "QUA6F2",
+    "romcal_key": "monday_of_holy_week",
+    "nomina_la": "Feria II Hebdomadae Sanctae"
+  },
+  {
+    "eprex_key": "tuesday_of_holy_week",
+    "eprex_code": "0008",
+    "eprex_short_key": "QUA6F3",
+    "romcal_key": "tuesday_of_holy_week",
+    "nomina_la": "Feria III Hebdomadae Sanctae"
+  },
+  {
+    "eprex_key": "wednesday_of_holy_week",
+    "eprex_code": "0009",
+    "eprex_short_key": "QUA6F4",
+    "romcal_key": "wednesday_of_holy_week",
+    "nomina_la": "Feria IV Hebdomadae Sanctae"
+  },
+  {
+    "eprex_key": "monday_of_easter_octave",
+    "eprex_code": "0014",
+    "eprex_short_key": "PAS1F2",
+    "romcal_key": "monday_within_the_octave_of_easter",
+    "nomina_la": "Feria II infra octavam Paschae"
+  },
+  {
+    "eprex_key": "tuesday_of_easter_octave",
+    "eprex_code": "0015",
+    "eprex_short_key": "PAS1F3",
+    "nomina_la": "Feria III infra octavam Paschae"
+  },
+  {
+    "eprex_key": "wednesday_of_easter_octave",
+    "eprex_code": "0016",
+    "eprex_short_key": "PAS1F4",
+    "nomina_la": "Feria IV infra octavam Paschae"
+  },
+  {
+    "eprex_key": "thursday_of_easter_octave",
+    "eprex_code": "0017",
+    "eprex_short_key": "PAS1F5",
+    "nomina_la": "Feria V infra octavam Paschae"
+  },
+  {
+    "eprex_key": "friday_of_easter_octave",
+    "eprex_code": "0018",
+    "eprex_short_key": "PAS1F6",
+    "nomina_la": "Feria VI infra octavam Paschae"
+  },
+  {
+    "eprex_key": "saturday_of_easter_octave",
+    "eprex_code": "0019",
+    "eprex_short_key": "PAS1S",
+    "nomina_la": "Sabbatum infra octavam Paschae"
+  }
+]

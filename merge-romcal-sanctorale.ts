@@ -10,6 +10,7 @@ import {
   safeUnlinkSync,
 } from "./utils/file-helpers";
 import { levenshteinDistance } from "./utils/ast-helpers";
+import { normalizeLatinName, normalizeKey } from "./utils/string-helpers";
 
 // Romcal entries that are in litcal's temporale (not sanctorale)
 // These are handled separately and should be skipped during sanctorale matching
@@ -205,23 +206,6 @@ sanctoraleJson.forEach((entry, index) => {
     sanctoraleByKey.set(entry.litcal_event_key, { ...entry, index });
   }
 });
-
-// Normalize Latin text for comparison
-function normalizeLatinName(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/æ/g, "ae")
-    .replace(/œ/g, "oe")
-    .replace(/[.,;:'"()]/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-// Convert event key formats
-function normalizeKey(key: string): string {
-  // Convert snake_case to lowercase for comparison
-  return key.toLowerCase().replace(/_/g, "");
-}
 
 // Track matches
 const unmatched: Array<{
